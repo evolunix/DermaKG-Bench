@@ -22,149 +22,151 @@ This repository contains:
 
 ## Repository Structure
 
-```text
+# Repository Structure
+
+<pre>
 dermakg-bench/
 │
-├── [README.md](README.md)                              ← This file
+├── <a href="README.md">README.md</a>                              ← This file
 │
 ├── code/
-│   ├── [dermakg_kaggle_all_in_one.py](code/dermakg_kaggle_all_in_one.py)
+│   ├── <a href="code/dermakg_kaggle_all_in_one.py">dermakg_kaggle_all_in_one.py</a>
 │   │                                         ← Full end-to-end pipeline (data construction,
 │   │                                           SCP-KG fitting, CEG/TVD/IGR, baseline eval)
 │   │
-│   ├── [dermakg_baseline_comparison_cell.py](code/dermakg_baseline_comparison_cell.py)
+│   ├── <a href="code/dermakg_baseline_comparison_cell.py">dermakg_baseline_comparison_cell.py</a>
 │   │                                         ← Baseline evaluation: 12-method FST-stratified
 │   │                                           Hits@1/5/10, MRR, NDCG@10 across 5 CV folds
 │   │
-│   ├── [dermakg_igr_ablation_cell.py](code/dermakg_igr_ablation_cell.py)
+│   ├── <a href="code/dermakg_igr_ablation_cell.py">dermakg_igr_ablation_cell.py</a>
 │   │                                         ← IGR ablation: BED-IGR vs. equity_gain/cost
 │   │                                           heuristic correlation analysis (Appendix B)
 │   │
-│   ├── [dermakg_disagreement_table_cell.py](code/dermakg_disagreement_table_cell.py)
+│   ├── <a href="code/dermakg_disagreement_table_cell.py">dermakg_disagreement_table_cell.py</a>
 │   │                                         ← Disagreement analysis between ranking methods
 │   │
-│   └── [Kaggle_reproduction.ipynb](code/Kaggle_reproduction.ipynb)
+│   └── <a href="code/Kaggle_reproduction.ipynb">Kaggle_reproduction.ipynb</a>
 │                                             ← Kaggle-ready reproduction notebook
 │                                               (calls the above modules in order)
 │
-├── [pipeline_metrics.json](pipeline_metrics.json)
+├── <a href="pipeline_metrics.json">pipeline_metrics.json</a>
 │                                             ← End-to-end pipeline run metrics & timing profile
 │
 ├── data/
-│   ├── [evidence_records.json](data/evidence_records.json)
+│   ├── <a href="data/evidence_records.json">evidence_records.json</a>
 │   │                                         ← Pre-built per-FST Evidence Records with
 │   │                                           log-scaled weights for all 1,874 (edge, group) pairs
 │   │
-│   ├── [folds.json](data/folds.json)
+│   ├── <a href="data/folds.json">folds.json</a>
 │   │                                         ← 5-fold CV split indices
 │   │                                           (seeds: 42, 142, 242, 342, 442)
 │   │
-│   ├── [contraindications.json](data/contraindications.json)
+│   ├── <a href="data/contraindications.json">contraindications.json</a>
 │   │                                         ← 278 PrimeKG contraindication edges
 │   │                                           (safety oracle)
 │   │
-│   ├── [atc_seed_map.csv](data/atc_seed_map.csv)
+│   ├── <a href="data/atc_seed_map.csv">atc_seed_map.csv</a>
 │   │                                         ← ~150-drug seed map across
 │   │                                           7 disease domains
 │   │
-│   └── [atc_domain_constraints.json](data/atc_domain_constraints.json)
+│   └── <a href="data/atc_domain_constraints.json">atc_domain_constraints.json</a>
 │                                             ← ATC class allow-lists and
 │                                               block-lists per domain
 │
 ├── results/
-│   ├── [paper_table_main.csv](results/paper_table_main.csv)
+│   ├── <a href="results/paper_table_main.csv">paper_table_main.csv</a>
 │   │                                         ← Main results table
 │   │                                           (paper Table 2 / Table 3)
 │   │
-│   ├── [paper_table4_top10.csv](results/paper_table4_top10.csv)
+│   ├── <a href="results/paper_table4_top10.csv">paper_table4_top10.csv</a>
 │   │                                         ← Top-10 IGR candidates
 │   │                                           (paper Table 4)
 │   │
-│   ├── [paper_table4.tex](results/paper_table4.tex)
+│   ├── <a href="results/paper_table4.tex">paper_table4.tex</a>
 │   │                                         ← LaTeX source for paper Table 4
 │   │
-│   ├── [paper_table4_summary.txt](results/paper_table4_summary.txt)
+│   ├── <a href="results/paper_table4_summary.txt">paper_table4_summary.txt</a>
 │   │                                         ← Human-readable Table 4 summary
 │   │
-│   ├── [paper_table_disagreement.csv](results/paper_table_disagreement.csv)
+│   ├── <a href="results/paper_table_disagreement.csv">paper_table_disagreement.csv</a>
 │   │                                         ← Disagreement cases between methods
 │   │
 │   ├── ablation/
-│   │   ├── [ablation_igr_correlations.csv](results/ablation/ablation_igr_correlations.csv)
+│   │   ├── <a href="results/ablation/ablation_igr_correlations.csv">ablation_igr_correlations.csv</a>
 │   │   │                                         ← IGR ablation:
 │   │   │                                           BED-IGR vs. equity_gain/cost correlation
 │   │   │
-│   │   ├── [ablation_igr_disagreement_cases.csv](results/ablation/ablation_igr_disagreement_cases.csv)
+│   │   ├── <a href="results/ablation/ablation_igr_disagreement_cases.csv">ablation_igr_disagreement_cases.csv</a>
 │   │   │                                         ← Ablation cases where
 │   │   │                                           IGR & heuristic diverge
 │   │   │
-│   │   ├── [ablation_igr_per_disease_correlations.csv](results/ablation/ablation_igr_per_disease_correlations.csv)
+│   │   ├── <a href="results/ablation/ablation_igr_per_disease_correlations.csv">ablation_igr_per_disease_correlations.csv</a>
 │   │   │                                         ← Per-disease Spearman ρ
 │   │   │                                           (Appendix B)
 │   │   │
-│   │   └── [ablation_igr_top_k_overlap.csv](results/ablation/ablation_igr_top_k_overlap.csv)
+│   │   └── <a href="results/ablation/ablation_igr_top_k_overlap.csv">ablation_igr_top_k_overlap.csv</a>
 │   │                                             ← Top-k overlap between
 │   │                                               IGR variants
 │   │
 │   ├── benchmark/
-│   │   ├── [skin_stats_v5_5.csv](results/benchmark/skin_stats_v5_5.csv)
+│   │   ├── <a href="results/benchmark/skin_stats_v5_5.csv">skin_stats_v5_5.csv</a>
 │   │   │                                         ← Per-FST disease cohort statistics
 │   │   │                                           (Fitzpatrick17k + DermaCon-IN)
 │   │   │
-│   │   └── [structural_voids.csv](results/benchmark/structural_voids.csv)
+│   │   └── <a href="results/benchmark/structural_voids.csv">structural_voids.csv</a>
 │   │                                             ← TVD-detected topological voids
 │   │                                               (55 voids)
 │   │
 │   ├── scp_kg/
-│   │   ├── [scp_all_posteriors.csv](results/scp_kg/scp_all_posteriors.csv)
+│   │   ├── <a href="results/scp_kg/scp_all_posteriors.csv">scp_all_posteriors.csv</a>
 │   │   │                                         ← All Beta posteriors per
 │   │   │                                           (edge, FST subgroup)
 │   │   │
-│   │   ├── [scp_eb_prior.json](results/scp_kg/scp_eb_prior.json)
+│   │   ├── <a href="results/scp_kg/scp_eb_prior.json">scp_eb_prior.json</a>
 │   │   │                                         ← Fitted empirical-Bayes
 │   │   │                                           LEH prior (α₀, β₀)
 │   │   │
-│   │   └── [scp_kg_summary.txt](results/scp_kg/scp_kg_summary.txt)
+│   │   └── <a href="results/scp_kg/scp_kg_summary.txt">scp_kg_summary.txt</a>
 │   │                                             ← SCP-KG construction
 │   │                                               summary & statistics
 │   │
 │   ├── igr/
-│   │   ├── [igr_all_candidates.csv](results/igr/igr_all_candidates.csv)
+│   │   ├── <a href="results/igr/igr_all_candidates.csv">igr_all_candidates.csv</a>
 │   │   │                                         ← All 463 IGR candidates
 │   │   │                                           (Type A/B/C) pre-safety filter
 │   │   │
-│   │   ├── [igr_disease_gaps.csv](results/igr/igr_disease_gaps.csv)
+│   │   ├── <a href="results/igr/igr_disease_gaps.csv">igr_disease_gaps.csv</a>
 │   │   │                                         ← Per-disease directional
 │   │   │                                           equity scores (Stage 1)
 │   │   │
-│   │   ├── [igr_pareto_frontier.csv](results/igr/igr_pareto_frontier.csv)
+│   │   ├── <a href="results/igr/igr_pareto_frontier.csv">igr_pareto_frontier.csv</a>
 │   │   │                                         ← 4 Pareto-optimal candidates
 │   │   │                                           (Stage 4)
 │   │   │
-│   │   ├── [igr_quick_wins.csv](results/igr/igr_quick_wins.csv)
+│   │   ├── <a href="results/igr/igr_quick_wins.csv">igr_quick_wins.csv</a>
 │   │   │                                         ← 9 Type-A quick wins
 │   │   │                                           (acquisition cost ≤ 5)
 │   │   │
-│   │   └── [safety_rejected.csv](results/igr/safety_rejected.csv)
+│   │   └── <a href="results/igr/safety_rejected.csv">safety_rejected.csv</a>
 │   │                                             ← 96 candidates rejected
 │   │                                               by ATC safety filter
 │   │
 │   └── eval/
-│       ├── [baseline_comparison.csv](results/eval/baseline_comparison.csv)
+│       ├── <a href="results/eval/baseline_comparison.csv">baseline_comparison.csv</a>
 │       │                                         ← Hits@1/5/10, MRR, NDCG@10
 │       │                                           across 12 methods
 │       │                                           (FST-stratified)
 │       │
-│       ├── [ceg_top100.csv](results/eval/ceg_top100.csv)
+│       ├── <a href="results/eval/ceg_top100.csv">ceg_top100.csv</a>
 │       │                                         ← Top-100 edges by
 │       │                                           Counterfactual Equity Gap (CEG)
 │       │
-│       └── [paper_table_fairness.csv](results/eval/paper_table_fairness.csv)
+│       └── <a href="results/eval/paper_table_fairness.csv">paper_table_fairness.csv</a>
 │                                                 ← FST fairness gap metrics
 │                                                   (paper Table — fairness)
 │
-└── [LICENSE](LICENSE)
-```
+└── <a href="LICENSE">LICENSE</a>
+</pre>
 
 ***
 
