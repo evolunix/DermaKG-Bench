@@ -193,7 +193,7 @@ Rejects clinically incompatible candidates using a ~150-drug seed map across 7 d
 Subgroup-stratified conformal calibration correcting for the majority-to-minority distribution shift at calibration time via importance-ratio weighting.
 
 ***
-
+<--
 ## Reproducibility
 
 The benchmark, pre-built Evidence Record JSONs, fold splits, evaluation harness, and Croissant metadata are released at:
@@ -219,7 +219,7 @@ Runtime profile and 5-fold raw numbers: `pipeline_metrics.json` and Appendix C.
 ```
 
 ***
-
+-->
 ## License
 
 To be released upon de-anonymisation. All source datasets (PrimeKG, Fitzpatrick17k, DermaCon-IN) retain their original licenses.
