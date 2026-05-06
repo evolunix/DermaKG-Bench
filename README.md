@@ -32,11 +32,11 @@ dermakg-bench/
 ├── <a href="README.md">README.md</a>                              ← This file
 │
 ├── code/
-│   ├── <a href="code/dermakg_kaggle_all_in_one.py">dermakg_kaggle_all_in_one.py</a>       ← Full end-to-end pipeline (data construction, SCP-KG fitting, CEG/TVD/IGR, baseline eval)
+│   ├── <a href="code/dermakg_kaggle_all_in_one.py">dermakg_kaggle_all_in_one.py</a>        ← Full end-to-end pipeline (data construction, SCP-KG fitting, CEG/TVD/IGR, baseline eval)
 │   ├── <a href="code/dermakg_baseline_comparison_cell.py">dermakg_baseline_comparison_cell.py</a> ← Baseline evaluation: 12-method FST-stratified Hits@1/5/10, MRR, NDCG@10 across 5 CV folds
-│   ├── <a href="code/dermakg_igr_ablation_cell.py">dermakg_igr_ablation_cell.py</a>       ← IGR ablation: BED-IGR vs. equity_gain/cost heuristic correlation analysis (Appendix B)
-│   ├── <a href="code/dermakg_disagreement_table_cell.py">dermakg_disagreement_table_cell.py</a> ← Disagreement analysis between ranking methods
-│   └── <a href="code/Kaggle_reproduction.ipynb">Kaggle_reproduction.ipynb</a>          ← Kaggle-ready reproduction notebook (calls the above modules in order)
+│   ├── <a href="code/dermakg_igr_ablation_cell.py">dermakg_igr_ablation_cell.py</a>        ← IGR ablation: BED-IGR vs. equity_gain/cost heuristic correlation analysis (Appendix B)
+│   ├── <a href="code/dermakg_disagreement_table_cell.py">dermakg_disagreement_table_cell.py</a>  ← Disagreement analysis between ranking methods
+│   └── <a href="code/Kaggle_reproduction.ipynb">Kaggle_reproduction.ipynb</a>           ← Kaggle-ready reproduction notebook (calls the above modules in order)
 │
 ├── <a href="pipeline_metrics.json">pipeline_metrics.json</a>                  ← End-to-end pipeline run metrics & timing profile
 │
