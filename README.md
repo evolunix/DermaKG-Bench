@@ -40,7 +40,7 @@ dermakg-bench/
 │
 ├── <a href="pipeline_metrics.json">pipeline_metrics.json</a>                   ← End-to-end pipeline run metrics & timing profile
 |
-├── <a href="croissant.json">croissant.json</a>                    ← MLCommons Croissant dataset metadata and schema definition
+├── <a href="croissant.json">croissant.json</a>                          ← MLCommons Croissant dataset metadata and schema definition
 │
 ├── data/
 │   ├── <a href="data/evidence_records.json">evidence_records.json</a>               ← Pre-built per-FST Evidence Records with log-scaled 
