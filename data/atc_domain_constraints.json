@@ -1,0 +1,181 @@
+{
+  "domain_constraints": {
+    "infectious_skin": {
+      "allow_prefixes": [
+        "D01",
+        "D06",
+        "J01",
+        "J02",
+        "J04",
+        "J05",
+        "P02",
+        "P03"
+      ],
+      "block_prefixes": [
+        "D07",
+        "D10",
+        "H02AB",
+        "N01",
+        "S01"
+      ]
+    },
+    "neoplastic_skin": {
+      "allow_prefixes": [
+        "D06BB",
+        "L01",
+        "L03",
+        "L04",
+        "P01BA"
+      ],
+      "block_prefixes": [
+        "A11",
+        "B02BA",
+        "D07",
+        "D10",
+        "D11AX",
+        "N01",
+        "S01"
+      ]
+    },
+    "inflammatory_skin": {
+      "allow_prefixes": [
+        "D05",
+        "D07",
+        "D11",
+        "H02",
+        "L04",
+        "R06"
+      ],
+      "block_prefixes": [
+        "S01"
+      ]
+    },
+    "autoimmune_skin": {
+      "allow_prefixes": [
+        "D05",
+        "D07",
+        "D11",
+        "H02",
+        "L04",
+        "M01"
+      ],
+      "block_prefixes": [
+        "S01"
+      ]
+    },
+    "acneiform": {
+      "allow_prefixes": [
+        "C03DA",
+        "D06AX",
+        "D06BX",
+        "D10",
+        "D10AX",
+        "D11AH",
+        "D11AX21",
+        "D11AX22",
+        "G03",
+        "J01",
+        "P02CF"
+      ],
+      "block_prefixes": [
+        "D07",
+        "H02",
+        "J02AA",
+        "S01"
+      ]
+    },
+    "pigmentary": {
+      "allow_prefixes": [
+        "B02BA",
+        "D07",
+        "D10AD",
+        "D11",
+        "L04"
+      ],
+      "block_prefixes": [
+        "L01",
+        "N01",
+        "S01"
+      ]
+    },
+    "unknown": {
+      "allow_prefixes": [],
+      "block_prefixes": [
+        "S01"
+      ]
+    }
+  },
+  "disease_to_domain": {
+    "acne": "acneiform",
+    "acne vulgaris": "acneiform",
+    "rosacea": "acneiform",
+    "perioral dermatitis": "acneiform",
+    "hidradenitis suppurativa": "acneiform",
+    "eczema": "inflammatory_skin",
+    "atopic dermatitis": "inflammatory_skin",
+    "atopic eczema": "inflammatory_skin",
+    "contact dermatitis": "inflammatory_skin",
+    "urticaria": "inflammatory_skin",
+    "angioedema": "inflammatory_skin",
+    "seborrheic dermatitis": "inflammatory_skin",
+    "lichen planus": "inflammatory_skin",
+    "neurodermatitis": "inflammatory_skin",
+    "pyoderma gangrenosum": "inflammatory_skin",
+    "stevens-johnson syndrome": "inflammatory_skin",
+    "sarcoidosis": "inflammatory_skin",
+    "vasculitis": "inflammatory_skin",
+    "psoriasis": "autoimmune_skin",
+    "vitiligo": "autoimmune_skin",
+    "alopecia areata": "autoimmune_skin",
+    "lupus": "autoimmune_skin",
+    "dermatomyositis": "autoimmune_skin",
+    "scleroderma": "autoimmune_skin",
+    "pemphigus": "autoimmune_skin",
+    "pemphigoid": "autoimmune_skin",
+    "lichen sclerosus": "autoimmune_skin",
+    "pustular psoriasis": "autoimmune_skin",
+    "tinea": "infectious_skin",
+    "tinea corporis": "infectious_skin",
+    "tinea pedis": "infectious_skin",
+    "tinea capitis": "infectious_skin",
+    "tinea manuum": "infectious_skin",
+    "tinea cruris": "infectious_skin",
+    "candidiasis": "infectious_skin",
+    "oral candidiasis": "infectious_skin",
+    "scabies": "infectious_skin",
+    "impetigo": "infectious_skin",
+    "herpes labialis": "infectious_skin",
+    "herpes zoster": "infectious_skin",
+    "herpes simplex": "infectious_skin",
+    "molluscum contagiosum": "infectious_skin",
+    "warts": "infectious_skin",
+    "cellulitis": "infectious_skin",
+    "lyme disease": "infectious_skin",
+    "leprosy": "infectious_skin",
+    "syphilis": "infectious_skin",
+    "cutaneous anthrax": "infectious_skin",
+    "melanoma": "neoplastic_skin",
+    "cutaneous melanoma": "neoplastic_skin",
+    "basal cell carcinoma": "neoplastic_skin",
+    "squamous cell carcinoma": "neoplastic_skin",
+    "kaposi sarcoma": "neoplastic_skin",
+    "mycosis fungoides": "neoplastic_skin",
+    "actinic keratosis": "neoplastic_skin",
+    "seborrheic keratosis": "neoplastic_skin",
+    "langerhans cell histiocytosis": "neoplastic_skin",
+    "lymphangioma": "neoplastic_skin",
+    "hemangioma": "neoplastic_skin",
+    "melasma": "pigmentary",
+    "post-inflammatory hyperpigmentation": "pigmentary",
+    "hyperpigmentation": "pigmentary"
+  },
+  "global_never_recommend": [
+    "aflibercept",
+    "ammonia",
+    "anecortave acetate",
+    "brolucizumab",
+    "pegaptanib",
+    "ranibizumab",
+    "verteporfin"
+  ]
+}

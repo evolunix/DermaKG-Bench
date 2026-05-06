@@ -1,0 +1,148 @@
+drug_name,atc_code
+abrocitinib,L04AA45
+acitretin,D05BB02
+acyclovir,J05AB01
+adalimumab,L04AB04
+adapalene,D10AD03
+aflibercept,S01LA05
+aminobenzoic acid,D02BA02
+ammonia,
+amoxicillin,J01CA04
+amphotericin,J02AA01
+amphotericin b,J02AA01
+anthralin,D05AC01
+apremilast,L04AA32
+astemizole,R06AX11
+azelaic acid,D10AX03
+azithromycin,J01FA10
+baricitinib,L04AA37
+benzocaine,N01BA05
+benzoic acid,D08AH
+benzoyl peroxide,D10AE01
+benzylpenicillin,J01CE01
+betamethasone,D07AC01
+betamethasone dipropionate,D07AC01
+betamethasone valerate,D07AC01
+bimekizumab,L04AC21
+bleomycin,L01DC01
+brimonidine,D11AX21
+brolucizumab,S01LA06
+butenafine,D01AE23
+calcipotriol,D05AX02
+cefotaxime,J01DD01
+ceftriaxone,J01DD04
+cefuroxime,J01DC02
+cemiplimab,L01FF06
+cephalexin,J01DB01
+cetirizine,R06AE07
+ciclopirox,D01AE14
+cimetidine,A02BA01
+cladribine,L01BB04
+clarithromycin,J01FA09
+clindamycin,D10AF01
+clioquinol,D08AH30
+clobetasol,D07AD01
+clobetasol propionate,D07AD01
+clotrimazole,D01AC01
+cortisone,H02AB10
+cortisone acetate,H02AB10
+crotamiton,P03AX03
+cyclosporine,L04AD01
+dabrafenib,L01EC02
+dapsone,J04BA02
+demeclocycline,J01AA01
+desonide,D07AB08
+deucravacitinib,L04AA56
+dexamethasone,D07AB19
+dithranol,D05AC01
+doxycycline,J01AA02
+dupilumab,D11AH05
+erythromycin,D10AF02
+etanercept,L04AB01
+ethinyl estradiol,G03CA01
+famciclovir,J05AB09
+fexofenadine,R06AX26
+finasteride,D11AX10
+fluconazole,J02AC01
+fluocinolone acetonide,D07AC04
+fluorouracil,L01BC02
+fluticasone,D07AC17
+fusidic acid,D06AX01
+griseofulvin,D01BA01
+guselkumab,L04AC16
+hydrocortisone,D07AA02
+hydroquinone,D11AX11
+hydroxychloroquine,P01BA02
+hydroxyzine,N05BB01
+imiquimod,D06BB10
+infliximab,L04AB02
+ipilimumab,L01FX04
+isotretinoin,D10AD04
+itraconazole,J02AC02
+ivermectin,P02CF01
+ixekizumab,L04AC13
+ketoconazole,D01AC08
+kojic acid,D11AX
+lidocaine,N01BB02
+lindane,P03AB02
+loratadine,R06AX13
+luliconazole,D01AC18
+meclocycline,J01AA
+methotrexate,L04AX03
+methoxsalen,D05BA02
+methylprednisolone,H02AB04
+metronidazole,D06BX01
+miconazole,D01AC02
+minocycline,J01AA08
+mometasone,D07AC13
+mupirocin,D06AX09
+naftifine,D01AE22
+nivolumab,L01FF01
+nystatin,A07AA02
+omalizumab,R03DX05
+oxymetazoline,D11AX22
+oxytetracycline,J01AA06
+pembrolizumab,L01FF02
+penciclovir,D06BB06
+permethrin,P03AC04
+phenothrin,P03AC02
+phenoxymethylpenicillin,J01CE02
+pimecrolimus,D11AH02
+pramocaine,N01BB03
+pramoxine,N01BB03
+prednisolone,H02AB06
+prednisone,H02AB07
+procaine benzylpenicillin,J01CE09
+ranibizumab,S01LA04
+risankizumab,L04AC18
+rituximab,L01FA01
+ruxolitinib,L04AA35
+salicylic acid,D01AE12
+secukinumab,L04AC10
+sonidegib,L01XJ02
+spironolactone,C03DA01
+tacrolimus,D11AH01
+tazarotene,D05AX05
+terbinafine,D01AE15
+tetracaine,N01BA03
+tetracycline,J01AA07
+tildrakizumab,L04AC17
+tofacitinib,L04AA29
+tolnaftate,D01AE18
+tralokinumab,D11AH07
+trametinib,L01EE01
+tranexamic acid,B02BA01
+tretinoin,D10AD01
+triamcinolone,D07AB09
+trifarotene,D10AD06
+trioxsalen,D05BA01
+upadacitinib,L04AA44
+ustekinumab,L04AC05
+valacyclovir,J05AB11
+vemurafenib,L01EC01
+verteporfin,S01LA01
+vismodegib,L01XJ01
+voriconazole,J02AC03
+zinc chloride,A12CB04
+zinc gluconate,A12CB02
+zinc sulfate,A12CB01

@@ -1,0 +1,4427 @@
+[
+  {
+    "fold_idx": 0,
+    "seed": 42,
+    "train": {
+      "tinea pedis": [
+        "benzocaine",
+        "betamethasone",
+        "butenafine",
+        "ciclopirox",
+        "clioquinol",
+        "cortisone acetate",
+        "econazole",
+        "griseofulvin",
+        "haloprogin",
+        "hydrocortisone",
+        "ketoconazole",
+        "luliconazole",
+        "miconazole",
+        "naftifine",
+        "pramocaine",
+        "salicylic acid",
+        "sulconazole",
+        "terbinafine",
+        "tolnaftate",
+        "undecylenic acid"
+      ],
+      "epidermodysplasia verruciformis": [],
+      "keratoacanthoma": [
+        "aminolevulinic acid",
+        "diclofenac",
+        "fluorouracil",
+        "imiquimod",
+        "ingenol mebutate"
+      ],
+      "seborrheic keratosis": [
+        "allantoin",
+        "amcinonide",
+        "aminolevulinic acid",
+        "ammonia",
+        "ammonium lactate",
+        "benzoyl peroxide",
+        "betamethasone",
+        "ciclopirox",
+        "climbazole",
+        "cortisone acetate",
+        "desonide",
+        "desoximetasone",
+        "dexamethasone",
+        "dexpanthenol",
+        "diclofenac",
+        "flumethasone",
+        "fluocinonide",
+        "fluorouracil",
+        "flurandrenolide",
+        "halcinonide",
+        "hydrocortisone",
+        "imiquimod",
+        "ketoconazole",
+        "masoprocol",
+        "mometasone furoate",
+        "prednisolone",
+        "racementhol",
+        "salicylic acid",
+        "selenium sulfide",
+        "sulfacetamide",
+        "triamcinolone",
+        "urea"
+      ],
+      "angioedema": [
+        "alimemazine",
+        "azatadine",
+        "bamipine",
+        "bilastine",
+        "brompheniramine",
+        "carbinoxamine",
+        "chlorpheniramine",
+        "cortisone acetate",
+        "cyproheptadine",
+        "dexamethasone",
+        "dexbrompheniramine",
+        "dexchlorpheniramine",
+        "emedastine",
+        "hydrocortisone acetate",
+        "hydroxyzine",
+        "mepyramine",
+        "methapyrilene",
+        "methdilazine",
+        "methylprednisolone",
+        "pheniramine",
+        "phenyltoloxamine",
+        "prednisolone",
+        "prednisone",
+        "promazine",
+        "promethazine",
+        "rupatadine",
+        "triamcinolone",
+        "tripelennamine",
+        "triprolidine"
+      ],
+      "contact dermatitis": [
+        "amcinonide",
+        "benzoyl peroxide",
+        "betamethasone",
+        "clobetasol propionate",
+        "cortisone acetate",
+        "desonide",
+        "desoximetasone",
+        "dexamethasone",
+        "flumethasone",
+        "fluocinonide",
+        "flurandrenolide",
+        "fluticasone propionate",
+        "halcinonide",
+        "hydrocortisone acetate",
+        "methylprednisolone",
+        "prednicarbate",
+        "prednisolone",
+        "prednisone",
+        "triamcinolone",
+        "urea"
+      ],
+      "erythema multiforme": [
+        "cortisone acetate",
+        "dexamethasone",
+        "hydrocortisone",
+        "hydrocortisone acetate",
+        "methylprednisolone",
+        "prednisolone",
+        "prednisone",
+        "triamcinolone"
+      ],
+      "psoriasis": [
+        "allantoin",
+        "ammonia",
+        "cortisone acetate",
+        "dexamethasone",
+        "etretinate",
+        "fumaric acid",
+        "hydrocortisone acetate",
+        "methylprednisolone",
+        "prednisolone",
+        "prednisone",
+        "risankizumab",
+        "tazarotene",
+        "triamcinolone",
+        "ustekinumab"
+      ],
+      "sarcoidosis": [
+        "betamethasone",
+        "cortisone acetate",
+        "dexamethasone",
+        "hydrocortisone",
+        "hydrocortisone acetate",
+        "methylprednisolone",
+        "prednisone",
+        "triamcinolone"
+      ],
+      "langerhans cell histiocytosis": [
+        "betamethasone",
+        "bleomycin",
+        "cortisone acetate",
+        "dexamethasone",
+        "doxorubicin",
+        "hydrocortisone",
+        "hydrocortisone acetate",
+        "mechlorethamine",
+        "methotrexate",
+        "methylprednisolone",
+        "prednisolone",
+        "rituximab",
+        "triamcinolone",
+        "uracil mustard",
+        "vinblastine",
+        "vincristine"
+      ],
+      "melanoma": [
+        "hydroxyurea",
+        "talimogene laherparepvec",
+        "vindesine"
+      ],
+      "seborrheic dermatitis": [
+        "allantoin",
+        "amcinonide",
+        "ammonium lactate",
+        "benzoyl peroxide",
+        "betamethasone",
+        "chloroxine",
+        "climbazole",
+        "clobetasol propionate",
+        "desonide",
+        "desoximetasone",
+        "dexamethasone",
+        "flumethasone",
+        "fluocinolone acetonide",
+        "fluocinonide",
+        "flurandrenolide",
+        "fusidic acid",
+        "ketoconazole",
+        "methylprednisolone",
+        "mometasone furoate",
+        "prednicarbate",
+        "prednisolone",
+        "racementhol",
+        "salicylic acid",
+        "selenium sulfide",
+        "sulfacetamide",
+        "triamcinolone",
+        "urea"
+      ],
+      "folliculitis": [],
+      "basal cell carcinoma": [
+        "sonidegib"
+      ],
+      "myiasis": [
+        "pyrimethamine",
+        "sulfamethoxazole"
+      ],
+      "granuloma annulare": [
+        "benzoyl peroxide",
+        "betamethasone",
+        "desonide",
+        "desoximetasone",
+        "dexamethasone",
+        "flumethasone",
+        "fluocinolone acetonide",
+        "fluocinonide",
+        "flurandrenolide",
+        "fluticasone propionate",
+        "halcinonide",
+        "methylprednisolone",
+        "mometasone furoate",
+        "prednicarbate",
+        "prednisolone",
+        "triamcinolone"
+      ],
+      "tinea corporis": [
+        "benzocaine",
+        "betamethasone",
+        "ciclopirox",
+        "clioquinol",
+        "clotrimazole",
+        "cortisone acetate",
+        "econazole",
+        "griseofulvin",
+        "haloprogin",
+        "hydrocortisone",
+        "ketoconazole",
+        "miconazole",
+        "naftifine",
+        "oxiconazole",
+        "pramocaine",
+        "terbinafine",
+        "tolnaftate",
+        "undecylenic acid",
+        "zinc oxide"
+      ],
+      "oral candidiasis": [
+        "amphotericin b",
+        "clotrimazole",
+        "fluconazole",
+        "hachimycin",
+        "ketoconazole",
+        "posaconazole"
+      ],
+      "lyme disease": [],
+      "erythrasma": [
+        "amphotericin b",
+        "benzylpenicillin",
+        "doxycycline",
+        "erythromycin",
+        "fusidic acid",
+        "minocycline",
+        "oxytetracycline",
+        "tetracycline"
+      ],
+      "tinea manuum": [],
+      "white piedra": [
+        "amphotericin b",
+        "isavuconazonium",
+        "itraconazole",
+        "ketoconazole"
+      ],
+      "cutaneous anthrax": [
+        "benzylpenicillin",
+        "doxycycline"
+      ],
+      "herpes zoster": [
+        "amenamevir",
+        "famciclovir"
+      ],
+      "neurodermatitis": [
+        "amcinonide",
+        "cortisone acetate",
+        "desonide",
+        "desoximetasone",
+        "dexamethasone",
+        "flumethasone",
+        "fluocinolone acetonide",
+        "fluocinonide",
+        "flurandrenolide",
+        "halcinonide",
+        "hydrocortisone",
+        "methylprednisolone",
+        "mometasone furoate",
+        "prednicarbate",
+        "prednisolone",
+        "triamcinolone"
+      ],
+      "discoid lupus erythematosus": [
+        "betamethasone",
+        "chloroquine",
+        "cortisone acetate",
+        "desonide",
+        "desoximetasone",
+        "dexamethasone",
+        "flumethasone",
+        "fluocinolone acetonide",
+        "fluocinonide",
+        "flurandrenolide",
+        "halcinonide",
+        "hydrocortisone",
+        "methylprednisolone",
+        "mometasone furoate",
+        "prednisolone",
+        "triamcinolone"
+      ],
+      "lupus erythematosus": [
+        "chloroquine",
+        "cortisone acetate",
+        "desonide",
+        "desoximetasone",
+        "dexamethasone",
+        "flumethasone",
+        "fluocinolone acetonide",
+        "flurandrenolide",
+        "fluticasone propionate",
+        "halcinonide",
+        "hydrocortisone",
+        "hydroxychloroquine",
+        "methylprednisolone",
+        "mometasone furoate",
+        "prednicarbate",
+        "prednisolone"
+      ],
+      "rosacea": [
+        "azelaic acid",
+        "brimonidine",
+        "cortisone acetate",
+        "fluorometholone",
+        "hydrocortisone",
+        "loteprednol etabonate",
+        "medrysone",
+        "metronidazole",
+        "prednisolone",
+        "tobramycin"
+      ],
+      "pyoderma gangrenosum": [],
+      "syphilis": [
+        "benzylpenicillin",
+        "demeclocycline",
+        "doxycycline",
+        "erythromycin",
+        "fusidic acid",
+        "minocycline",
+        "oxytetracycline",
+        "procaine benzylpenicillin",
+        "tetracycline"
+      ],
+      "keloid": [
+        "tranilast",
+        "triamcinolone"
+      ],
+      "alopecia areata": [],
+      "lichen planus": [],
+      "palmoplantar keratoderma": [
+        "salicylic acid"
+      ],
+      "herpes labialis": [
+        "acyclovir",
+        "docosanol"
+      ],
+      "dermatomyositis": [
+        "aminobenzoic acid"
+      ],
+      "impetigo": [
+        "cefuroxime",
+        "retapamulin"
+      ],
+      "neurofibromatosis": [],
+      "scabies": [
+        "crotamiton",
+        "lindane",
+        "permethrin",
+        "phenothrin"
+      ],
+      "necrobiosis lipoidica": [],
+      "pustular psoriasis": [],
+      "hemangioma": [],
+      "lymphangioma": [],
+      "vitiligo": [
+        "trioxsalen"
+      ],
+      "hidradenitis": [],
+      "squamous cell carcinoma": [
+        "cemiplimab",
+        "cetuximab",
+        "temoporfin"
+      ],
+      "mycetoma": [],
+      "tuberous sclerosis": [],
+      "cutaneous larva migrans": []
+    },
+    "test_edges": [
+      {
+        "disease": "tinea pedis",
+        "drug": "clotrimazole",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "tinea pedis",
+        "drug": "sertaconazole",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "tinea pedis",
+        "drug": "zinc oxide",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "tinea pedis",
+        "drug": "oxiconazole",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "epidermodysplasia verruciformis",
+        "drug": "imiquimod",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "keratoacanthoma",
+        "drug": "masoprocol",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "seborrheic keratosis",
+        "drug": "fluticasone propionate",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic keratosis",
+        "drug": "fluocinolone acetonide",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic keratosis",
+        "drug": "clobetasol propionate",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic keratosis",
+        "drug": "methylprednisolone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic keratosis",
+        "drug": "ingenol mebutate",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic keratosis",
+        "drug": "chloroxine",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic keratosis",
+        "drug": "prednicarbate",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic keratosis",
+        "drug": "prednisone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "angioedema",
+        "drug": "hydrocortisone",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "angioedema",
+        "drug": "phenindamine",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "angioedema",
+        "drug": "diphenylpyraline",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "angioedema",
+        "drug": "betamethasone",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "angioedema",
+        "drug": "doxylamine",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "angioedema",
+        "drug": "clemastine",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "angioedema",
+        "drug": "antazoline",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "contact dermatitis",
+        "drug": "hydrocortisone",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "contact dermatitis",
+        "drug": "fluocinolone acetonide",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "contact dermatitis",
+        "drug": "ammonium lactate",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "contact dermatitis",
+        "drug": "mometasone furoate",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "erythema multiforme",
+        "drug": "betamethasone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "psoriasis",
+        "drug": "hydrocortisone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "psoriasis",
+        "drug": "betamethasone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "psoriasis",
+        "drug": "methotrexate",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "sarcoidosis",
+        "drug": "prednisolone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "langerhans cell histiocytosis",
+        "drug": "thiotepa",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "langerhans cell histiocytosis",
+        "drug": "prednisone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "langerhans cell histiocytosis",
+        "drug": "carmustine",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "melanoma",
+        "drug": "interferon alfa-2b",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic dermatitis",
+        "drug": "hydrocortisone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic dermatitis",
+        "drug": "ciclopirox",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic dermatitis",
+        "drug": "fluticasone propionate",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic dermatitis",
+        "drug": "halcinonide",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic dermatitis",
+        "drug": "cortisone acetate",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic dermatitis",
+        "drug": "ammonia",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "folliculitis",
+        "drug": "fusidic acid",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "basal cell carcinoma",
+        "drug": "vismodegib",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "myiasis",
+        "drug": "sulfadiazine",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "granuloma annulare",
+        "drug": "hydrocortisone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "granuloma annulare",
+        "drug": "ammonium lactate",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "granuloma annulare",
+        "drug": "cortisone acetate",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "granuloma annulare",
+        "drug": "amcinonide",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "tinea corporis",
+        "drug": "salicylic acid",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "tinea corporis",
+        "drug": "sulconazole",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "tinea corporis",
+        "drug": "butenafine",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "tinea corporis",
+        "drug": "luliconazole",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "oral candidiasis",
+        "drug": "nystatin",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "lyme disease",
+        "drug": "cefuroxime",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "erythrasma",
+        "drug": "meclocycline",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "erythrasma",
+        "drug": "demeclocycline",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "tinea manuum",
+        "drug": "tolnaftate",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "white piedra",
+        "drug": "posaconazole",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "cutaneous anthrax",
+        "drug": "fusidic acid",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "herpes zoster",
+        "drug": "acyclovir",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "neurodermatitis",
+        "drug": "fluticasone propionate",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "neurodermatitis",
+        "drug": "doxepin",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "neurodermatitis",
+        "drug": "betamethasone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "discoid lupus erythematosus",
+        "drug": "fluticasone propionate",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "discoid lupus erythematosus",
+        "drug": "prednicarbate",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "discoid lupus erythematosus",
+        "drug": "amcinonide",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "discoid lupus erythematosus",
+        "drug": "hydroxychloroquine",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "lupus erythematosus",
+        "drug": "triamcinolone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "lupus erythematosus",
+        "drug": "betamethasone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "lupus erythematosus",
+        "drug": "amcinonide",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "lupus erythematosus",
+        "drug": "fluocinonide",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "rosacea",
+        "drug": "dexamethasone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "rosacea",
+        "drug": "fusidic acid",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "pyoderma gangrenosum",
+        "drug": "clofazimine",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "syphilis",
+        "drug": "amphotericin b",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "syphilis",
+        "drug": "meclocycline",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "keloid",
+        "drug": "dexamethasone",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "alopecia areata",
+        "drug": "triamcinolone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "lichen planus",
+        "drug": "triamcinolone",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "palmoplantar keratoderma",
+        "drug": "tretinoin",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "herpes labialis",
+        "drug": "penciclovir",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "dermatomyositis",
+        "drug": "benzoic acid",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "impetigo",
+        "drug": "mupirocin",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "neurofibromatosis",
+        "drug": "selumetinib",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "scabies",
+        "drug": "lidocaine",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "necrobiosis lipoidica",
+        "drug": "triamcinolone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "pustular psoriasis",
+        "drug": "maxacalcitol",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "hemangioma",
+        "drug": "propranolol",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "lymphangioma",
+        "drug": "propranolol",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "vitiligo",
+        "drug": "methoxsalen",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "hidradenitis",
+        "drug": "adalimumab",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "squamous cell carcinoma",
+        "drug": "bleomycin",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "mycetoma",
+        "drug": "posaconazole",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "tuberous sclerosis",
+        "drug": "everolimus",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "cutaneous larva migrans",
+        "drug": "thiabendazole",
+        "fst_stratum": "IV-VI"
+      }
+    ]
+  },
+  {
+    "fold_idx": 1,
+    "seed": 142,
+    "train": {
+      "tinea pedis": [
+        "benzocaine",
+        "betamethasone",
+        "butenafine",
+        "clioquinol",
+        "clotrimazole",
+        "cortisone acetate",
+        "griseofulvin",
+        "haloprogin",
+        "ketoconazole",
+        "luliconazole",
+        "miconazole",
+        "oxiconazole",
+        "pramocaine",
+        "salicylic acid",
+        "sertaconazole",
+        "sulconazole",
+        "terbinafine",
+        "tolnaftate",
+        "undecylenic acid",
+        "zinc oxide"
+      ],
+      "epidermodysplasia verruciformis": [],
+      "keratoacanthoma": [
+        "aminolevulinic acid",
+        "fluorouracil",
+        "imiquimod",
+        "ingenol mebutate",
+        "masoprocol"
+      ],
+      "seborrheic keratosis": [
+        "allantoin",
+        "aminolevulinic acid",
+        "ammonia",
+        "ammonium lactate",
+        "benzoyl peroxide",
+        "chloroxine",
+        "ciclopirox",
+        "climbazole",
+        "clobetasol propionate",
+        "cortisone acetate",
+        "desonide",
+        "desoximetasone",
+        "dexpanthenol",
+        "diclofenac",
+        "flumethasone",
+        "fluocinolone acetonide",
+        "fluorouracil",
+        "flurandrenolide",
+        "fluticasone propionate",
+        "halcinonide",
+        "hydrocortisone",
+        "imiquimod",
+        "ingenol mebutate",
+        "ketoconazole",
+        "masoprocol",
+        "mometasone furoate",
+        "prednicarbate",
+        "racementhol",
+        "salicylic acid",
+        "selenium sulfide",
+        "sulfacetamide",
+        "triamcinolone"
+      ],
+      "angioedema": [
+        "alimemazine",
+        "antazoline",
+        "azatadine",
+        "bamipine",
+        "betamethasone",
+        "bilastine",
+        "brompheniramine",
+        "carbinoxamine",
+        "chlorpheniramine",
+        "cortisone acetate",
+        "cyproheptadine",
+        "dexamethasone",
+        "dexbrompheniramine",
+        "dexchlorpheniramine",
+        "diphenylpyraline",
+        "doxylamine",
+        "emedastine",
+        "hydrocortisone",
+        "hydrocortisone acetate",
+        "hydroxyzine",
+        "methdilazine",
+        "methylprednisolone",
+        "phenindamine",
+        "phenyltoloxamine",
+        "prednisolone",
+        "prednisone",
+        "promazine",
+        "rupatadine",
+        "tripelennamine"
+      ],
+      "contact dermatitis": [
+        "amcinonide",
+        "ammonium lactate",
+        "betamethasone",
+        "clobetasol propionate",
+        "cortisone acetate",
+        "desonide",
+        "desoximetasone",
+        "fluocinolone acetonide",
+        "flurandrenolide",
+        "fluticasone propionate",
+        "halcinonide",
+        "hydrocortisone",
+        "hydrocortisone acetate",
+        "methylprednisolone",
+        "mometasone furoate",
+        "prednicarbate",
+        "prednisolone",
+        "prednisone",
+        "triamcinolone",
+        "urea"
+      ],
+      "erythema multiforme": [
+        "betamethasone",
+        "cortisone acetate",
+        "dexamethasone",
+        "hydrocortisone",
+        "hydrocortisone acetate",
+        "methylprednisolone",
+        "prednisolone",
+        "triamcinolone"
+      ],
+      "psoriasis": [
+        "allantoin",
+        "betamethasone",
+        "cortisone acetate",
+        "dexamethasone",
+        "fumaric acid",
+        "hydrocortisone",
+        "hydrocortisone acetate",
+        "methotrexate",
+        "methylprednisolone",
+        "prednisolone",
+        "prednisone",
+        "risankizumab",
+        "tazarotene",
+        "triamcinolone"
+      ],
+      "sarcoidosis": [
+        "betamethasone",
+        "cortisone acetate",
+        "dexamethasone",
+        "hydrocortisone",
+        "hydrocortisone acetate",
+        "methylprednisolone",
+        "prednisone",
+        "triamcinolone"
+      ],
+      "langerhans cell histiocytosis": [
+        "betamethasone",
+        "bleomycin",
+        "carmustine",
+        "cortisone acetate",
+        "doxorubicin",
+        "hydrocortisone acetate",
+        "mechlorethamine",
+        "methotrexate",
+        "methylprednisolone",
+        "prednisolone",
+        "rituximab",
+        "thiotepa",
+        "triamcinolone",
+        "uracil mustard",
+        "vinblastine",
+        "vincristine"
+      ],
+      "melanoma": [
+        "interferon alfa-2b",
+        "talimogene laherparepvec",
+        "vindesine"
+      ],
+      "seborrheic dermatitis": [
+        "allantoin",
+        "amcinonide",
+        "benzoyl peroxide",
+        "betamethasone",
+        "ciclopirox",
+        "climbazole",
+        "clobetasol propionate",
+        "cortisone acetate",
+        "desonide",
+        "desoximetasone",
+        "dexamethasone",
+        "flumethasone",
+        "fluocinolone acetonide",
+        "fluticasone propionate",
+        "fusidic acid",
+        "halcinonide",
+        "hydrocortisone",
+        "ketoconazole",
+        "methylprednisolone",
+        "mometasone furoate",
+        "prednicarbate",
+        "prednisolone",
+        "racementhol",
+        "salicylic acid",
+        "selenium sulfide",
+        "triamcinolone",
+        "urea"
+      ],
+      "folliculitis": [],
+      "basal cell carcinoma": [
+        "vismodegib"
+      ],
+      "myiasis": [
+        "pyrimethamine",
+        "sulfadiazine"
+      ],
+      "granuloma annulare": [
+        "ammonium lactate",
+        "benzoyl peroxide",
+        "cortisone acetate",
+        "desonide",
+        "dexamethasone",
+        "flumethasone",
+        "fluocinolone acetonide",
+        "fluocinonide",
+        "flurandrenolide",
+        "fluticasone propionate",
+        "halcinonide",
+        "hydrocortisone",
+        "methylprednisolone",
+        "prednicarbate",
+        "prednisolone",
+        "triamcinolone"
+      ],
+      "tinea corporis": [
+        "betamethasone",
+        "butenafine",
+        "ciclopirox",
+        "clioquinol",
+        "clotrimazole",
+        "cortisone acetate",
+        "griseofulvin",
+        "haloprogin",
+        "hydrocortisone",
+        "ketoconazole",
+        "luliconazole",
+        "miconazole",
+        "naftifine",
+        "pramocaine",
+        "salicylic acid",
+        "sulconazole",
+        "tolnaftate",
+        "undecylenic acid",
+        "zinc oxide"
+      ],
+      "oral candidiasis": [
+        "amphotericin b",
+        "clotrimazole",
+        "fluconazole",
+        "ketoconazole",
+        "nystatin",
+        "posaconazole"
+      ],
+      "lyme disease": [],
+      "erythrasma": [
+        "amphotericin b",
+        "benzylpenicillin",
+        "demeclocycline",
+        "doxycycline",
+        "fusidic acid",
+        "minocycline",
+        "oxytetracycline",
+        "tetracycline"
+      ],
+      "tinea manuum": [],
+      "white piedra": [
+        "amphotericin b",
+        "itraconazole",
+        "ketoconazole",
+        "posaconazole"
+      ],
+      "cutaneous anthrax": [
+        "benzylpenicillin",
+        "fusidic acid"
+      ],
+      "herpes zoster": [
+        "acyclovir",
+        "amenamevir"
+      ],
+      "neurodermatitis": [
+        "amcinonide",
+        "betamethasone",
+        "cortisone acetate",
+        "desoximetasone",
+        "doxepin",
+        "flumethasone",
+        "fluocinolone acetonide",
+        "fluocinonide",
+        "flurandrenolide",
+        "fluticasone propionate",
+        "halcinonide",
+        "hydrocortisone",
+        "methylprednisolone",
+        "prednicarbate",
+        "prednisolone",
+        "triamcinolone"
+      ],
+      "discoid lupus erythematosus": [
+        "amcinonide",
+        "betamethasone",
+        "cortisone acetate",
+        "dexamethasone",
+        "flumethasone",
+        "fluocinolone acetonide",
+        "fluocinonide",
+        "flurandrenolide",
+        "fluticasone propionate",
+        "halcinonide",
+        "hydrocortisone",
+        "hydroxychloroquine",
+        "methylprednisolone",
+        "mometasone furoate",
+        "prednicarbate",
+        "prednisolone"
+      ],
+      "lupus erythematosus": [
+        "amcinonide",
+        "chloroquine",
+        "cortisone acetate",
+        "desonide",
+        "desoximetasone",
+        "dexamethasone",
+        "fluocinolone acetonide",
+        "fluocinonide",
+        "flurandrenolide",
+        "fluticasone propionate",
+        "halcinonide",
+        "hydrocortisone",
+        "methylprednisolone",
+        "mometasone furoate",
+        "prednisolone",
+        "triamcinolone"
+      ],
+      "rosacea": [
+        "azelaic acid",
+        "brimonidine",
+        "cortisone acetate",
+        "fluorometholone",
+        "fusidic acid",
+        "loteprednol etabonate",
+        "medrysone",
+        "metronidazole",
+        "prednisolone",
+        "tobramycin"
+      ],
+      "pyoderma gangrenosum": [],
+      "syphilis": [
+        "amphotericin b",
+        "benzylpenicillin",
+        "demeclocycline",
+        "doxycycline",
+        "erythromycin",
+        "fusidic acid",
+        "meclocycline",
+        "oxytetracycline",
+        "procaine benzylpenicillin"
+      ],
+      "keloid": [
+        "tranilast",
+        "triamcinolone"
+      ],
+      "alopecia areata": [],
+      "lichen planus": [],
+      "palmoplantar keratoderma": [
+        "salicylic acid"
+      ],
+      "herpes labialis": [
+        "acyclovir",
+        "penciclovir"
+      ],
+      "dermatomyositis": [
+        "aminobenzoic acid"
+      ],
+      "impetigo": [
+        "cefuroxime",
+        "retapamulin"
+      ],
+      "neurofibromatosis": [],
+      "scabies": [
+        "crotamiton",
+        "lindane",
+        "permethrin",
+        "phenothrin"
+      ],
+      "necrobiosis lipoidica": [],
+      "pustular psoriasis": [],
+      "hemangioma": [],
+      "lymphangioma": [],
+      "vitiligo": [
+        "trioxsalen"
+      ],
+      "hidradenitis": [],
+      "squamous cell carcinoma": [
+        "bleomycin",
+        "cemiplimab",
+        "temoporfin"
+      ],
+      "mycetoma": [],
+      "tuberous sclerosis": [],
+      "cutaneous larva migrans": []
+    },
+    "test_edges": [
+      {
+        "disease": "tinea pedis",
+        "drug": "hydrocortisone",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "tinea pedis",
+        "drug": "ciclopirox",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "tinea pedis",
+        "drug": "naftifine",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "tinea pedis",
+        "drug": "econazole",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "epidermodysplasia verruciformis",
+        "drug": "imiquimod",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "keratoacanthoma",
+        "drug": "diclofenac",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "seborrheic keratosis",
+        "drug": "methylprednisolone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic keratosis",
+        "drug": "dexamethasone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic keratosis",
+        "drug": "betamethasone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic keratosis",
+        "drug": "prednisolone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic keratosis",
+        "drug": "prednisone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic keratosis",
+        "drug": "amcinonide",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic keratosis",
+        "drug": "urea",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic keratosis",
+        "drug": "fluocinonide",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "angioedema",
+        "drug": "mepyramine",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "angioedema",
+        "drug": "triamcinolone",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "angioedema",
+        "drug": "clemastine",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "angioedema",
+        "drug": "promethazine",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "angioedema",
+        "drug": "triprolidine",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "angioedema",
+        "drug": "pheniramine",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "angioedema",
+        "drug": "methapyrilene",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "contact dermatitis",
+        "drug": "flumethasone",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "contact dermatitis",
+        "drug": "dexamethasone",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "contact dermatitis",
+        "drug": "benzoyl peroxide",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "contact dermatitis",
+        "drug": "fluocinonide",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "erythema multiforme",
+        "drug": "prednisone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "psoriasis",
+        "drug": "etretinate",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "psoriasis",
+        "drug": "ammonia",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "psoriasis",
+        "drug": "ustekinumab",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "sarcoidosis",
+        "drug": "prednisolone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "langerhans cell histiocytosis",
+        "drug": "dexamethasone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "langerhans cell histiocytosis",
+        "drug": "hydrocortisone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "langerhans cell histiocytosis",
+        "drug": "prednisone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "melanoma",
+        "drug": "hydroxyurea",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic dermatitis",
+        "drug": "chloroxine",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic dermatitis",
+        "drug": "flurandrenolide",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic dermatitis",
+        "drug": "ammonium lactate",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic dermatitis",
+        "drug": "ammonia",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic dermatitis",
+        "drug": "fluocinonide",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic dermatitis",
+        "drug": "sulfacetamide",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "folliculitis",
+        "drug": "fusidic acid",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "basal cell carcinoma",
+        "drug": "sonidegib",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "myiasis",
+        "drug": "sulfamethoxazole",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "granuloma annulare",
+        "drug": "desoximetasone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "granuloma annulare",
+        "drug": "betamethasone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "granuloma annulare",
+        "drug": "amcinonide",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "granuloma annulare",
+        "drug": "mometasone furoate",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "tinea corporis",
+        "drug": "econazole",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "tinea corporis",
+        "drug": "benzocaine",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "tinea corporis",
+        "drug": "terbinafine",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "tinea corporis",
+        "drug": "oxiconazole",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "oral candidiasis",
+        "drug": "hachimycin",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "lyme disease",
+        "drug": "cefuroxime",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "erythrasma",
+        "drug": "meclocycline",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "erythrasma",
+        "drug": "erythromycin",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "tinea manuum",
+        "drug": "tolnaftate",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "white piedra",
+        "drug": "isavuconazonium",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "cutaneous anthrax",
+        "drug": "doxycycline",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "herpes zoster",
+        "drug": "famciclovir",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "neurodermatitis",
+        "drug": "dexamethasone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "neurodermatitis",
+        "drug": "mometasone furoate",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "neurodermatitis",
+        "drug": "desonide",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "discoid lupus erythematosus",
+        "drug": "triamcinolone",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "discoid lupus erythematosus",
+        "drug": "chloroquine",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "discoid lupus erythematosus",
+        "drug": "desoximetasone",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "discoid lupus erythematosus",
+        "drug": "desonide",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "lupus erythematosus",
+        "drug": "flumethasone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "lupus erythematosus",
+        "drug": "prednicarbate",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "lupus erythematosus",
+        "drug": "betamethasone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "lupus erythematosus",
+        "drug": "hydroxychloroquine",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "rosacea",
+        "drug": "dexamethasone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "rosacea",
+        "drug": "hydrocortisone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "pyoderma gangrenosum",
+        "drug": "clofazimine",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "syphilis",
+        "drug": "minocycline",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "syphilis",
+        "drug": "tetracycline",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "keloid",
+        "drug": "dexamethasone",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "alopecia areata",
+        "drug": "triamcinolone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "lichen planus",
+        "drug": "triamcinolone",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "palmoplantar keratoderma",
+        "drug": "tretinoin",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "herpes labialis",
+        "drug": "docosanol",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "dermatomyositis",
+        "drug": "benzoic acid",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "impetigo",
+        "drug": "mupirocin",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "neurofibromatosis",
+        "drug": "selumetinib",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "scabies",
+        "drug": "lidocaine",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "necrobiosis lipoidica",
+        "drug": "triamcinolone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "pustular psoriasis",
+        "drug": "maxacalcitol",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "hemangioma",
+        "drug": "propranolol",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "lymphangioma",
+        "drug": "propranolol",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "vitiligo",
+        "drug": "methoxsalen",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "hidradenitis",
+        "drug": "adalimumab",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "squamous cell carcinoma",
+        "drug": "cetuximab",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "mycetoma",
+        "drug": "posaconazole",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "tuberous sclerosis",
+        "drug": "everolimus",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "cutaneous larva migrans",
+        "drug": "thiabendazole",
+        "fst_stratum": "IV-VI"
+      }
+    ]
+  },
+  {
+    "fold_idx": 2,
+    "seed": 242,
+    "train": {
+      "tinea pedis": [
+        "benzocaine",
+        "butenafine",
+        "ciclopirox",
+        "clioquinol",
+        "clotrimazole",
+        "cortisone acetate",
+        "griseofulvin",
+        "haloprogin",
+        "hydrocortisone",
+        "ketoconazole",
+        "luliconazole",
+        "miconazole",
+        "naftifine",
+        "oxiconazole",
+        "pramocaine",
+        "sertaconazole",
+        "sulconazole",
+        "terbinafine",
+        "tolnaftate",
+        "undecylenic acid"
+      ],
+      "epidermodysplasia verruciformis": [],
+      "keratoacanthoma": [
+        "aminolevulinic acid",
+        "diclofenac",
+        "fluorouracil",
+        "imiquimod",
+        "masoprocol"
+      ],
+      "seborrheic keratosis": [
+        "amcinonide",
+        "aminolevulinic acid",
+        "ammonia",
+        "ammonium lactate",
+        "benzoyl peroxide",
+        "betamethasone",
+        "chloroxine",
+        "ciclopirox",
+        "climbazole",
+        "clobetasol propionate",
+        "cortisone acetate",
+        "dexamethasone",
+        "dexpanthenol",
+        "diclofenac",
+        "flumethasone",
+        "fluocinolone acetonide",
+        "fluocinonide",
+        "fluorouracil",
+        "flurandrenolide",
+        "hydrocortisone",
+        "imiquimod",
+        "ingenol mebutate",
+        "methylprednisolone",
+        "mometasone furoate",
+        "prednicarbate",
+        "prednisolone",
+        "prednisone",
+        "racementhol",
+        "salicylic acid",
+        "sulfacetamide",
+        "triamcinolone",
+        "urea"
+      ],
+      "angioedema": [
+        "alimemazine",
+        "antazoline",
+        "azatadine",
+        "bamipine",
+        "bilastine",
+        "brompheniramine",
+        "carbinoxamine",
+        "chlorpheniramine",
+        "clemastine",
+        "cortisone acetate",
+        "cyproheptadine",
+        "dexamethasone",
+        "dexbrompheniramine",
+        "doxylamine",
+        "emedastine",
+        "hydrocortisone",
+        "hydrocortisone acetate",
+        "mepyramine",
+        "methapyrilene",
+        "methdilazine",
+        "methylprednisolone",
+        "phenindamine",
+        "phenyltoloxamine",
+        "prednisone",
+        "promazine",
+        "promethazine",
+        "triamcinolone",
+        "tripelennamine",
+        "triprolidine"
+      ],
+      "contact dermatitis": [
+        "amcinonide",
+        "benzoyl peroxide",
+        "betamethasone",
+        "clobetasol propionate",
+        "desonide",
+        "flumethasone",
+        "fluocinolone acetonide",
+        "fluocinonide",
+        "flurandrenolide",
+        "fluticasone propionate",
+        "halcinonide",
+        "hydrocortisone",
+        "hydrocortisone acetate",
+        "methylprednisolone",
+        "mometasone furoate",
+        "prednicarbate",
+        "prednisolone",
+        "prednisone",
+        "triamcinolone",
+        "urea"
+      ],
+      "erythema multiforme": [
+        "betamethasone",
+        "dexamethasone",
+        "hydrocortisone",
+        "hydrocortisone acetate",
+        "methylprednisolone",
+        "prednisolone",
+        "prednisone",
+        "triamcinolone"
+      ],
+      "psoriasis": [
+        "allantoin",
+        "ammonia",
+        "betamethasone",
+        "cortisone acetate",
+        "dexamethasone",
+        "etretinate",
+        "fumaric acid",
+        "hydrocortisone",
+        "methotrexate",
+        "prednisone",
+        "risankizumab",
+        "tazarotene",
+        "triamcinolone",
+        "ustekinumab"
+      ],
+      "sarcoidosis": [
+        "betamethasone",
+        "cortisone acetate",
+        "dexamethasone",
+        "hydrocortisone",
+        "hydrocortisone acetate",
+        "prednisolone",
+        "prednisone",
+        "triamcinolone"
+      ],
+      "langerhans cell histiocytosis": [
+        "betamethasone",
+        "bleomycin",
+        "carmustine",
+        "cortisone acetate",
+        "dexamethasone",
+        "doxorubicin",
+        "hydrocortisone",
+        "hydrocortisone acetate",
+        "methotrexate",
+        "methylprednisolone",
+        "prednisolone",
+        "rituximab",
+        "thiotepa",
+        "triamcinolone",
+        "uracil mustard",
+        "vinblastine"
+      ],
+      "melanoma": [
+        "hydroxyurea",
+        "interferon alfa-2b",
+        "vindesine"
+      ],
+      "seborrheic dermatitis": [
+        "allantoin",
+        "amcinonide",
+        "ammonia",
+        "ammonium lactate",
+        "benzoyl peroxide",
+        "betamethasone",
+        "chloroxine",
+        "climbazole",
+        "clobetasol propionate",
+        "cortisone acetate",
+        "desonide",
+        "desoximetasone",
+        "dexamethasone",
+        "flumethasone",
+        "fluocinolone acetonide",
+        "fluocinonide",
+        "fluticasone propionate",
+        "hydrocortisone",
+        "ketoconazole",
+        "methylprednisolone",
+        "prednicarbate",
+        "prednisolone",
+        "racementhol",
+        "salicylic acid",
+        "selenium sulfide",
+        "triamcinolone",
+        "urea"
+      ],
+      "folliculitis": [],
+      "basal cell carcinoma": [
+        "sonidegib"
+      ],
+      "myiasis": [
+        "pyrimethamine",
+        "sulfamethoxazole"
+      ],
+      "granuloma annulare": [
+        "amcinonide",
+        "ammonium lactate",
+        "benzoyl peroxide",
+        "betamethasone",
+        "desoximetasone",
+        "flumethasone",
+        "fluocinolone acetonide",
+        "fluocinonide",
+        "flurandrenolide",
+        "fluticasone propionate",
+        "halcinonide",
+        "hydrocortisone",
+        "methylprednisolone",
+        "prednicarbate",
+        "prednisolone",
+        "triamcinolone"
+      ],
+      "tinea corporis": [
+        "betamethasone",
+        "butenafine",
+        "ciclopirox",
+        "clioquinol",
+        "clotrimazole",
+        "cortisone acetate",
+        "griseofulvin",
+        "haloprogin",
+        "ketoconazole",
+        "luliconazole",
+        "miconazole",
+        "naftifine",
+        "oxiconazole",
+        "pramocaine",
+        "salicylic acid",
+        "sulconazole",
+        "terbinafine",
+        "tolnaftate",
+        "zinc oxide"
+      ],
+      "oral candidiasis": [
+        "amphotericin b",
+        "clotrimazole",
+        "fluconazole",
+        "hachimycin",
+        "ketoconazole",
+        "nystatin"
+      ],
+      "lyme disease": [],
+      "erythrasma": [
+        "amphotericin b",
+        "benzylpenicillin",
+        "demeclocycline",
+        "doxycycline",
+        "erythromycin",
+        "meclocycline",
+        "minocycline",
+        "tetracycline"
+      ],
+      "tinea manuum": [],
+      "white piedra": [
+        "amphotericin b",
+        "itraconazole",
+        "ketoconazole",
+        "posaconazole"
+      ],
+      "cutaneous anthrax": [
+        "benzylpenicillin",
+        "fusidic acid"
+      ],
+      "herpes zoster": [
+        "amenamevir",
+        "famciclovir"
+      ],
+      "neurodermatitis": [
+        "amcinonide",
+        "betamethasone",
+        "cortisone acetate",
+        "desonide",
+        "desoximetasone",
+        "dexamethasone",
+        "doxepin",
+        "fluocinonide",
+        "flurandrenolide",
+        "fluticasone propionate",
+        "halcinonide",
+        "hydrocortisone",
+        "methylprednisolone",
+        "mometasone furoate",
+        "prednicarbate",
+        "triamcinolone"
+      ],
+      "discoid lupus erythematosus": [
+        "betamethasone",
+        "cortisone acetate",
+        "desonide",
+        "dexamethasone",
+        "flumethasone",
+        "fluocinonide",
+        "flurandrenolide",
+        "fluticasone propionate",
+        "halcinonide",
+        "hydrocortisone",
+        "hydroxychloroquine",
+        "methylprednisolone",
+        "mometasone furoate",
+        "prednicarbate",
+        "prednisolone",
+        "triamcinolone"
+      ],
+      "lupus erythematosus": [
+        "betamethasone",
+        "chloroquine",
+        "cortisone acetate",
+        "desonide",
+        "desoximetasone",
+        "dexamethasone",
+        "flumethasone",
+        "fluocinolone acetonide",
+        "fluocinonide",
+        "flurandrenolide",
+        "halcinonide",
+        "hydroxychloroquine",
+        "methylprednisolone",
+        "mometasone furoate",
+        "prednicarbate",
+        "triamcinolone"
+      ],
+      "rosacea": [
+        "brimonidine",
+        "dexamethasone",
+        "fluorometholone",
+        "fusidic acid",
+        "hydrocortisone",
+        "loteprednol etabonate",
+        "medrysone",
+        "metronidazole",
+        "prednisolone",
+        "tobramycin"
+      ],
+      "pyoderma gangrenosum": [],
+      "syphilis": [
+        "benzylpenicillin",
+        "demeclocycline",
+        "doxycycline",
+        "fusidic acid",
+        "meclocycline",
+        "minocycline",
+        "oxytetracycline",
+        "procaine benzylpenicillin",
+        "tetracycline"
+      ],
+      "keloid": [
+        "dexamethasone",
+        "tranilast"
+      ],
+      "alopecia areata": [],
+      "lichen planus": [],
+      "palmoplantar keratoderma": [
+        "salicylic acid"
+      ],
+      "herpes labialis": [
+        "acyclovir",
+        "docosanol"
+      ],
+      "dermatomyositis": [
+        "aminobenzoic acid"
+      ],
+      "impetigo": [
+        "cefuroxime",
+        "mupirocin"
+      ],
+      "neurofibromatosis": [],
+      "scabies": [
+        "crotamiton",
+        "lidocaine",
+        "lindane",
+        "permethrin"
+      ],
+      "necrobiosis lipoidica": [],
+      "pustular psoriasis": [],
+      "hemangioma": [],
+      "lymphangioma": [],
+      "vitiligo": [
+        "trioxsalen"
+      ],
+      "hidradenitis": [],
+      "squamous cell carcinoma": [
+        "bleomycin",
+        "cemiplimab",
+        "temoporfin"
+      ],
+      "mycetoma": [],
+      "tuberous sclerosis": [],
+      "cutaneous larva migrans": []
+    },
+    "test_edges": [
+      {
+        "disease": "tinea pedis",
+        "drug": "salicylic acid",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "tinea pedis",
+        "drug": "betamethasone",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "tinea pedis",
+        "drug": "zinc oxide",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "tinea pedis",
+        "drug": "econazole",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "epidermodysplasia verruciformis",
+        "drug": "imiquimod",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "keratoacanthoma",
+        "drug": "ingenol mebutate",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "seborrheic keratosis",
+        "drug": "fluticasone propionate",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic keratosis",
+        "drug": "ketoconazole",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic keratosis",
+        "drug": "halcinonide",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic keratosis",
+        "drug": "selenium sulfide",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic keratosis",
+        "drug": "masoprocol",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic keratosis",
+        "drug": "allantoin",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic keratosis",
+        "drug": "desoximetasone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic keratosis",
+        "drug": "desonide",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "angioedema",
+        "drug": "dexchlorpheniramine",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "angioedema",
+        "drug": "rupatadine",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "angioedema",
+        "drug": "diphenylpyraline",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "angioedema",
+        "drug": "betamethasone",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "angioedema",
+        "drug": "hydroxyzine",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "angioedema",
+        "drug": "pheniramine",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "angioedema",
+        "drug": "prednisolone",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "contact dermatitis",
+        "drug": "dexamethasone",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "contact dermatitis",
+        "drug": "desoximetasone",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "contact dermatitis",
+        "drug": "cortisone acetate",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "contact dermatitis",
+        "drug": "ammonium lactate",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "erythema multiforme",
+        "drug": "cortisone acetate",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "psoriasis",
+        "drug": "prednisolone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "psoriasis",
+        "drug": "hydrocortisone acetate",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "psoriasis",
+        "drug": "methylprednisolone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "sarcoidosis",
+        "drug": "methylprednisolone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "langerhans cell histiocytosis",
+        "drug": "prednisone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "langerhans cell histiocytosis",
+        "drug": "mechlorethamine",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "langerhans cell histiocytosis",
+        "drug": "vincristine",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "melanoma",
+        "drug": "talimogene laherparepvec",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic dermatitis",
+        "drug": "mometasone furoate",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic dermatitis",
+        "drug": "halcinonide",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic dermatitis",
+        "drug": "fusidic acid",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic dermatitis",
+        "drug": "flurandrenolide",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic dermatitis",
+        "drug": "ciclopirox",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic dermatitis",
+        "drug": "sulfacetamide",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "folliculitis",
+        "drug": "fusidic acid",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "basal cell carcinoma",
+        "drug": "vismodegib",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "myiasis",
+        "drug": "sulfadiazine",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "granuloma annulare",
+        "drug": "dexamethasone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "granuloma annulare",
+        "drug": "cortisone acetate",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "granuloma annulare",
+        "drug": "mometasone furoate",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "granuloma annulare",
+        "drug": "desonide",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "tinea corporis",
+        "drug": "undecylenic acid",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "tinea corporis",
+        "drug": "hydrocortisone",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "tinea corporis",
+        "drug": "benzocaine",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "tinea corporis",
+        "drug": "econazole",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "oral candidiasis",
+        "drug": "posaconazole",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "lyme disease",
+        "drug": "cefuroxime",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "erythrasma",
+        "drug": "fusidic acid",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "erythrasma",
+        "drug": "oxytetracycline",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "tinea manuum",
+        "drug": "tolnaftate",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "white piedra",
+        "drug": "isavuconazonium",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "cutaneous anthrax",
+        "drug": "doxycycline",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "herpes zoster",
+        "drug": "acyclovir",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "neurodermatitis",
+        "drug": "prednisolone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "neurodermatitis",
+        "drug": "flumethasone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "neurodermatitis",
+        "drug": "fluocinolone acetonide",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "discoid lupus erythematosus",
+        "drug": "chloroquine",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "discoid lupus erythematosus",
+        "drug": "desoximetasone",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "discoid lupus erythematosus",
+        "drug": "fluocinolone acetonide",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "discoid lupus erythematosus",
+        "drug": "amcinonide",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "lupus erythematosus",
+        "drug": "hydrocortisone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "lupus erythematosus",
+        "drug": "fluticasone propionate",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "lupus erythematosus",
+        "drug": "prednisolone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "lupus erythematosus",
+        "drug": "amcinonide",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "rosacea",
+        "drug": "azelaic acid",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "rosacea",
+        "drug": "cortisone acetate",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "pyoderma gangrenosum",
+        "drug": "clofazimine",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "syphilis",
+        "drug": "amphotericin b",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "syphilis",
+        "drug": "erythromycin",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "keloid",
+        "drug": "triamcinolone",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "alopecia areata",
+        "drug": "triamcinolone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "lichen planus",
+        "drug": "triamcinolone",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "palmoplantar keratoderma",
+        "drug": "tretinoin",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "herpes labialis",
+        "drug": "penciclovir",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "dermatomyositis",
+        "drug": "benzoic acid",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "impetigo",
+        "drug": "retapamulin",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "neurofibromatosis",
+        "drug": "selumetinib",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "scabies",
+        "drug": "phenothrin",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "necrobiosis lipoidica",
+        "drug": "triamcinolone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "pustular psoriasis",
+        "drug": "maxacalcitol",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "hemangioma",
+        "drug": "propranolol",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "lymphangioma",
+        "drug": "propranolol",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "vitiligo",
+        "drug": "methoxsalen",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "hidradenitis",
+        "drug": "adalimumab",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "squamous cell carcinoma",
+        "drug": "cetuximab",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "mycetoma",
+        "drug": "posaconazole",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "tuberous sclerosis",
+        "drug": "everolimus",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "cutaneous larva migrans",
+        "drug": "thiabendazole",
+        "fst_stratum": "IV-VI"
+      }
+    ]
+  },
+  {
+    "fold_idx": 3,
+    "seed": 342,
+    "train": {
+      "tinea pedis": [
+        "benzocaine",
+        "betamethasone",
+        "butenafine",
+        "ciclopirox",
+        "clotrimazole",
+        "cortisone acetate",
+        "econazole",
+        "griseofulvin",
+        "haloprogin",
+        "hydrocortisone",
+        "ketoconazole",
+        "luliconazole",
+        "miconazole",
+        "naftifine",
+        "oxiconazole",
+        "salicylic acid",
+        "sertaconazole",
+        "sulconazole",
+        "terbinafine",
+        "tolnaftate"
+      ],
+      "epidermodysplasia verruciformis": [],
+      "keratoacanthoma": [
+        "aminolevulinic acid",
+        "diclofenac",
+        "fluorouracil",
+        "imiquimod",
+        "ingenol mebutate"
+      ],
+      "seborrheic keratosis": [
+        "allantoin",
+        "amcinonide",
+        "ammonia",
+        "ammonium lactate",
+        "benzoyl peroxide",
+        "betamethasone",
+        "chloroxine",
+        "ciclopirox",
+        "climbazole",
+        "clobetasol propionate",
+        "cortisone acetate",
+        "desonide",
+        "dexamethasone",
+        "dexpanthenol",
+        "diclofenac",
+        "flumethasone",
+        "fluocinolone acetonide",
+        "fluocinonide",
+        "fluorouracil",
+        "fluticasone propionate",
+        "halcinonide",
+        "hydrocortisone",
+        "imiquimod",
+        "ingenol mebutate",
+        "masoprocol",
+        "prednisolone",
+        "prednisone",
+        "racementhol",
+        "selenium sulfide",
+        "sulfacetamide",
+        "triamcinolone",
+        "urea"
+      ],
+      "angioedema": [
+        "alimemazine",
+        "antazoline",
+        "azatadine",
+        "bamipine",
+        "betamethasone",
+        "bilastine",
+        "brompheniramine",
+        "carbinoxamine",
+        "cortisone acetate",
+        "dexamethasone",
+        "dexbrompheniramine",
+        "dexchlorpheniramine",
+        "diphenylpyraline",
+        "doxylamine",
+        "emedastine",
+        "hydrocortisone",
+        "hydrocortisone acetate",
+        "mepyramine",
+        "methapyrilene",
+        "methdilazine",
+        "methylprednisolone",
+        "phenindamine",
+        "prednisolone",
+        "prednisone",
+        "promethazine",
+        "rupatadine",
+        "triamcinolone",
+        "tripelennamine",
+        "triprolidine"
+      ],
+      "contact dermatitis": [
+        "amcinonide",
+        "ammonium lactate",
+        "benzoyl peroxide",
+        "betamethasone",
+        "clobetasol propionate",
+        "cortisone acetate",
+        "desoximetasone",
+        "dexamethasone",
+        "flumethasone",
+        "fluocinonide",
+        "flurandrenolide",
+        "fluticasone propionate",
+        "halcinonide",
+        "hydrocortisone",
+        "hydrocortisone acetate",
+        "methylprednisolone",
+        "mometasone furoate",
+        "prednisone",
+        "triamcinolone",
+        "urea"
+      ],
+      "erythema multiforme": [
+        "betamethasone",
+        "cortisone acetate",
+        "dexamethasone",
+        "hydrocortisone",
+        "hydrocortisone acetate",
+        "methylprednisolone",
+        "prednisolone",
+        "prednisone"
+      ],
+      "psoriasis": [
+        "allantoin",
+        "ammonia",
+        "betamethasone",
+        "cortisone acetate",
+        "dexamethasone",
+        "fumaric acid",
+        "hydrocortisone",
+        "hydrocortisone acetate",
+        "methylprednisolone",
+        "prednisolone",
+        "risankizumab",
+        "tazarotene",
+        "triamcinolone",
+        "ustekinumab"
+      ],
+      "sarcoidosis": [
+        "betamethasone",
+        "cortisone acetate",
+        "dexamethasone",
+        "hydrocortisone",
+        "hydrocortisone acetate",
+        "methylprednisolone",
+        "prednisolone",
+        "triamcinolone"
+      ],
+      "langerhans cell histiocytosis": [
+        "betamethasone",
+        "bleomycin",
+        "carmustine",
+        "cortisone acetate",
+        "dexamethasone",
+        "doxorubicin",
+        "hydrocortisone",
+        "mechlorethamine",
+        "methotrexate",
+        "methylprednisolone",
+        "prednisolone",
+        "prednisone",
+        "thiotepa",
+        "triamcinolone",
+        "uracil mustard",
+        "vinblastine"
+      ],
+      "melanoma": [
+        "hydroxyurea",
+        "interferon alfa-2b",
+        "talimogene laherparepvec"
+      ],
+      "seborrheic dermatitis": [
+        "allantoin",
+        "amcinonide",
+        "ammonia",
+        "ammonium lactate",
+        "benzoyl peroxide",
+        "chloroxine",
+        "clobetasol propionate",
+        "cortisone acetate",
+        "desonide",
+        "desoximetasone",
+        "dexamethasone",
+        "fluocinolone acetonide",
+        "fluocinonide",
+        "flurandrenolide",
+        "fluticasone propionate",
+        "fusidic acid",
+        "hydrocortisone",
+        "ketoconazole",
+        "methylprednisolone",
+        "mometasone furoate",
+        "prednicarbate",
+        "prednisolone",
+        "racementhol",
+        "salicylic acid",
+        "selenium sulfide",
+        "triamcinolone",
+        "urea"
+      ],
+      "folliculitis": [],
+      "basal cell carcinoma": [
+        "sonidegib"
+      ],
+      "myiasis": [
+        "pyrimethamine",
+        "sulfadiazine"
+      ],
+      "granuloma annulare": [
+        "amcinonide",
+        "ammonium lactate",
+        "benzoyl peroxide",
+        "betamethasone",
+        "cortisone acetate",
+        "desonide",
+        "desoximetasone",
+        "dexamethasone",
+        "flumethasone",
+        "fluocinolone acetonide",
+        "fluocinonide",
+        "fluticasone propionate",
+        "halcinonide",
+        "mometasone furoate",
+        "prednicarbate",
+        "prednisolone"
+      ],
+      "tinea corporis": [
+        "benzocaine",
+        "betamethasone",
+        "butenafine",
+        "ciclopirox",
+        "clioquinol",
+        "cortisone acetate",
+        "griseofulvin",
+        "haloprogin",
+        "hydrocortisone",
+        "ketoconazole",
+        "luliconazole",
+        "miconazole",
+        "naftifine",
+        "oxiconazole",
+        "pramocaine",
+        "salicylic acid",
+        "terbinafine",
+        "undecylenic acid",
+        "zinc oxide"
+      ],
+      "oral candidiasis": [
+        "amphotericin b",
+        "clotrimazole",
+        "fluconazole",
+        "ketoconazole",
+        "nystatin",
+        "posaconazole"
+      ],
+      "lyme disease": [],
+      "erythrasma": [
+        "amphotericin b",
+        "demeclocycline",
+        "doxycycline",
+        "fusidic acid",
+        "meclocycline",
+        "minocycline",
+        "oxytetracycline",
+        "tetracycline"
+      ],
+      "tinea manuum": [],
+      "white piedra": [
+        "amphotericin b",
+        "isavuconazonium",
+        "itraconazole",
+        "posaconazole"
+      ],
+      "cutaneous anthrax": [
+        "benzylpenicillin",
+        "fusidic acid"
+      ],
+      "herpes zoster": [
+        "amenamevir",
+        "famciclovir"
+      ],
+      "neurodermatitis": [
+        "amcinonide",
+        "betamethasone",
+        "cortisone acetate",
+        "desonide",
+        "dexamethasone",
+        "doxepin",
+        "flumethasone",
+        "fluocinolone acetonide",
+        "fluocinonide",
+        "flurandrenolide",
+        "fluticasone propionate",
+        "halcinonide",
+        "hydrocortisone",
+        "methylprednisolone",
+        "mometasone furoate",
+        "prednisolone"
+      ],
+      "discoid lupus erythematosus": [
+        "amcinonide",
+        "betamethasone",
+        "chloroquine",
+        "desonide",
+        "desoximetasone",
+        "dexamethasone",
+        "fluocinolone acetonide",
+        "fluocinonide",
+        "flurandrenolide",
+        "fluticasone propionate",
+        "hydrocortisone",
+        "hydroxychloroquine",
+        "methylprednisolone",
+        "mometasone furoate",
+        "prednicarbate",
+        "triamcinolone"
+      ],
+      "lupus erythematosus": [
+        "amcinonide",
+        "betamethasone",
+        "desonide",
+        "desoximetasone",
+        "dexamethasone",
+        "flumethasone",
+        "fluocinolone acetonide",
+        "fluocinonide",
+        "flurandrenolide",
+        "fluticasone propionate",
+        "hydrocortisone",
+        "hydroxychloroquine",
+        "methylprednisolone",
+        "mometasone furoate",
+        "prednisolone",
+        "triamcinolone"
+      ],
+      "rosacea": [
+        "azelaic acid",
+        "brimonidine",
+        "cortisone acetate",
+        "fluorometholone",
+        "fusidic acid",
+        "hydrocortisone",
+        "loteprednol etabonate",
+        "medrysone",
+        "metronidazole",
+        "tobramycin"
+      ],
+      "pyoderma gangrenosum": [],
+      "syphilis": [
+        "amphotericin b",
+        "benzylpenicillin",
+        "demeclocycline",
+        "doxycycline",
+        "erythromycin",
+        "fusidic acid",
+        "meclocycline",
+        "oxytetracycline",
+        "tetracycline"
+      ],
+      "keloid": [
+        "tranilast",
+        "triamcinolone"
+      ],
+      "alopecia areata": [],
+      "lichen planus": [],
+      "palmoplantar keratoderma": [
+        "salicylic acid"
+      ],
+      "herpes labialis": [
+        "docosanol",
+        "penciclovir"
+      ],
+      "dermatomyositis": [
+        "aminobenzoic acid"
+      ],
+      "impetigo": [
+        "cefuroxime",
+        "retapamulin"
+      ],
+      "neurofibromatosis": [],
+      "scabies": [
+        "crotamiton",
+        "lindane",
+        "permethrin",
+        "phenothrin"
+      ],
+      "necrobiosis lipoidica": [],
+      "pustular psoriasis": [],
+      "hemangioma": [],
+      "lymphangioma": [],
+      "vitiligo": [
+        "methoxsalen"
+      ],
+      "hidradenitis": [],
+      "squamous cell carcinoma": [
+        "bleomycin",
+        "cetuximab",
+        "temoporfin"
+      ],
+      "mycetoma": [],
+      "tuberous sclerosis": [],
+      "cutaneous larva migrans": []
+    },
+    "test_edges": [
+      {
+        "disease": "tinea pedis",
+        "drug": "undecylenic acid",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "tinea pedis",
+        "drug": "pramocaine",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "tinea pedis",
+        "drug": "zinc oxide",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "tinea pedis",
+        "drug": "clioquinol",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "epidermodysplasia verruciformis",
+        "drug": "imiquimod",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "keratoacanthoma",
+        "drug": "masoprocol",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "seborrheic keratosis",
+        "drug": "ketoconazole",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic keratosis",
+        "drug": "methylprednisolone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic keratosis",
+        "drug": "aminolevulinic acid",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic keratosis",
+        "drug": "mometasone furoate",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic keratosis",
+        "drug": "salicylic acid",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic keratosis",
+        "drug": "prednicarbate",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic keratosis",
+        "drug": "desoximetasone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic keratosis",
+        "drug": "flurandrenolide",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "angioedema",
+        "drug": "phenyltoloxamine",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "angioedema",
+        "drug": "hydroxyzine",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "angioedema",
+        "drug": "cyproheptadine",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "angioedema",
+        "drug": "clemastine",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "angioedema",
+        "drug": "pheniramine",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "angioedema",
+        "drug": "promazine",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "angioedema",
+        "drug": "chlorpheniramine",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "contact dermatitis",
+        "drug": "prednisolone",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "contact dermatitis",
+        "drug": "prednicarbate",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "contact dermatitis",
+        "drug": "fluocinolone acetonide",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "contact dermatitis",
+        "drug": "desonide",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "erythema multiforme",
+        "drug": "triamcinolone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "psoriasis",
+        "drug": "etretinate",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "psoriasis",
+        "drug": "prednisone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "psoriasis",
+        "drug": "methotrexate",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "sarcoidosis",
+        "drug": "prednisone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "langerhans cell histiocytosis",
+        "drug": "hydrocortisone acetate",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "langerhans cell histiocytosis",
+        "drug": "rituximab",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "langerhans cell histiocytosis",
+        "drug": "vincristine",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "melanoma",
+        "drug": "vindesine",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic dermatitis",
+        "drug": "halcinonide",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic dermatitis",
+        "drug": "betamethasone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic dermatitis",
+        "drug": "climbazole",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic dermatitis",
+        "drug": "flumethasone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic dermatitis",
+        "drug": "ciclopirox",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic dermatitis",
+        "drug": "sulfacetamide",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "folliculitis",
+        "drug": "fusidic acid",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "basal cell carcinoma",
+        "drug": "vismodegib",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "myiasis",
+        "drug": "sulfamethoxazole",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "granuloma annulare",
+        "drug": "hydrocortisone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "granuloma annulare",
+        "drug": "flurandrenolide",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "granuloma annulare",
+        "drug": "methylprednisolone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "granuloma annulare",
+        "drug": "triamcinolone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "tinea corporis",
+        "drug": "clotrimazole",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "tinea corporis",
+        "drug": "sulconazole",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "tinea corporis",
+        "drug": "tolnaftate",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "tinea corporis",
+        "drug": "econazole",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "oral candidiasis",
+        "drug": "hachimycin",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "lyme disease",
+        "drug": "cefuroxime",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "erythrasma",
+        "drug": "benzylpenicillin",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "erythrasma",
+        "drug": "erythromycin",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "tinea manuum",
+        "drug": "tolnaftate",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "white piedra",
+        "drug": "ketoconazole",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "cutaneous anthrax",
+        "drug": "doxycycline",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "herpes zoster",
+        "drug": "acyclovir",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "neurodermatitis",
+        "drug": "triamcinolone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "neurodermatitis",
+        "drug": "prednicarbate",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "neurodermatitis",
+        "drug": "desoximetasone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "discoid lupus erythematosus",
+        "drug": "halcinonide",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "discoid lupus erythematosus",
+        "drug": "flumethasone",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "discoid lupus erythematosus",
+        "drug": "prednisolone",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "discoid lupus erythematosus",
+        "drug": "cortisone acetate",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "lupus erythematosus",
+        "drug": "halcinonide",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "lupus erythematosus",
+        "drug": "chloroquine",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "lupus erythematosus",
+        "drug": "prednicarbate",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "lupus erythematosus",
+        "drug": "cortisone acetate",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "rosacea",
+        "drug": "prednisolone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "rosacea",
+        "drug": "dexamethasone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "pyoderma gangrenosum",
+        "drug": "clofazimine",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "syphilis",
+        "drug": "procaine benzylpenicillin",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "syphilis",
+        "drug": "minocycline",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "keloid",
+        "drug": "dexamethasone",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "alopecia areata",
+        "drug": "triamcinolone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "lichen planus",
+        "drug": "triamcinolone",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "palmoplantar keratoderma",
+        "drug": "tretinoin",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "herpes labialis",
+        "drug": "acyclovir",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "dermatomyositis",
+        "drug": "benzoic acid",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "impetigo",
+        "drug": "mupirocin",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "neurofibromatosis",
+        "drug": "selumetinib",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "scabies",
+        "drug": "lidocaine",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "necrobiosis lipoidica",
+        "drug": "triamcinolone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "pustular psoriasis",
+        "drug": "maxacalcitol",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "hemangioma",
+        "drug": "propranolol",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "lymphangioma",
+        "drug": "propranolol",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "vitiligo",
+        "drug": "trioxsalen",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "hidradenitis",
+        "drug": "adalimumab",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "squamous cell carcinoma",
+        "drug": "cemiplimab",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "mycetoma",
+        "drug": "posaconazole",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "tuberous sclerosis",
+        "drug": "everolimus",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "cutaneous larva migrans",
+        "drug": "thiabendazole",
+        "fst_stratum": "IV-VI"
+      }
+    ]
+  },
+  {
+    "fold_idx": 4,
+    "seed": 442,
+    "train": {
+      "tinea pedis": [
+        "betamethasone",
+        "butenafine",
+        "ciclopirox",
+        "clioquinol",
+        "clotrimazole",
+        "cortisone acetate",
+        "econazole",
+        "griseofulvin",
+        "haloprogin",
+        "ketoconazole",
+        "luliconazole",
+        "miconazole",
+        "naftifine",
+        "oxiconazole",
+        "pramocaine",
+        "sertaconazole",
+        "sulconazole",
+        "terbinafine",
+        "tolnaftate",
+        "undecylenic acid"
+      ],
+      "epidermodysplasia verruciformis": [],
+      "keratoacanthoma": [
+        "aminolevulinic acid",
+        "diclofenac",
+        "imiquimod",
+        "ingenol mebutate",
+        "masoprocol"
+      ],
+      "seborrheic keratosis": [
+        "allantoin",
+        "amcinonide",
+        "aminolevulinic acid",
+        "ammonium lactate",
+        "benzoyl peroxide",
+        "betamethasone",
+        "chloroxine",
+        "ciclopirox",
+        "clobetasol propionate",
+        "desonide",
+        "desoximetasone",
+        "dexamethasone",
+        "dexpanthenol",
+        "diclofenac",
+        "flumethasone",
+        "fluocinolone acetonide",
+        "fluocinonide",
+        "fluorouracil",
+        "flurandrenolide",
+        "fluticasone propionate",
+        "hydrocortisone",
+        "imiquimod",
+        "ingenol mebutate",
+        "ketoconazole",
+        "methylprednisolone",
+        "prednicarbate",
+        "prednisolone",
+        "prednisone",
+        "racementhol",
+        "selenium sulfide",
+        "sulfacetamide",
+        "triamcinolone"
+      ],
+      "angioedema": [
+        "alimemazine",
+        "antazoline",
+        "bamipine",
+        "betamethasone",
+        "bilastine",
+        "brompheniramine",
+        "carbinoxamine",
+        "chlorpheniramine",
+        "clemastine",
+        "cortisone acetate",
+        "cyproheptadine",
+        "dexbrompheniramine",
+        "dexchlorpheniramine",
+        "doxylamine",
+        "emedastine",
+        "hydrocortisone",
+        "hydrocortisone acetate",
+        "hydroxyzine",
+        "mepyramine",
+        "methylprednisolone",
+        "phenindamine",
+        "phenyltoloxamine",
+        "prednisolone",
+        "prednisone",
+        "promazine",
+        "promethazine",
+        "triamcinolone",
+        "tripelennamine",
+        "triprolidine"
+      ],
+      "contact dermatitis": [
+        "amcinonide",
+        "ammonium lactate",
+        "benzoyl peroxide",
+        "clobetasol propionate",
+        "cortisone acetate",
+        "desonide",
+        "desoximetasone",
+        "dexamethasone",
+        "flumethasone",
+        "fluocinolone acetonide",
+        "fluocinonide",
+        "fluticasone propionate",
+        "hydrocortisone",
+        "hydrocortisone acetate",
+        "methylprednisolone",
+        "mometasone furoate",
+        "prednicarbate",
+        "prednisolone",
+        "prednisone",
+        "urea"
+      ],
+      "erythema multiforme": [
+        "betamethasone",
+        "cortisone acetate",
+        "hydrocortisone",
+        "hydrocortisone acetate",
+        "methylprednisolone",
+        "prednisolone",
+        "prednisone",
+        "triamcinolone"
+      ],
+      "psoriasis": [
+        "allantoin",
+        "ammonia",
+        "cortisone acetate",
+        "dexamethasone",
+        "etretinate",
+        "fumaric acid",
+        "hydrocortisone",
+        "hydrocortisone acetate",
+        "methotrexate",
+        "methylprednisolone",
+        "prednisone",
+        "risankizumab",
+        "tazarotene",
+        "ustekinumab"
+      ],
+      "sarcoidosis": [
+        "betamethasone",
+        "dexamethasone",
+        "hydrocortisone",
+        "hydrocortisone acetate",
+        "methylprednisolone",
+        "prednisolone",
+        "prednisone",
+        "triamcinolone"
+      ],
+      "langerhans cell histiocytosis": [
+        "betamethasone",
+        "bleomycin",
+        "carmustine",
+        "cortisone acetate",
+        "dexamethasone",
+        "doxorubicin",
+        "hydrocortisone",
+        "hydrocortisone acetate",
+        "mechlorethamine",
+        "methylprednisolone",
+        "prednisolone",
+        "prednisone",
+        "thiotepa",
+        "uracil mustard",
+        "vinblastine",
+        "vincristine"
+      ],
+      "melanoma": [
+        "hydroxyurea",
+        "interferon alfa-2b",
+        "vindesine"
+      ],
+      "seborrheic dermatitis": [
+        "allantoin",
+        "ammonium lactate",
+        "benzoyl peroxide",
+        "betamethasone",
+        "chloroxine",
+        "ciclopirox",
+        "climbazole",
+        "clobetasol propionate",
+        "desonide",
+        "desoximetasone",
+        "dexamethasone",
+        "flumethasone",
+        "fluocinolone acetonide",
+        "fluocinonide",
+        "flurandrenolide",
+        "fluticasone propionate",
+        "fusidic acid",
+        "halcinonide",
+        "ketoconazole",
+        "methylprednisolone",
+        "mometasone furoate",
+        "prednicarbate",
+        "racementhol",
+        "salicylic acid",
+        "selenium sulfide",
+        "triamcinolone",
+        "urea"
+      ],
+      "folliculitis": [],
+      "basal cell carcinoma": [
+        "vismodegib"
+      ],
+      "myiasis": [
+        "pyrimethamine",
+        "sulfadiazine"
+      ],
+      "granuloma annulare": [
+        "amcinonide",
+        "benzoyl peroxide",
+        "cortisone acetate",
+        "desonide",
+        "desoximetasone",
+        "dexamethasone",
+        "flumethasone",
+        "fluocinolone acetonide",
+        "fluocinonide",
+        "flurandrenolide",
+        "fluticasone propionate",
+        "halcinonide",
+        "hydrocortisone",
+        "prednicarbate",
+        "prednisolone",
+        "triamcinolone"
+      ],
+      "tinea corporis": [
+        "benzocaine",
+        "betamethasone",
+        "butenafine",
+        "ciclopirox",
+        "clioquinol",
+        "clotrimazole",
+        "cortisone acetate",
+        "econazole",
+        "griseofulvin",
+        "hydrocortisone",
+        "ketoconazole",
+        "luliconazole",
+        "miconazole",
+        "naftifine",
+        "pramocaine",
+        "salicylic acid",
+        "sulconazole",
+        "tolnaftate",
+        "zinc oxide"
+      ],
+      "oral candidiasis": [
+        "amphotericin b",
+        "clotrimazole",
+        "fluconazole",
+        "ketoconazole",
+        "nystatin",
+        "posaconazole"
+      ],
+      "lyme disease": [],
+      "erythrasma": [
+        "amphotericin b",
+        "benzylpenicillin",
+        "demeclocycline",
+        "doxycycline",
+        "fusidic acid",
+        "meclocycline",
+        "minocycline",
+        "oxytetracycline"
+      ],
+      "tinea manuum": [],
+      "white piedra": [
+        "amphotericin b",
+        "itraconazole",
+        "ketoconazole",
+        "posaconazole"
+      ],
+      "cutaneous anthrax": [
+        "doxycycline",
+        "fusidic acid"
+      ],
+      "herpes zoster": [
+        "amenamevir",
+        "famciclovir"
+      ],
+      "neurodermatitis": [
+        "amcinonide",
+        "betamethasone",
+        "cortisone acetate",
+        "desonide",
+        "desoximetasone",
+        "dexamethasone",
+        "doxepin",
+        "flumethasone",
+        "fluocinolone acetonide",
+        "fluocinonide",
+        "flurandrenolide",
+        "fluticasone propionate",
+        "methylprednisolone",
+        "mometasone furoate",
+        "prednicarbate",
+        "prednisolone"
+      ],
+      "discoid lupus erythematosus": [
+        "betamethasone",
+        "chloroquine",
+        "cortisone acetate",
+        "desonide",
+        "desoximetasone",
+        "dexamethasone",
+        "fluocinolone acetonide",
+        "fluocinonide",
+        "flurandrenolide",
+        "halcinonide",
+        "hydrocortisone",
+        "hydroxychloroquine",
+        "mometasone furoate",
+        "prednicarbate",
+        "prednisolone",
+        "triamcinolone"
+      ],
+      "lupus erythematosus": [
+        "amcinonide",
+        "betamethasone",
+        "chloroquine",
+        "cortisone acetate",
+        "desonide",
+        "desoximetasone",
+        "dexamethasone",
+        "fluocinolone acetonide",
+        "fluocinonide",
+        "flurandrenolide",
+        "halcinonide",
+        "hydrocortisone",
+        "hydroxychloroquine",
+        "methylprednisolone",
+        "prednicarbate",
+        "triamcinolone"
+      ],
+      "rosacea": [
+        "azelaic acid",
+        "brimonidine",
+        "cortisone acetate",
+        "dexamethasone",
+        "fusidic acid",
+        "hydrocortisone",
+        "loteprednol etabonate",
+        "metronidazole",
+        "prednisolone",
+        "tobramycin"
+      ],
+      "pyoderma gangrenosum": [],
+      "syphilis": [
+        "amphotericin b",
+        "benzylpenicillin",
+        "demeclocycline",
+        "doxycycline",
+        "fusidic acid",
+        "meclocycline",
+        "oxytetracycline",
+        "procaine benzylpenicillin",
+        "tetracycline"
+      ],
+      "keloid": [
+        "dexamethasone",
+        "triamcinolone"
+      ],
+      "alopecia areata": [],
+      "lichen planus": [],
+      "palmoplantar keratoderma": [
+        "salicylic acid"
+      ],
+      "herpes labialis": [
+        "acyclovir",
+        "docosanol"
+      ],
+      "dermatomyositis": [
+        "aminobenzoic acid"
+      ],
+      "impetigo": [
+        "mupirocin",
+        "retapamulin"
+      ],
+      "neurofibromatosis": [],
+      "scabies": [
+        "crotamiton",
+        "lindane",
+        "permethrin",
+        "phenothrin"
+      ],
+      "necrobiosis lipoidica": [],
+      "pustular psoriasis": [],
+      "hemangioma": [],
+      "lymphangioma": [],
+      "vitiligo": [
+        "methoxsalen"
+      ],
+      "hidradenitis": [],
+      "squamous cell carcinoma": [
+        "bleomycin",
+        "cetuximab",
+        "temoporfin"
+      ],
+      "mycetoma": [],
+      "tuberous sclerosis": [],
+      "cutaneous larva migrans": []
+    },
+    "test_edges": [
+      {
+        "disease": "tinea pedis",
+        "drug": "hydrocortisone",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "tinea pedis",
+        "drug": "salicylic acid",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "tinea pedis",
+        "drug": "zinc oxide",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "tinea pedis",
+        "drug": "benzocaine",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "epidermodysplasia verruciformis",
+        "drug": "imiquimod",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "keratoacanthoma",
+        "drug": "fluorouracil",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "seborrheic keratosis",
+        "drug": "mometasone furoate",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic keratosis",
+        "drug": "halcinonide",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic keratosis",
+        "drug": "urea",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic keratosis",
+        "drug": "salicylic acid",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic keratosis",
+        "drug": "masoprocol",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic keratosis",
+        "drug": "climbazole",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic keratosis",
+        "drug": "cortisone acetate",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic keratosis",
+        "drug": "ammonia",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "angioedema",
+        "drug": "rupatadine",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "angioedema",
+        "drug": "dexamethasone",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "angioedema",
+        "drug": "diphenylpyraline",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "angioedema",
+        "drug": "azatadine",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "angioedema",
+        "drug": "methdilazine",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "angioedema",
+        "drug": "pheniramine",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "angioedema",
+        "drug": "methapyrilene",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "contact dermatitis",
+        "drug": "triamcinolone",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "contact dermatitis",
+        "drug": "flurandrenolide",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "contact dermatitis",
+        "drug": "betamethasone",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "contact dermatitis",
+        "drug": "halcinonide",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "erythema multiforme",
+        "drug": "dexamethasone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "psoriasis",
+        "drug": "prednisolone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "psoriasis",
+        "drug": "betamethasone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "psoriasis",
+        "drug": "triamcinolone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "sarcoidosis",
+        "drug": "cortisone acetate",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "langerhans cell histiocytosis",
+        "drug": "triamcinolone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "langerhans cell histiocytosis",
+        "drug": "methotrexate",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "langerhans cell histiocytosis",
+        "drug": "rituximab",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "melanoma",
+        "drug": "talimogene laherparepvec",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic dermatitis",
+        "drug": "hydrocortisone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic dermatitis",
+        "drug": "amcinonide",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic dermatitis",
+        "drug": "prednisolone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic dermatitis",
+        "drug": "cortisone acetate",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic dermatitis",
+        "drug": "ammonia",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "seborrheic dermatitis",
+        "drug": "sulfacetamide",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "folliculitis",
+        "drug": "fusidic acid",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "basal cell carcinoma",
+        "drug": "sonidegib",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "myiasis",
+        "drug": "sulfamethoxazole",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "granuloma annulare",
+        "drug": "methylprednisolone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "granuloma annulare",
+        "drug": "betamethasone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "granuloma annulare",
+        "drug": "ammonium lactate",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "granuloma annulare",
+        "drug": "mometasone furoate",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "tinea corporis",
+        "drug": "undecylenic acid",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "tinea corporis",
+        "drug": "haloprogin",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "tinea corporis",
+        "drug": "terbinafine",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "tinea corporis",
+        "drug": "oxiconazole",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "oral candidiasis",
+        "drug": "hachimycin",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "lyme disease",
+        "drug": "cefuroxime",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "erythrasma",
+        "drug": "tetracycline",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "erythrasma",
+        "drug": "erythromycin",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "tinea manuum",
+        "drug": "tolnaftate",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "white piedra",
+        "drug": "isavuconazonium",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "cutaneous anthrax",
+        "drug": "benzylpenicillin",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "herpes zoster",
+        "drug": "acyclovir",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "neurodermatitis",
+        "drug": "halcinonide",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "neurodermatitis",
+        "drug": "hydrocortisone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "neurodermatitis",
+        "drug": "triamcinolone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "discoid lupus erythematosus",
+        "drug": "flumethasone",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "discoid lupus erythematosus",
+        "drug": "fluticasone propionate",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "discoid lupus erythematosus",
+        "drug": "methylprednisolone",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "discoid lupus erythematosus",
+        "drug": "amcinonide",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "lupus erythematosus",
+        "drug": "prednisolone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "lupus erythematosus",
+        "drug": "fluticasone propionate",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "lupus erythematosus",
+        "drug": "flumethasone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "lupus erythematosus",
+        "drug": "mometasone furoate",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "rosacea",
+        "drug": "fluorometholone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "rosacea",
+        "drug": "medrysone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "pyoderma gangrenosum",
+        "drug": "clofazimine",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "syphilis",
+        "drug": "minocycline",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "syphilis",
+        "drug": "erythromycin",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "keloid",
+        "drug": "tranilast",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "alopecia areata",
+        "drug": "triamcinolone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "lichen planus",
+        "drug": "triamcinolone",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "palmoplantar keratoderma",
+        "drug": "tretinoin",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "herpes labialis",
+        "drug": "penciclovir",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "dermatomyositis",
+        "drug": "benzoic acid",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "impetigo",
+        "drug": "cefuroxime",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "neurofibromatosis",
+        "drug": "selumetinib",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "scabies",
+        "drug": "lidocaine",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "necrobiosis lipoidica",
+        "drug": "triamcinolone",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "pustular psoriasis",
+        "drug": "maxacalcitol",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "hemangioma",
+        "drug": "propranolol",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "lymphangioma",
+        "drug": "propranolol",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "vitiligo",
+        "drug": "trioxsalen",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "hidradenitis",
+        "drug": "adalimumab",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "squamous cell carcinoma",
+        "drug": "cemiplimab",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "mycetoma",
+        "drug": "posaconazole",
+        "fst_stratum": "IV-VI"
+      },
+      {
+        "disease": "tuberous sclerosis",
+        "drug": "everolimus",
+        "fst_stratum": "I-III"
+      },
+      {
+        "disease": "cutaneous larva migrans",
+        "drug": "thiabendazole",
+        "fst_stratum": "IV-VI"
+      }
+    ]
+  }
+]
