@@ -29,20 +29,20 @@ dermakg-bench/
 │
 ├── code/
 │   ├── <a href="code/dermakg_kaggle_all_in_one.py">dermakg_kaggle_all_in_one.py</a>        ← Full end-to-end pipeline (data construction, SCP-KG fitting, 
-│   ├──                                     CEG/TVD/IGR, baseline eval)
+│   ├──                                       CEG/TVD/IGR, baseline eval)
 │   ├── <a href="code/dermakg_baseline_comparison_cell.py">dermakg_baseline_comparison_cell.py</a> ← Baseline evaluation: 12-method FST-stratified Hits@1/5/10, 
-│   ├──                                     MRR, NDCG@10 across 5 CV folds
+│   ├──                                       MRR, NDCG@10 across 5 CV folds
 │   ├── <a href="code/dermakg_igr_ablation_cell.py">dermakg_igr_ablation_cell.py</a>        ← IGR ablation: BED-IGR vs. equity_gain/cost heuristic 
-│   ├──                                     correlation analysis (Appendix B)
+│   ├──                                       correlation analysis (Appendix B)
 │   ├── <a href="code/dermakg_disagreement_table_cell.py">dermakg_disagreement_table_cell.py</a>  ← Disagreement analysis between ranking methods
 │   └── <a href="code/Kaggle_reproduction.ipynb">Kaggle_reproduction.ipynb</a>           ← Kaggle-ready reproduction notebook (calls the above 
-│   ├──                                     modules in order)
+│   ├──                                       modules in order)
 │
 ├── <a href="pipeline_metrics.json">pipeline_metrics.json</a>                   ← End-to-end pipeline run metrics & timing profile
 │
 ├── data/
 │   ├── <a href="data/evidence_records.json">evidence_records.json</a>               ← Pre-built per-FST Evidence Records with log-scaled 
-│   ├──                                     weights for all 1,874 (edge, group) pairs
+│   ├──                                       weights for all 1,874 (edge, group) pairs
 │   ├── <a href="data/folds.json">folds.json</a>                          ← 5-fold CV split indices (seeds: 42, 142, 242, 342, 442)
 │   ├── <a href="data/contraindications.json">contraindications.json</a>              ← 278 PrimeKG contraindication edges (safety oracle)
 │   ├── <a href="data/atc_seed_map.csv">atc_seed_map.csv</a>                    ← ~150-drug seed map across 7 disease domains
@@ -57,14 +57,14 @@ dermakg-bench/
 │   │
 │   ├── ablation/
 │   │   ├── <a href="results/ablation/ablation_igr_correlations.csv">ablation_igr_correlations.csv</a>              ← IGR ablation: BED-IGR vs. equity_gain/
-│   ├──                                     cost correlation
+│   ├──                                                  cost correlation
 │   │   ├── <a href="results/ablation/ablation_igr_disagreement_cases.csv">ablation_igr_disagreement_cases.csv</a>        ← Ablation cases where IGR & heuristic diverge
 │   │   ├── <a href="results/ablation/ablation_igr_per_disease_correlations.csv">ablation_igr_per_disease_correlations.csv</a>  ← Per-disease Spearman ρ (Appendix B)
 │   │   └── <a href="results/ablation/ablation_igr_top_k_overlap.csv">ablation_igr_top_k_overlap.csv</a>             ← Top-k overlap between IGR variants
 │   │
 │   ├── benchmark/
 │   │   ├── <a href="results/benchmark/skin_stats_v5_5.csv">skin_stats_v5_5.csv</a>             ← Per-FST disease cohort statistics (Fitzpatrick17k + 
-│   ├──                                     DermaCon-IN)
+│   ├──                                       DermaCon-IN)
 │   │   └── <a href="results/benchmark/structural_voids.csv">structural_voids.csv</a>            ← TVD-detected topological voids (55 voids)
 │   │
 │   ├── scp_kg/
