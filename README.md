@@ -82,7 +82,7 @@ dermakg-bench/
 │       ├── ceg_top100.csv                 ← Top-100 edges by Counterfactual Equity Gap (CEG)
 │       └── paper_table_fairness.csv       ← FST fairness gap metrics (paper Table — fairness)
 │
-└── [LICENSE](LICENSE)
+└── LICENSE
 ```
 
 ***
