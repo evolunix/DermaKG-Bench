@@ -193,7 +193,7 @@ Rejects clinically incompatible candidates using a ~150-drug seed map across 7 d
 Subgroup-stratified conformal calibration correcting for the majority-to-minority distribution shift at calibration time via importance-ratio weighting.
 
 ***
-<--
+<!--
 ## Reproducibility
 
 The benchmark, pre-built Evidence Record JSONs, fold splits, evaluation harness, and Croissant metadata are released at:
