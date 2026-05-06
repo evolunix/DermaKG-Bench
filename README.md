@@ -25,66 +25,112 @@ This repository contains:
 ```
 dermakg-bench/
 │
-├── README.md                          ← This file
+├── README.md                              ← This file
 │
-├── Code.ipynb                         ← Main pipeline notebook (data construction,
-│                                         SCP-KG fitting, CEG/TVD/IGR, baseline eval)
+├── code/
+│   ├── dermakg_kaggle_all_in_one.py       ← Full end-to-end pipeline (data construction,
+│   │                                         SCP-KG fitting, CEG/TVD/IGR, baseline eval)
+│   ├── dermakg_baseline_comparison_cell.py ← Baseline evaluation: 12-method FST-stratified
+│   │                                         Hits@1/5/10, MRR, NDCG@10 across 5 CV folds
+│   ├── dermakg_igr_ablation_cell.py       ← IGR ablation: BED-IGR vs. equity_gain/cost
+│   │                                         heuristic correlation analysis (Appendix B)
+│   ├── dermakg_disagreement_table_cell.py ← Disagreement analysis between ranking methods
+│   └── Kaggle_reproduction.ipynb          ← Kaggle-ready reproduction notebook
+│                                             (calls the above modules in order)
 │
-├── pipeline_metrics.json              ← End-to-end pipeline run metrics & timing profile
+├── pipeline_metrics.json                  ← End-to-end pipeline run metrics & timing profile
 │
 ├── data/
-│   ├── benchmark/
-│   │   ├── skin_stats_v5_5.csv        ← Per-FST disease cohort statistics (Fitzpatrick17k + DermaCon-IN)
-│   │   └── structural_voids.csv       ← TVD-detected topological voids (55 voids)
-│   │
-│   ├── scp_kg/
-│   │   ├── scp_all_posteriors.csv     ← All Beta posteriors per (edge, FST subgroup)
-│   │   ├── scp_eb_prior.json          ← Fitted empirical-Bayes LEH prior (α₀, β₀)
-│   │   └── scp_kg_summary.txt         ← SCP-KG construction summary & statistics
-│   │
-│   ├── igr/
-│   │   ├── igr_all_candidates.csv     ← All 463 IGR candidates (Type A/B/C) pre-safety filter
-│   │   ├── igr_disease_gaps.csv       ← Per-disease directional equity scores (Stage 1)
-│   │   ├── igr_pareto_frontier.csv    ← 4 Pareto-optimal candidates (Stage 4)
-│   │   ├── igr_quick_wins.csv         ← 9 Type-A quick wins (acquisition cost ≤ 5)
-│   │   └── safety_rejected.csv        ← 96 candidates rejected by ATC safety filter
-│   │
-│   └── eval/
-│       ├── baseline_comparison.csv    ← Hits@1/5/10, MRR, NDCG@10 across 12 methods (FST-stratified)
-│       ├── ceg_top100.csv             ← Top-100 edges by Counterfactual Equity Gap (CEG)
-│       └── paper_table_fairness.csv   ← FST fairness gap metrics (paper Table — fairness)
+│   ├── evidence_records.json              ← Pre-built per-FST Evidence Records with
+│   │                                         log-scaled weights for all 1,874 (edge, group) pairs
+│   ├── folds.json                         ← 5-fold CV split indices (seeds: 42, 142, 242, 342, 442)
+│   ├── contraindications.json             ← 278 PrimeKG contraindication edges (safety oracle)
+│   ├── atc_seed_map.csv                   ← ~150-drug seed map across 7 disease domains
+│   └── atc_domain_constraints.json        ← ATC class allow-lists and block-lists per domain
 │
 ├── results/
-│   ├── paper_table_main.csv           ← Main results table (paper Table 2 / Table 3)
-│   ├── paper_table4_top10.csv         ← Top-10 IGR candidates (paper Table 4)
-│   ├── paper_table4.tex               ← LaTeX source for paper Table 4
-│   ├── paper_table4_summary.txt       ← Human-readable Table 4 summary
-│   ├── paper_table_disagreement.csv   ← Disagreement cases between methods (paper Table)
+│   ├── paper_table_main.csv               ← Main results table (paper Table 2 / Table 3)
+│   ├── paper_table4_top10.csv             ← Top-10 IGR candidates (paper Table 4)
+│   ├── paper_table4.tex                   ← LaTeX source for paper Table 4
+│   ├── paper_table4_summary.txt           ← Human-readable Table 4 summary
+│   ├── paper_table_disagreement.csv       ← Disagreement cases between methods
 │   │
-│   └── ablation/
-│       ├── ablation_igr_correlations.csv          ← IGR ablation: BED-IGR vs. equity_gain/cost correlation
-│       ├── ablation_igr_disagreement_cases.csv    ← Ablation cases where IGR & heuristic diverge
-│       ├── ablation_igr_per_disease_correlations.csv  ← Per-disease Spearman ρ (Appendix B)
-│       └── ablation_igr_top_k_overlap.csv         ← Top-k overlap between IGR variants
+│   ├── ablation/
+│   │   ├── ablation_igr_correlations.csv          ← IGR ablation: BED-IGR vs. equity_gain/cost correlation
+│   │   ├── ablation_igr_disagreement_cases.csv    ← Ablation cases where IGR & heuristic diverge
+│   │   ├── ablation_igr_per_disease_correlations.csv  ← Per-disease Spearman ρ (Appendix B)
+│   │   └── ablation_igr_top_k_overlap.csv         ← Top-k overlap between IGR variants
+│   │
+│   ├── benchmark/
+│   │   ├── skin_stats_v5_5.csv            ← Per-FST disease cohort statistics (Fitzpatrick17k + DermaCon-IN)
+│   │   └── structural_voids.csv           ← TVD-detected topological voids (55 voids)
+│   │
+│   ├── scp_kg/
+│   │   ├── scp_all_posteriors.csv         ← All Beta posteriors per (edge, FST subgroup)
+│   │   ├── scp_eb_prior.json              ← Fitted empirical-Bayes LEH prior (α₀, β₀)
+│   │   └── scp_kg_summary.txt             ← SCP-KG construction summary & statistics
+│   │
+│   ├── igr/
+│   │   ├── igr_all_candidates.csv         ← All 463 IGR candidates (Type A/B/C) pre-safety filter
+│   │   ├── igr_disease_gaps.csv           ← Per-disease directional equity scores (Stage 1)
+│   │   ├── igr_pareto_frontier.csv        ← 4 Pareto-optimal candidates (Stage 4)
+│   │   ├── igr_quick_wins.csv             ← 9 Type-A quick wins (acquisition cost ≤ 5)
+│   │   └── safety_rejected.csv            ← 96 candidates rejected by ATC safety filter
+│   │
+│   └── eval/
+│       ├── baseline_comparison.csv        ← Hits@1/5/10, MRR, NDCG@10 across 12 methods (FST-stratified)
+│       ├── ceg_top100.csv                 ← Top-100 edges by Counterfactual Equity Gap (CEG)
+│       └── paper_table_fairness.csv       ← FST fairness gap metrics (paper Table — fairness)
 │
 └── LICENSE
 ```
 
 ***
 
-## File Reference
-
-### Core Files
+## Code Modules
 
 | File | Description |
 |------|-------------|
-| `Code.ipynb` | Full pipeline: data ingestion → SCP-KG fitting → CEG/TVD computation → IGR → baseline evaluation → table generation |
-| `pipeline_metrics.json` | Runtime profile and fold-level raw numbers (Appendix C equivalent) |
+| `dermakg_kaggle_all_in_one.py` | Full end-to-end pipeline: data ingestion → SCP-KG fitting → CEG/TVD computation → IGR → baseline evaluation → table export |
+| `dermakg_baseline_comparison_cell.py` | Runs all 12 methods over 5-fold CV; outputs FST-stratified Hits@1/5/10, MRR, NDCG@10 |
+| `dermakg_igr_ablation_cell.py` | Ablation study comparing BED-IGR to the equity_gain/cost heuristic; computes per-disease Spearman ρ (Appendix B) |
+| `dermakg_disagreement_table_cell.py` | Identifies and tabulates cases where method rankings diverge |
+| `Kaggle_reproduction.ipynb` | Kaggle-ready notebook that imports and runs the above modules sequentially for full reproduction |
+
+### Running the Pipeline
+
+```bash
+# Clone the repository
+git clone https://github.com/evolunix/DermaKG-Bench.git
+cd dermakg-bench
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the full pipeline
+python code/dermakg_kaggle_all_in_one.py
+
+# Or run individual components
+python code/dermakg_baseline_comparison_cell.py
+python code/dermakg_igr_ablation_cell.py
+python code/dermakg_disagreement_table_cell.py
+```
+
+Alternatively, open `code/Kaggle_reproduction.ipynb` on Kaggle or locally for a step-by-step walkthrough.
+
+***
+
+## File Reference
 
 ### Data Files
 
 | File | Description |
 |------|-------------|
+| `evidence_records.json` | Pre-built per-FST Evidence Records with log-scaled weights for all 1,874 (edge, group) pairs |
+| `folds.json` | 5-fold CV split indices (seeds: 42, 142, 242, 342, 442) over 419 indication edges |
+| `contraindications.json` | 278 PrimeKG contraindication edges held back as independent safety oracle |
+| `atc_seed_map.csv` | ~150-drug seed map across 7 disease domains used by the ATC safety filter |
+| `atc_domain_constraints.json` | ATC class allow-lists and block-lists per disease domain |
 | `skin_stats_v5_5.csv` | Per-FST cohort statistics from Fitzpatrick17k and DermaCon-IN for 49 benchmark diseases |
 | `structural_voids.csv` | 55 topological voids detected by TVD; majority-side persistence vs. minority Jaccard-matched persistence |
 | `scp_all_posteriors.csv` | Beta posterior parameters (α, β) for every (edge, subgroup) pair in the SCP-KG (518 edges × 2 subgroups) |
@@ -98,6 +144,7 @@ dermakg-bench/
 | `baseline_comparison.csv` | FST-stratified Hits@1/5/10, MRR, NDCG@10 for all 12 methods across 5 CV folds |
 | `ceg_top100.csv` | Top-100 drug–disease edges ranked by CEG (KL divergence between FST subgroup posteriors) |
 | `paper_table_fairness.csv` | Fairness gap metrics used in the paper's fairness table |
+| `pipeline_metrics.json` | Runtime profile and fold-level raw numbers (Appendix C equivalent) |
 
 ### Results & Ablation Files
 
@@ -112,31 +159,6 @@ dermakg-bench/
 | `ablation_igr_disagreement_cases.csv` | The ~17% of Type-A cases where IGR and heuristic diverge |
 | `ablation_igr_per_disease_correlations.csv` | Per-disease Spearman ρ (83% of diseases with |ρ| ≥ 0.95; Appendix B) |
 | `ablation_igr_top_k_overlap.csv` | Top-k list overlap between IGR variants (Appendix B) |
-
-***
-
-## Quickstart
-
-```bash
-# Clone the repository
-git clone https://github.com/evolunix/DermaKG-Bench.git
-cd dermakg-bench
-
-# Install dependencies
-pip install -r requirements.txt   # (or see notebook cell 1 for inline installs)
-
-# Open the main pipeline notebook
-jupyter notebook Code.ipynb
-```
-
-The notebook is self-contained and runs the full pipeline in order:
-1. Data loading and per-FST evidence record construction
-2. SCP-KG fitting with LEH empirical-Bayes prior
-3. CEG and TVD computation
-4. IGR candidate generation (Stages 1–4) with ATC safety filtering
-5. 12-method benchmark evaluation (5-fold CV)
-6. SSCC conformal calibration
-7. Table and result file export
 
 ***
 
@@ -193,6 +215,7 @@ Rejects clinically incompatible candidates using a ~150-drug seed map across 7 d
 Subgroup-stratified conformal calibration correcting for the majority-to-minority distribution shift at calibration time via importance-ratio weighting.
 
 ***
+
 <!--
 ## Reproducibility
 
