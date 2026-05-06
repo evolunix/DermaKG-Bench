@@ -55,10 +55,10 @@ dermakg-bench/
 │   ├── <a href="results/paper_table_disagreement.csv">paper_table_disagreement.csv</a>       ← Disagreement cases between methods
 │   │
 │   ├── ablation/
-│   │   ├── <a href="results/ablation/ablation_igr_correlations.csv">ablation_igr_correlations.csv</a>          ← IGR ablation: BED-IGR vs. equity_gain/cost correlation
-│   │   ├── <a href="results/ablation/ablation_igr_disagreement_cases.csv">ablation_igr_disagreement_cases.csv</a>    ← Ablation cases where IGR & heuristic diverge
+│   │   ├── <a href="results/ablation/ablation_igr_correlations.csv">ablation_igr_correlations.csv</a>              ← IGR ablation: BED-IGR vs. equity_gain/cost correlation
+│   │   ├── <a href="results/ablation/ablation_igr_disagreement_cases.csv">ablation_igr_disagreement_cases.csv</a>        ← Ablation cases where IGR & heuristic diverge
 │   │   ├── <a href="results/ablation/ablation_igr_per_disease_correlations.csv">ablation_igr_per_disease_correlations.csv</a>  ← Per-disease Spearman ρ (Appendix B)
-│   │   └── <a href="results/ablation/ablation_igr_top_k_overlap.csv">ablation_igr_top_k_overlap.csv</a>         ← Top-k overlap between IGR variants
+│   │   └── <a href="results/ablation/ablation_igr_top_k_overlap.csv">ablation_igr_top_k_overlap.csv</a>             ← Top-k overlap between IGR variants
 │   │
 │   ├── benchmark/
 │   │   ├── <a href="results/benchmark/skin_stats_v5_5.csv">skin_stats_v5_5.csv</a>            ← Per-FST disease cohort statistics (Fitzpatrick17k + DermaCon-IN)
