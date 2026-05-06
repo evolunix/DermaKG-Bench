@@ -1,0 +1,439 @@
+{
+  "@context": {
+    "@language": "en",
+    "@vocab": "https://schema.org/",
+    "citeAs": "cr:citeAs",
+    "column": "cr:column",
+    "conformsTo": "dct:conformsTo",
+    "cr": "http://mlcommons.org/croissant/",
+    "rai": "http://mlcommons.org/croissant/RAI/",
+    "data": {
+      "@id": "cr:data",
+      "@type": "@json"
+    },
+    "dataType": {
+      "@id": "cr:dataType",
+      "@type": "@vocab"
+    },
+    "dct": "http://purl.org/dc/terms/",
+    "examples": {
+      "@id": "cr:examples",
+      "@type": "@json"
+    },
+    "extract": "cr:extract",
+    "field": "cr:field",
+    "fileProperty": "cr:fileProperty",
+    "fileObject": "cr:fileObject",
+    "fileSet": "cr:fileSet",
+    "format": "cr:format",
+    "includes": "cr:includes",
+    "isLiveDataset": "cr:isLiveDataset",
+    "jsonPath": "cr:jsonPath",
+    "key": "cr:key",
+    "md5": "cr:md5",
+    "parentField": "cr:parentField",
+    "path": "cr:path",
+    "recordSet": "cr:recordSet",
+    "references": "cr:references",
+    "regex": "cr:regex",
+    "repeated": "cr:repeated",
+    "replace": "cr:replace",
+    "sc": "https://schema.org/",
+    "separator": "cr:separator",
+    "source": "cr:source",
+    "subField": "cr:subField",
+    "transform": "cr:transform",
+    "prov": "http://www.w3.org/ns/prov#"
+  },
+  "@type": "sc:Dataset",
+  "conformsTo": "http://mlcommons.org/croissant/1.0",
+  "name": "DermaKG-Bench",
+  "description": "An FST-stratified benchmark and empirical-Bayes diagnostic suite for equitable dermatology drug recommendation. Joins PrimeKG indications to Fitzpatrick17k and DermaCon-IN cohort statistics, providing 49 diseases, 166 drugs, 419 indication edges, 278 contraindication edges (held back as an independent safety oracle), 5-fold cross-validation splits, and an evaluation harness over 12 methods (trivial, retrieval, KG-embedding, posterior-based). Released alongside an empirical-Bayes diagnostic suite: SCP-KG (subgroup-conditional Beta posteriors), CEG (counterfactual equity gap with mean/uncertainty decomposition), TVD (topological void detection), IGR (4-stage candidate-generation framework with ATC safety filtering), and SSCC (deployment-time subgroup-stratified conformal calibration).",
+  "url": "https://anonymous.4open.science/r/DermaKG-Bench-EFD6/",
+  "version": "1.0.0",
+  "datePublished": "2026-05-06",
+  "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "citeAs": "Anonymous Authors. DermaKG-Bench: A Fitzpatrick-Stratified Benchmark and Empirical-Bayes Diagnostic Suite for Equitable Dermatology Drug Recommendation. Submitted to NeurIPS 2026 Datasets & Benchmarks Track.",
+  "keywords": [
+    "knowledge graph",
+    "drug recommendation",
+    "dermatology",
+    "fairness",
+    "Fitzpatrick skin type",
+    "empirical Bayes",
+    "subgroup-conditional posterior",
+    "counterfactual equity gap",
+    "PrimeKG"
+  ],
+  "rai:dataCollection": "DermaKG-Bench is a derived benchmark constructed from three pre-existing public datasets: PrimeKG (Chandak et al. 2023, MIT licence), Fitzpatrick17k (Groh et al. 2021, MIT licence), and DermaCon-IN (Madarkar et al. 2025, CC-BY-4.0). No primary data collection from human subjects was performed. The benchmark joins PrimeKG drug-disease indication edges to per-disease Fitzpatrick skin type (FST) sample counts derived from Fitzpatrick17k and DermaCon-IN cohorts. For each PrimeKG edge (disease, relation, drug) and each subgroup g in {I-III, IV-VI}, we emit an EvidenceRecord with weight max(1.0, log(1 + n_disease_g)), where n_disease_g is the disease's per-FST sample count. The outcome is +1 for 'indication', 0 for 'off-label use'. Of 8,100,498 PrimeKG edges, 22,876 lacked a demographic record and 8,076,586 fell outside our keep-list; the remaining 1,036 unique drug-disease edges produced 1,874 evidence records with 90.4% both-subgroup coverage.",
+  "rai:dataCollectionType": [
+    "Existing dataset(s)"
+  ],
+  "rai:dataCollectionRawData": "Three source datasets were used as-is, with no modification to underlying records. We retain only PrimeKG edges with relations 'indication', 'off-label use', or 'contraindication' where one endpoint is a 'disease' entity and the other a 'drug' entity. Fitzpatrick17k provides 16,577 dermoscopic images labelled with disease class and FST I-VI (66.8% are FST I-III). DermaCon-IN provides 5,450 records from an Indian dermatology cohort with FST III-VI predominance. Combined coverage yields 315 unique conditions, 298 with at least one FST IV-VI sample.",
+  "rai:dataCollectionTimeframe": "Source datasets were collected by their original authors at different times: PrimeKG was released in 2023, Fitzpatrick17k in 2021, and DermaCon-IN in 2025. The DermaKG-Bench join and benchmark construction was performed in 2025-2026 by the authors of this submission. No new primary data was collected from human subjects.",
+  "rai:dataAnnotationProtocol": "No new human annotation was performed for DermaKG-Bench. All disease class labels and Fitzpatrick skin type ratings come from the source datasets (Fitzpatrick17k and DermaCon-IN), where they were assigned by the original dataset authors per their published protocols. Per-disease FST subgroup labels (I-III vs IV-VI) used by this benchmark are derived from cohort-level Fitzpatrick distributions in the source image datasets, not assigned by us. Disease-domain labels for the ATC safety filter (acneiform, inflammatory, autoimmune, infectious, neoplastic, pigmentary, unknown) were assigned by the authors based on standard dermatologic taxonomy. The ATC seed map (~150 dermatology-relevant drugs with their ATC codes) was hand-curated by the authors against the WHO ATC/DDD index.",
+  "rai:dataAnnotationPlatform": "Manual curation by authors using a text editor. No crowdsourcing platform was used. The ATC seed map and disease-domain assignments are released as atc_seed_map.csv and atc_domain_constraints.json so that reviewers can audit every assignment.",
+  "rai:dataAnnotationAnalysis": "Per-disease FST subgroup is assigned as IV-VI if the disease's IV-VI sample count exceeds its I-III sample count in the merged Fitzpatrick17k + DermaCon-IN cohort, otherwise I-III. This is a cohort-level classification and is the central methodological caveat of the benchmark (see rai:dataBiases and rai:dataLimitations). No inter-annotator agreement applies because there is no per-item annotation by humans for our benchmark; demographic labels are aggregated counts from source datasets.",
+  "rai:annotationsPerItem": "Not applicable. No per-item human annotation was performed for DermaKG-Bench. All annotations are inherited from source datasets in aggregate form.",
+  "rai:annotatorDemographics": "Not applicable. No new annotators were used. Demographic distributions of source-dataset annotators are documented in the original Fitzpatrick17k and DermaCon-IN papers.",
+  "rai:machineAnnotationTools": "Not applicable. No machine annotation was performed.",
+  "rai:personalSensitiveInformation": "The benchmark does not contain any patient-level identifiers. All FST labels are aggregated to the disease cohort level (counts of FST I-III vs FST IV-VI samples per disease) and contain no per-patient information. The source image datasets (Fitzpatrick17k, DermaCon-IN) are themselves de-identified per their original release terms. No images, no patient demographics beyond aggregate FST distributions, no clinical histories, and no other potentially identifying information is present in DermaKG-Bench artifacts.",
+  "rai:dataBiases": "FST labels in DermaKG-Bench are cohort-derived, not patient-level. Each disease inherits the FST distribution of the Fitzpatrick17k and DermaCon-IN cohorts that documented it, conflating dermatologic with geographic and epidemiologic factors. Top disparity-ranked diseases include Lyme borreliosis, syphilis, and cutaneous anthrax — none of which have skin-tone-driven mechanism differences validatable with the data we have. Their position reflects (a) Lyme over-representation in light-skin Northern-European cohorts, (b) syphilis over-representation in DermaCon-IN's IV-VI Indian cohort, and (c) cutaneous anthrax cohort scarcity, NOT skin biology. Additionally, PrimeKG indications are themselves curated from clinical sources whose evidence base skews toward majority-FST trial cohorts; high recovery against PrimeKG does not establish clinical appropriateness beyond what PrimeKG already encodes. Downstream users should treat per-disease disparity scores as hypotheses warranting cohort-level audit, not as definitive claims of skin-biology disparity.",
+  "rai:dataLimitations": "DermaKG-Bench is a research resource for fairness-aware KG drug recommendation methods, NOT a clinical decision support tool. Specific limitations: (i) FST labels are cohort-derived rather than patient-level, so disparity rankings sometimes track geographic or epidemiologic skew rather than skin biology (see rai:dataBiases); (ii) indication recovery against PrimeKG is a proxy for clinical utility, not a substitute for clinician oracle adjudication; (iii) the IGR Type B disease-similarity component uses string Jaccard as a fallback (SapBERT integration is future work); (iv) Type C drug-class extrapolation uses a 4-character ATC prefix on a ~150-drug hand-curated seed map; full ATC-DDD integration is needed for production use; (v) the small-N regime (49 diseases, 166 drugs, 419 indication edges) reflects the scale at which FST-stratified dermatology-pharmacology data publicly exists today, and is well below thresholds where standard KGE methods reach competitive performance. Any use of method outputs to inform actual prescribing decisions is explicitly out of scope.",
+  "rai:dataReleaseMaintenancePlan": "Version 1.0 is released alongside the NeurIPS 2026 Datasets & Benchmarks submission. The benchmark is structurally extensible: the per-FST EvidenceRecord ingestion supports any patient-level FST-pharmacology cohort that becomes publicly available. Future releases will incorporate (a) patient-level FST data when public cohorts emerge, (b) clinician-adjudicated drug-disease oracles for the disagreement-table subset highlighted in our limitations section, and (c) SapBERT-based disease similarity for IGR Type B candidates plus full ATC-DDD integration for Type C. Versioning will follow semantic versioning. The dataset will be maintained for at least three years after publication.",
+  "rai:dataUseCases": "DermaKG-Bench is designed for: (i) evaluating fairness-aware knowledge-graph drug recommendation methods on data-sparse minority-cohort regimes; (ii) auditing KG embeddings and retrieval methods for FST-stratified disparity; (iii) prioritising evidence-acquisition trials via the BED-IGR Expected Information Gain ranking; (iv) developing diagnostic tools for posterior-disagreement equity gaps with mean/uncertainty decomposition. It is NOT designed for: (i) direct clinical decision support, (ii) claims about skin-biology-driven drug efficacy disparities (the cohort-proxy caveat applies), or (iii) populations or skin conditions outside the Fitzpatrick17k + DermaCon-IN coverage.",
+  "rai:dataSocialImpact": "Knowledge-graph drug recommenders built on PrimeKG, HetioNet, and DRKG are demographically blind: their edges record drug-disease relationships without any indication of who the underlying evidence was collected from. Image-based dermatology AI is known to perform unevenly across Fitzpatrick skin-type cohorts, yet KG drug recommenders have not been audited the same way. By providing an FST-stratified evaluation harness and an empirical-Bayes diagnostic suite, DermaKG-Bench enables the community to surface and reduce demographic blindness in KG-based drug recommendation. Potential negative impact: misuse of the benchmark as a clinical decision support tool, or interpretation of cohort-driven disparity scores as skin-biology claims, could lead to inappropriate clinical decisions. We address this through prominent limitations sections in both the paper and this metadata, and by holding out PrimeKG contraindication edges as an independent safety oracle that any method must respect.",
+  "distribution": [
+    {
+      "@type": "cr:FileObject",
+      "@id": "github-repo",
+      "name": "github-repo",
+      "description": "Anonymised code and data release for double-blind review.",
+      "contentUrl": "https://anonymous.4open.science/r/DermaKG-Bench-EFD6/",
+      "encodingFormat": "git+https",
+      "sha256": "main"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "evidence-records-json",
+      "name": "evidence_records.json",
+      "description": "1,874 per-FST EvidenceRecords (disease, drug, relation, FST subgroup, outcome, weight, source). 90.4% both-subgroup coverage.",
+      "containedIn": {
+        "@id": "github-repo"
+      },
+      "contentUrl": "data/evidence_records.json",
+      "encodingFormat": "application/json"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "contraindications-json",
+      "name": "contraindications.json",
+      "description": "Independent safety oracle: 278 contraindication edges across 24 diseases. Held back from training and consulted only at evaluation time.",
+      "containedIn": {
+        "@id": "github-repo"
+      },
+      "contentUrl": "data/contraindications.json",
+      "encodingFormat": "application/json"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "folds-json",
+      "name": "folds.json",
+      "description": "5-fold cross-validation splits with deterministic seeds (42, 142, 242, 342, 442). Each fold has 325 training and 94 test edges (~50 I-III, ~44 IV-VI per fold).",
+      "containedIn": {
+        "@id": "github-repo"
+      },
+      "contentUrl": "data/folds.json",
+      "encodingFormat": "application/json"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "atc-seed-map",
+      "name": "atc_seed_map.csv",
+      "description": "Hand-curated ATC code mapping for ~150 dermatology-relevant drugs. Used by the Type C drug-class extrapolation in IGR and by the ATC safety filter.",
+      "containedIn": {
+        "@id": "github-repo"
+      },
+      "contentUrl": "data/atc_seed_map.csv",
+      "encodingFormat": "text/csv"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "atc-domain-constraints",
+      "name": "atc_domain_constraints.json",
+      "description": "Domain-aware allow/block lists across 7 disease domains (acneiform, inflammatory, autoimmune, infectious, neoplastic, pigmentary, unknown), 62 disease-to-domain mappings, and a 7-entry global never-recommend list.",
+      "containedIn": {
+        "@id": "github-repo"
+      },
+      "contentUrl": "data/atc_domain_constraints.json",
+      "encodingFormat": "application/json"
+    }
+  ],
+  "recordSet": [
+    {
+      "@type": "cr:RecordSet",
+      "@id": "evidence_records",
+      "name": "evidence_records",
+      "description": "Per-FST evidence records: one tuple per (disease, drug, FST subgroup), weighted by log(1 + per-FST sample count).",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "evidence_records/disease",
+          "name": "disease",
+          "description": "Disease name (lowercase, whitespace-stripped). Joined to Fitzpatrick17k and DermaCon-IN labels.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "evidence-records-json"
+            },
+            "extract": {
+              "jsonPath": "$[*].disease"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "evidence_records/drug",
+          "name": "drug",
+          "description": "Drug name (lowercase, whitespace-stripped). PrimeKG drug node identifier.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "evidence-records-json"
+            },
+            "extract": {
+              "jsonPath": "$[*].drug"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "evidence_records/relation",
+          "name": "relation",
+          "description": "PrimeKG relation type. One of: 'indication', 'off-label use'.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "evidence-records-json"
+            },
+            "extract": {
+              "jsonPath": "$[*].relation"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "evidence_records/subgroup",
+          "name": "subgroup",
+          "description": "FST subgroup label. One of: 'I-III' (lighter skin) or 'IV-VI' (darker skin). Cohort-derived; see rai:dataBiases.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "evidence-records-json"
+            },
+            "extract": {
+              "jsonPath": "$[*].subgroup"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "evidence_records/outcome",
+          "name": "outcome",
+          "description": "Evidence sign. +1 for 'indication', 0 for 'off-label use'.",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "evidence-records-json"
+            },
+            "extract": {
+              "jsonPath": "$[*].outcome"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "evidence_records/weight",
+          "name": "weight",
+          "description": "Evidence weight = max(1.0, log(1 + n_disease_subgroup)). Log-scaling prevents very-large-cohort diseases from dominating empirical-Bayes prior fitting.",
+          "dataType": "sc:Float",
+          "source": {
+            "fileObject": {
+              "@id": "evidence-records-json"
+            },
+            "extract": {
+              "jsonPath": "$[*].weight"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "evidence_records/source",
+          "name": "source",
+          "description": "Provenance string. Always 'primekg_per_fst' for this release.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "evidence-records-json"
+            },
+            "extract": {
+              "jsonPath": "$[*].source"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@type": "cr:RecordSet",
+      "@id": "contraindications",
+      "name": "contraindications",
+      "description": "Independent safety oracle: drug-disease pairs that PrimeKG flags as contraindicated. Held back from all training and consulted only at evaluation time.",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "contraindications/disease",
+          "name": "disease",
+          "description": "Disease name (key in the JSON object).",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "contraindications-json"
+            },
+            "extract": {
+              "jsonPath": "$"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "contraindications/contraindicated_drugs",
+          "name": "contraindicated_drugs",
+          "description": "Array of drug names contraindicated for the disease.",
+          "dataType": "sc:Text",
+          "repeated": true,
+          "source": {
+            "fileObject": {
+              "@id": "contraindications-json"
+            },
+            "extract": {
+              "jsonPath": "$[*]"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "@type": "cr:RecordSet",
+      "@id": "folds",
+      "name": "folds",
+      "description": "5-fold cross-validation splits with deterministic seeds.",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "folds/fold_idx",
+          "name": "fold_idx",
+          "description": "Fold index (0-4).",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "folds-json"
+            },
+            "extract": {
+              "jsonPath": "$[*].fold_idx"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "folds/seed",
+          "name": "seed",
+          "description": "Random seed for the fold (one of 42, 142, 242, 342, 442).",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {
+              "@id": "folds-json"
+            },
+            "extract": {
+              "jsonPath": "$[*].seed"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "folds/train",
+          "name": "train",
+          "description": "Per-disease training drug list. Object: {disease_name: [drug_names...]}.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "folds-json"
+            },
+            "extract": {
+              "jsonPath": "$[*].train"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "folds/test_edges",
+          "name": "test_edges",
+          "description": "Held-out edges for evaluation. Each: {disease, drug, fst_stratum}.",
+          "dataType": "sc:Text",
+          "repeated": true,
+          "source": {
+            "fileObject": {
+              "@id": "folds-json"
+            },
+            "extract": {
+              "jsonPath": "$[*].test_edges"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "rai:hasSyntheticData": false,
+  "prov:wasDerivedFrom": [
+    {
+      "@id": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IXA7BM",
+      "prov:label": "PrimeKG",
+      "sc:license": "MIT",
+      "prov:wasAttributedTo": {
+        "@id": "https://dataverse.harvard.edu/",
+        "prov:label": "Harvard Dataverse"
+      }
+    },
+    {
+      "@id": "https://github.com/mattgroh/fitzpatrick17k",
+      "prov:label": "Fitzpatrick17k",
+      "sc:license": "MIT",
+      "prov:wasAttributedTo": {
+        "@id": "https://github.com/",
+        "prov:label": "GitHub"
+      }
+    },
+    {
+      "@id": "https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/W7OUZM",
+      "prov:label": "DermaCon-IN",
+      "sc:license": "CC-BY-NC-SA-4.0",
+      "prov:wasAttributedTo": {
+        "@id": "https://dataverse.harvard.edu/",
+        "prov:label": "Harvard Dataverse"
+      }
+    }
+  ],
+  "prov:wasGeneratedBy": [
+    {
+      "@type": "prov:Activity",
+      "prov:type": {
+        "@id": "https://www.wikidata.org/wiki/Q4929239"
+      },
+      "prov:label": "Source dataset acquisition",
+      "sc:description": "No primary data collection from human subjects was performed for DermaKG-Bench. Three pre-existing public datasets were obtained under their respective licences: PrimeKG (Chandak et al. 2023, MIT), Fitzpatrick17k (Groh et al. 2021, MIT), and DermaCon-IN (Madarkar et al. 2025, CC-BY-4.0). See Source Datasets section for URIs."
+    },
+    {
+      "@type": "prov:Activity",
+      "prov:type": {
+        "@id": "https://www.wikidata.org/wiki/Q5227332"
+      },
+      "prov:label": "PrimeKG filtering and per-FST evidence record construction",
+      "sc:description": "Filtered 8,100,498 PrimeKG edges to retain only those with relation in {indication, off-label use, contraindication} and with one disease endpoint and one drug endpoint. Disease names were normalised (lowercase, whitespace-stripped) and joined to Fitzpatrick17k and DermaCon-IN labels. Aggregated per-disease FST distributions from both image datasets to produce per-(disease, FST subgroup) sample counts. Each retained PrimeKG edge was expanded into one EvidenceRecord per FST subgroup with weight max(1.0, log(1 + n_disease_subgroup)). Final benchmark contains 1,874 evidence records over 518 (disease, drug, FST subgroup) tuples with 90.4% both-subgroup coverage."
+    },
+    {
+      "@type": "prov:Activity",
+      "prov:type": {
+        "@id": "https://www.wikidata.org/wiki/Q109719325"
+      },
+      "prov:label": "Manual ATC and disease-domain curation",
+      "sc:description": "Two manual curation tasks performed by the authors only, no crowdsourcing. (1) ATC seed map: hand-curated ATC codes for approximately 150 dermatology-relevant drugs against the WHO ATC/DDD Index. Released as atc_seed_map.csv for full audit. (2) Disease-domain assignments: 62 dermatologic conditions mapped to 7 clinical domains (acneiform, inflammatory, autoimmune, infectious, neoplastic, pigmentary, unknown) following standard dermatologic taxonomy. Released as atc_domain_constraints.json. No new image, FST, or disease-class annotation was performed; all such labels are inherited from source datasets in aggregate form only."
+    },
+    {
+      "@type": "prov:Activity",
+      "prov:type": {
+        "@id": "https://www.wikidata.org/wiki/Q3306762"
+      },
+      "prov:label": "Cross-validation split generation and safety oracle extraction",
+      "sc:description": "Generated 5-fold cross-validation splits with deterministic seeds (42, 142, 242, 342, 442). For each fold, per-disease drug lists are shuffled with Python random.Random(seed) and 20% of drugs per disease are held out as the test set, yielding 325 train and 94 test edges per fold (approximately 50 I-III plus 44 IV-VI per test set). Released as folds.json. Independently, PrimeKG contraindication edges (278 across 24 diseases) were extracted and held back as an evaluation-only safety oracle (contraindications.json), never used for training."
+    }
+  ]
+}
