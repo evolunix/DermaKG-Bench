@@ -119,7 +119,7 @@ dermakg-bench/
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/dermakg-bench.git
+git clone https://github.com/evolunix/DermaKG-Bench.git
 cd dermakg-bench
 
 # Install dependencies
