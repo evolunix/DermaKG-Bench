@@ -1,0 +1,240 @@
+disease,drug,fst_stratum,n_folds_appeared,co_rank_mean,dermakg_rank_mean,rank_gain,co_rank_per_fold,dermakg_rank_per_fold
+basal cell carcinoma,vismodegib,I-III,3,166.0,2.0,164.0,166;166;166,2;2;2
+vitiligo,trioxsalen,IV-VI,2,164.5,2.0,162.5,163;166,2;2
+palmoplantar keratoderma,tretinoin,IV-VI,5,164.0,2.0,162.0,165;164;164;162;165,2;2;2;2;2
+cutaneous larva migrans,thiabendazole,IV-VI,5,162.6,1.0,161.6,163;163;163;161;163,1;1;1;1;1
+keloid,tranilast,IV-VI,1,164.0,3.0,161.0,164,3
+melanoma,vindesine,I-III,1,165.0,4.0,161.0,165,4
+neurofibromatosis,selumetinib,IV-VI,5,159.6,1.0,158.6,160;160;160;159;159,1;1;1;1;1
+myiasis,sulfadiazine,I-III,2,161.5,3.0,158.5,162;161,3;3
+basal cell carcinoma,sonidegib,I-III,2,160.5,2.0,158.5,161;160,2;2
+melanoma,talimogene laherparepvec,I-III,2,162.0,4.0,158.0,162;162,4;4
+myiasis,sulfamethoxazole,I-III,3,161.0,3.0,158.0,162;160;161,3;3;3
+lymphangioma,propranolol,I-III,5,157.6,1.0,156.6,159;159;157;157;156,1;1;1;1;1
+hemangioma,propranolol,I-III,5,157.6,1.0,156.6,159;159;157;157;156,1;1;1;1;1
+impetigo,retapamulin,IV-VI,1,158.0,3.0,155.0,158,3
+vitiligo,methoxsalen,IV-VI,3,154.0,2.0,152.0,154;155;153,2;2;2
+herpes labialis,penciclovir,I-III,3,155.0,3.0,152.0,157;154;154,3;3;3
+impetigo,mupirocin,IV-VI,3,154.3,3.0,151.3,155;156;152,3;3;3
+scabies,phenothrin,IV-VI,1,156.0,5.0,151.0,156,5
+pustular psoriasis,maxacalcitol,I-III,5,151.2,1.0,150.2,152;152;151;151;150,1;1;1;1;1
+oral candidiasis,nystatin,IV-VI,1,156.0,7.0,149.0,156,7
+psoriasis,ustekinumab,I-III,1,166.0,17.0,149.0,166,17
+tuberous sclerosis,everolimus,I-III,5,147.0,1.0,146.0,149;146;148;147;145,1;1;1;1;1
+melanoma,interferon alfa-2b,I-III,1,150.0,4.0,146.0,150,4
+langerhans cell histiocytosis,vincristine,I-III,2,164.5,19.0,145.5,165;164,19;19
+white piedra,isavuconazonium,IV-VI,3,149.3,4.0,145.3,150;150;148,4;4;4
+scabies,lidocaine,IV-VI,4,150.2,5.0,145.2,151;151;150;149,5;5;5;5
+langerhans cell histiocytosis,thiotepa,I-III,1,164.0,19.0,145.0,164,19
+melanoma,hydroxyurea,I-III,1,149.0,4.0,145.0,149,4
+herpes zoster,famciclovir,IV-VI,1,147.0,3.0,144.0,147,3
+syphilis,procaine benzylpenicillin,IV-VI,1,155.0,11.0,144.0,155,11
+pyoderma gangrenosum,clofazimine,IV-VI,5,143.4,1.0,142.4,145;142;144;144;142,1;1;1;1;1
+syphilis,meclocycline,IV-VI,1,153.0,11.0,142.0,153,11
+oral candidiasis,hachimycin,IV-VI,3,147.7,7.0,140.7,148;148;147,7;7;7
+rosacea,medrysone,I-III,1,151.0,11.0,140.0,151,11
+herpes labialis,docosanol,I-III,1,143.0,3.0,140.0,143,3
+langerhans cell histiocytosis,rituximab,I-III,2,157.5,18.5,139.0,158;157,18;19
+dermatomyositis,benzoic acid,I-III,5,140.4,2.0,138.4,142;139;142;140;139,2;2;2;2;2
+hidradenitis,adalimumab,I-III,5,138.8,1.0,137.8,140;138;140;139;137,1;1;1;1;1
+squamous cell carcinoma,cetuximab,I-III,2,141.5,4.0,137.5,140;143,4;4
+tinea pedis,sertaconazole,IV-VI,1,161.0,24.0,137.0,161,24
+squamous cell carcinoma,cemiplimab,I-III,2,141.0,4.0,137.0,141;141,4;4
+impetigo,cefuroxime,IV-VI,1,140.0,3.0,137.0,140,3
+rosacea,fluorometholone,I-III,1,146.0,10.0,136.0,146,10
+herpes labialis,acyclovir,I-III,1,138.0,3.0,135.0,138,3
+langerhans cell histiocytosis,mechlorethamine,I-III,1,152.0,18.0,134.0,152,18
+lyme disease,cefuroxime,I-III,5,131.8,1.0,130.8,130;129;131;129;140,1;1;1;1;1
+rosacea,azelaic acid,I-III,1,141.0,11.0,130.0,141,11
+angioedema,triprolidine,IV-VI,1,165.0,36.0,129.0,165,36
+psoriasis,etretinate,I-III,2,145.5,16.5,129.0,145;146,16;17
+neurodermatitis,doxepin,I-III,1,147.0,19.0,128.0,147,19
+herpes zoster,acyclovir,IV-VI,4,129.5,1.5,128.0,127;128;138;125,1;1;3;1
+langerhans cell histiocytosis,carmustine,I-III,1,143.0,18.0,125.0,143,18
+angioedema,promethazine,IV-VI,1,158.0,35.0,123.0,158,35
+angioedema,rupatadine,IV-VI,2,158.5,36.0,122.5,159;158,36;36
+angioedema,phenindamine,IV-VI,1,158.0,36.0,122.0,158,36
+tinea pedis,econazole,IV-VI,2,145.5,24.0,121.5,144;147,24;24
+angioedema,mepyramine,IV-VI,1,153.0,32.0,121.0,153,32
+angioedema,pheniramine,IV-VI,4,155.0,34.5,120.5,157;155;153;155,34;35;34;35
+angioedema,methapyrilene,IV-VI,2,153.0,33.0,120.0,154;152,33;33
+angioedema,promazine,IV-VI,1,156.0,36.0,120.0,156,36
+angioedema,phenyltoloxamine,IV-VI,1,154.0,35.0,119.0,154,35
+angioedema,methdilazine,IV-VI,1,153.0,34.0,119.0,153,34
+angioedema,hydroxyzine,IV-VI,2,149.0,33.5,115.5,149;149,34;33
+angioedema,dexchlorpheniramine,IV-VI,1,145.0,32.0,113.0,145,32
+angioedema,doxylamine,IV-VI,1,148.0,35.0,113.0,148,35
+angioedema,cyproheptadine,IV-VI,1,145.0,32.0,113.0,145,32
+angioedema,chlorpheniramine,IV-VI,1,142.0,30.0,112.0,142,30
+angioedema,diphenylpyraline,IV-VI,3,145.0,33.0,112.0,146;146;143,34;33;32
+angioedema,clemastine,IV-VI,3,142.7,31.7,111.0,144;141;143,33;31;31
+angioedema,antazoline,IV-VI,1,141.0,32.0,109.0,141,32
+angioedema,azatadine,IV-VI,1,138.0,31.0,107.0,138,31
+squamous cell carcinoma,bleomycin,I-III,1,93.0,1.0,92.0,93,1
+tinea corporis,econazole,IV-VI,3,99.3,21.3,78.0,144;147;7,23;23;18
+mycetoma,posaconazole,IV-VI,5,76.0,1.0,75.0,111;54;114;50;51,1;1;1;1;1
+erythrasma,meclocycline,IV-VI,2,77.0,8.0,69.0,153;1,9;7
+syphilis,erythromycin,IV-VI,2,72.5,10.0,62.5,1;144,9;11
+psoriasis,ammonia,I-III,1,72.0,12.0,60.0,72,12
+seborrheic dermatitis,fusidic acid,I-III,1,72.0,24.0,48.0,72,24
+epidermodysplasia verruciformis,imiquimod,IV-VI,5,46.0,1.0,45.0,45;47;48;45;45,1;1;1;1;1
+tinea manuum,tolnaftate,IV-VI,5,43.8,1.0,42.8,38;39;42;61;39,1;1;1;1;1
+folliculitis,fusidic acid,I-III,5,23.8,1.0,22.8,27;21;32;19;20,1;1;1;1;1
+keratoacanthoma,ingenol mebutate,IV-VI,1,26.0,5.0,21.0,26,5
+seborrheic keratosis,aminolevulinic acid,I-III,1,54.0,36.0,18.0,54,36
+psoriasis,methotrexate,I-III,2,31.0,13.5,17.5,31;31,14;13
+langerhans cell histiocytosis,methotrexate,I-III,1,26.0,14.0,12.0,26,14
+keratoacanthoma,diclofenac,IV-VI,1,13.0,6.0,7.0,13,6
+alopecia areata,triamcinolone,I-III,5,4.0,1.0,3.0,2;4;2;5;7,1;1;1;1;1
+keratoacanthoma,masoprocol,IV-VI,2,9.0,6.0,3.0,10;8,6;6
+lichen planus,triamcinolone,IV-VI,5,4.0,1.0,3.0,2;4;2;5;7,1;1;1;1;1
+necrobiosis lipoidica,triamcinolone,I-III,5,4.0,1.0,3.0,2;4;2;5;7,1;1;1;1;1
+discoid lupus erythematosus,hydroxychloroquine,IV-VI,1,17.0,20.0,-3.0,17,20
+lupus erythematosus,triamcinolone,I-III,1,1.0,4.0,-3.0,1,4
+granuloma annulare,methylprednisolone,I-III,2,2.0,5.0,-3.0,2;2,5;5
+contact dermatitis,cortisone acetate,IV-VI,1,2.0,5.0,-3.0,2,5
+seborrheic keratosis,prednisolone,I-III,1,2.0,5.0,-3.0,2,5
+seborrheic keratosis,dexamethasone,I-III,1,4.0,7.0,-3.0,4,7
+contact dermatitis,betamethasone,IV-VI,1,1.0,4.0,-3.0,1,4
+sarcoidosis,prednisolone,I-III,2,1.0,4.0,-3.0,1;1,3;5
+angioedema,betamethasone,IV-VI,2,1.5,4.5,-3.0,2;1,7;2
+lupus erythematosus,betamethasone,I-III,2,2.0,5.0,-3.0,3;1,7;3
+psoriasis,betamethasone,I-III,2,2.0,5.5,-3.5,2;2,7;4
+seborrheic keratosis,methylprednisolone,I-III,3,1.0,4.7,-3.7,1;1;1,5;4;5
+contact dermatitis,dexamethasone,IV-VI,2,1.0,5.0,-4.0,1;1,7;3
+tinea pedis,ciclopirox,IV-VI,1,2.0,6.0,-4.0,2,6
+keratoacanthoma,fluorouracil,IV-VI,1,1.0,5.0,-4.0,1,5
+psoriasis,triamcinolone,I-III,1,3.0,7.0,-4.0,3,7
+tinea pedis,salicylic acid,IV-VI,2,2.0,6.0,-4.0,2;2,5;7
+tinea corporis,salicylic acid,IV-VI,1,1.0,5.0,-4.0,1,5
+discoid lupus erythematosus,methylprednisolone,IV-VI,1,1.0,5.0,-4.0,1,5
+tinea corporis,clotrimazole,IV-VI,1,5.0,9.0,-4.0,5,9
+contact dermatitis,hydrocortisone,IV-VI,1,2.0,6.0,-4.0,2,6
+erythema multiforme,cortisone acetate,I-III,1,1.0,5.0,-4.0,1,5
+granuloma annulare,triamcinolone,I-III,1,3.0,7.0,-4.0,3,7
+discoid lupus erythematosus,prednisolone,IV-VI,1,1.0,6.0,-5.0,1,6
+psoriasis,hydrocortisone,I-III,1,1.0,6.0,-5.0,1,6
+angioedema,hydrocortisone,IV-VI,1,1.0,6.0,-5.0,1,6
+angioedema,triamcinolone,IV-VI,1,1.0,6.0,-5.0,1,6
+contact dermatitis,triamcinolone,IV-VI,1,2.0,7.0,-5.0,2,7
+discoid lupus erythematosus,triamcinolone,IV-VI,1,1.0,6.0,-5.0,1,6
+contact dermatitis,prednisolone,IV-VI,1,1.0,6.0,-5.0,1,6
+psoriasis,prednisolone,I-III,2,1.5,6.5,-5.0,2;1,7;6
+psoriasis,methylprednisolone,I-III,1,1.0,6.0,-5.0,1,6
+angioedema,prednisolone,IV-VI,1,2.0,7.0,-5.0,2,7
+oral candidiasis,posaconazole,IV-VI,1,2.0,7.0,-5.0,2,7
+lupus erythematosus,prednisolone,I-III,2,1.5,6.5,-5.0,2;1,7;6
+psoriasis,prednisone,I-III,1,4.0,9.0,-5.0,4,9
+tinea pedis,clotrimazole,IV-VI,1,4.0,9.0,-5.0,4,9
+langerhans cell histiocytosis,dexamethasone,I-III,1,2.0,7.0,-5.0,2,7
+erythema multiforme,prednisone,I-III,1,4.0,9.0,-5.0,4,9
+sarcoidosis,methylprednisolone,I-III,1,1.0,6.0,-5.0,1,6
+neurodermatitis,triamcinolone,I-III,2,1.5,7.0,-5.5,1;2,7;7
+erythema multiforme,triamcinolone,I-III,1,1.0,7.0,-6.0,1,7
+langerhans cell histiocytosis,triamcinolone,I-III,1,1.0,7.0,-6.0,1,7
+neurodermatitis,dexamethasone,I-III,1,1.0,7.0,-6.0,1,7
+psoriasis,hydrocortisone acetate,I-III,1,3.0,9.0,-6.0,3,9
+neurodermatitis,prednisolone,I-III,1,1.0,7.0,-6.0,1,7
+erythema multiforme,betamethasone,I-III,1,1.0,7.0,-6.0,1,7
+langerhans cell histiocytosis,prednisone,I-III,3,2.7,8.7,-6.0,1;6;1,9;9;8
+neurodermatitis,betamethasone,I-III,1,1.0,7.0,-6.0,1,7
+langerhans cell histiocytosis,hydrocortisone acetate,I-III,1,1.0,8.0,-7.0,1,8
+erythrasma,oxytetracycline,IV-VI,1,2.0,9.0,-7.0,2,9
+erythrasma,demeclocycline,IV-VI,1,1.0,8.0,-7.0,1,8
+syphilis,minocycline,IV-VI,3,1.3,9.0,-7.7,2;1;1,9;10;8
+sarcoidosis,prednisone,I-III,1,1.0,9.0,-8.0,1,9
+contact dermatitis,desonide,IV-VI,1,3.0,11.0,-8.0,3,11
+seborrheic dermatitis,flurandrenolide,I-III,2,1.0,9.0,-8.0,1;1,9;9
+neurodermatitis,flumethasone,I-III,1,2.0,10.0,-8.0,2,10
+lupus erythematosus,chloroquine,I-III,1,12.0,20.0,-8.0,12,20
+erythrasma,tetracycline,IV-VI,1,1.0,9.0,-8.0,1,9
+seborrheic dermatitis,amcinonide,I-III,1,4.0,13.0,-9.0,4,13
+seborrheic keratosis,amcinonide,I-III,1,5.0,14.0,-9.0,5,14
+granuloma annulare,desonide,I-III,1,3.0,13.0,-10.0,3,13
+syphilis,tetracycline,IV-VI,1,1.0,11.0,-10.0,1,11
+lupus erythematosus,fluocinonide,I-III,1,2.0,12.0,-10.0,2,12
+seborrheic dermatitis,ammonia,I-III,3,17.0,27.3,-10.3,7;9;35,24;29;29
+lupus erythematosus,amcinonide,I-III,2,4.0,14.5,-10.5,4;4,17;12
+granuloma annulare,ammonium lactate,I-III,2,9.5,20.0,-10.5,14;5,20;20
+neurodermatitis,desonide,I-III,1,3.0,14.0,-11.0,3,14
+discoid lupus erythematosus,desonide,IV-VI,1,3.0,14.0,-11.0,3,14
+neurodermatitis,prednicarbate,I-III,1,7.0,18.0,-11.0,7,18
+contact dermatitis,flurandrenolide,IV-VI,1,3.0,14.0,-11.0,3,14
+seborrheic dermatitis,flumethasone,I-III,1,2.0,13.0,-11.0,2,13
+neurodermatitis,fluocinolone acetonide,I-III,1,3.0,14.0,-11.0,3,14
+lupus erythematosus,prednicarbate,I-III,2,3.5,15.0,-11.5,2;5,12;18
+seborrheic keratosis,prednisone,I-III,2,8.0,19.5,-11.5,7;9,18;21
+contact dermatitis,fluocinolone acetonide,IV-VI,2,2.5,14.0,-11.5,3;2,16;12
+seborrheic dermatitis,halcinonide,I-III,3,2.7,14.3,-11.7,2;3;3,11;14;18
+discoid lupus erythematosus,fluocinolone acetonide,IV-VI,1,2.0,14.0,-12.0,2,14
+seborrheic keratosis,ketoconazole,I-III,2,7.5,19.5,-12.0,7;8,18;21
+tinea corporis,haloprogin,IV-VI,1,7.0,19.0,-12.0,7,19
+tinea pedis,clioquinol,IV-VI,1,5.0,17.0,-12.0,5,17
+neurodermatitis,desoximetasone,I-III,1,2.0,14.0,-12.0,2,14
+discoid lupus erythematosus,flumethasone,IV-VI,2,3.0,15.0,-12.0,3;3,15;15
+tinea corporis,tolnaftate,IV-VI,1,9.0,21.0,-12.0,9,21
+seborrheic keratosis,flurandrenolide,I-III,1,4.0,16.0,-12.0,4,16
+tinea pedis,pramocaine,IV-VI,1,7.0,19.0,-12.0,7,19
+granuloma annulare,flurandrenolide,I-III,1,4.0,16.0,-12.0,4,16
+seborrheic keratosis,desonide,I-III,1,2.0,14.0,-12.0,2,14
+granuloma annulare,desoximetasone,I-III,1,3.0,15.0,-12.0,3,15
+tinea corporis,oxiconazole,IV-VI,2,8.0,20.5,-12.5,8;8,21;20
+lupus erythematosus,fluticasone propionate,I-III,2,3.0,15.5,-12.5,3;3,15;16
+granuloma annulare,amcinonide,I-III,2,2.5,15.0,-12.5,3;2,17;13
+discoid lupus erythematosus,amcinonide,IV-VI,3,1.7,14.3,-12.7,2;1;2,17;12;14
+tinea corporis,butenafine,IV-VI,1,6.0,19.0,-13.0,6,19
+discoid lupus erythematosus,fluticasone propionate,IV-VI,2,4.0,17.0,-13.0,4;4,18;16
+lupus erythematosus,flumethasone,I-III,2,2.5,15.5,-13.0,3;2,16;15
+discoid lupus erythematosus,halcinonide,IV-VI,1,4.0,17.0,-13.0,4,17
+tinea corporis,sulconazole,IV-VI,2,7.5,21.0,-13.5,7;8,22;20
+granuloma annulare,mometasone furoate,I-III,3,3.7,17.7,-14.0,4;4;3,17;17;19
+seborrheic keratosis,desoximetasone,I-III,2,3.5,17.5,-14.0,4;3,21;14
+discoid lupus erythematosus,desoximetasone,IV-VI,2,2.5,16.5,-14.0,2;3,15;18
+seborrheic keratosis,fluocinolone acetonide,I-III,1,2.0,16.0,-14.0,2,16
+tinea pedis,benzocaine,IV-VI,1,4.0,18.0,-14.0,4,18
+seborrheic keratosis,fluocinonide,I-III,1,6.0,20.0,-14.0,6,20
+lupus erythematosus,mometasone furoate,I-III,1,4.0,18.0,-14.0,4,18
+tinea pedis,oxiconazole,IV-VI,1,7.0,21.0,-14.0,7,21
+neurodermatitis,halcinonide,I-III,1,3.0,17.0,-14.0,3,17
+seborrheic dermatitis,mometasone furoate,I-III,1,2.0,16.0,-14.0,2,16
+seborrheic dermatitis,ciclopirox,I-III,3,7.7,21.7,-14.0,9;7;7,20;22;23
+contact dermatitis,mometasone furoate,IV-VI,1,1.0,15.0,-14.0,1,15
+tinea pedis,undecylenic acid,IV-VI,1,8.0,23.0,-15.0,8,23
+neurodermatitis,fluticasone propionate,I-III,1,3.0,18.0,-15.0,3,18
+tinea corporis,terbinafine,IV-VI,2,6.5,21.5,-15.0,7;6,22;21
+tinea corporis,undecylenic acid,IV-VI,2,6.5,21.5,-15.0,4;9,21;22
+lupus erythematosus,halcinonide,I-III,1,2.0,17.0,-15.0,2,17
+neurodermatitis,mometasone furoate,I-III,1,2.0,17.0,-15.0,2,17
+tinea corporis,luliconazole,IV-VI,1,5.0,20.0,-15.0,5,20
+tinea corporis,benzocaine,IV-VI,2,4.5,19.5,-15.0,6;3,19;20
+contact dermatitis,flumethasone,IV-VI,1,2.0,17.0,-15.0,2,17
+discoid lupus erythematosus,prednicarbate,IV-VI,1,1.0,16.0,-15.0,1,16
+seborrheic keratosis,mometasone furoate,I-III,2,2.0,17.5,-15.5,2;2,13;22
+contact dermatitis,ammonium lactate,IV-VI,2,7.0,22.5,-15.5,10;4,23;22
+seborrheic keratosis,halcinonide,I-III,2,3.0,19.0,-16.0,3;3,17;21
+contact dermatitis,fluocinonide,IV-VI,1,3.0,19.0,-16.0,3,19
+contact dermatitis,halcinonide,IV-VI,1,4.0,20.0,-16.0,4,20
+tinea pedis,naftifine,IV-VI,1,3.0,20.0,-17.0,3,20
+seborrheic keratosis,fluticasone propionate,I-III,2,3.0,20.0,-17.0,5;1,24;16
+seborrheic dermatitis,fluticasone propionate,I-III,1,4.0,21.0,-17.0,4,21
+seborrheic dermatitis,climbazole,I-III,1,13.0,30.0,-17.0,13,30
+seborrheic dermatitis,ammonium lactate,I-III,1,4.0,21.0,-17.0,4,21
+seborrheic dermatitis,fluocinonide,I-III,1,2.0,19.0,-17.0,2,19
+seborrheic dermatitis,sulfacetamide,I-III,4,13.8,31.0,-17.2,14;13;14;14,31;31;31;31
+seborrheic keratosis,prednicarbate,I-III,2,4.5,22.0,-17.5,3;6,17;27
+seborrheic keratosis,salicylic acid,I-III,2,6.5,24.0,-17.5,7;6,22;26
+seborrheic dermatitis,chloroxine,I-III,1,12.0,30.0,-18.0,12,30
+contact dermatitis,benzoyl peroxide,IV-VI,1,4.0,22.0,-18.0,4,22
+contact dermatitis,desoximetasone,IV-VI,1,3.0,21.0,-18.0,3,21
+tinea pedis,zinc oxide,IV-VI,4,4.5,23.5,-19.0,6;3;6;3,23;23;24;24
+contact dermatitis,prednicarbate,IV-VI,1,4.0,23.0,-19.0,4,23
+seborrheic keratosis,allantoin,I-III,1,6.0,28.0,-22.0,6,28
+seborrheic keratosis,clobetasol propionate,I-III,1,6.0,30.0,-24.0,6,30
+seborrheic keratosis,climbazole,I-III,1,10.0,36.0,-26.0,10,36
+seborrheic keratosis,chloroxine,I-III,1,10.0,37.0,-27.0,10,37
+seborrheic keratosis,urea,I-III,2,6.0,34.5,-28.5,7;5,35;34
+seborrheic keratosis,selenium sulfide,I-III,1,9.0,39.0,-30.0,9,39
+rosacea,fusidic acid,I-III,1,91.0,159.0,-68.0,91,159
+erythrasma,erythromycin,IV-VI,3,49.3,166.0,-116.7,2;2;144,166;166;166
+seborrheic dermatitis,cortisone acetate,I-III,2,2.0,164.0,-162.0,1;3,164;164
+seborrheic dermatitis,hydrocortisone,I-III,2,2.0,165.0,-163.0,3;1,165;165

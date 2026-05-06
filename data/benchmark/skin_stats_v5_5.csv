@@ -1,0 +1,316 @@
+disease_name,fst_total,fst_iv_vi,fst_i_iii,prevalence_iv_vi,total_dermacon
+acanthosis nigricans,97,53,44,0.5463917525773195,7
+acne,363,143,220,0.3939393939393939,181
+acne vulgaris,334,64,270,0.19161676646706588,0
+acquired autoimmune bullous diseaseherpes gestationis,67,7,60,0.1044776119402985,0
+acrodermatitis enteropathica,87,18,69,0.20689655172413793,0
+actinic keratosis,168,33,135,0.19642857142857142,0
+allergic contact dermatitis,452,108,344,0.23893805309734514,32
+aplasia cutis,67,8,59,0.11940298507462686,0
+basal cell carcinoma,470,114,356,0.2425531914893617,10
+basal cell carcinoma morpheiform,61,1,60,0.01639344262295082,0
+becker nevus,64,11,53,0.171875,1
+behcets disease,59,23,36,0.3898305084745763,0
+calcinosis cutis,77,15,62,0.19480519480519481,0
+cheilitis,118,37,81,0.3135593220338983,20
+congenital nevus,67,13,54,0.19402985074626866,0
+dariers disease,148,70,78,0.47297297297297297,0
+dermatofibroma,79,9,70,0.11392405063291139,1
+dermatomyositis,149,41,108,0.2751677852348993,0
+disseminated actinic porokeratosis,59,6,53,0.1016949152542373,0
+drug eruption,202,62,140,0.3069306930693069,5
+drug induced pigmentary changes,70,29,41,0.4142857142857143,0
+dyshidrotic eczema,79,18,61,0.22784810126582278,0
+eczema,357,186,171,0.5210084033613446,156
+ehlers danlos syndrome,127,58,69,0.4566929133858268,0
+epidermal nevus,97,24,73,0.24742268041237114,10
+epidermolysis bullosa,75,30,45,0.4,7
+erythema annulare centrifigum,87,15,72,0.1724137931034483,0
+erythema elevatum diutinum,53,31,22,0.5849056603773585,0
+erythema multiforme,233,71,162,0.30472103004291845,2
+erythema nodosum,81,19,62,0.2345679012345679,0
+factitial dermatitis,65,28,37,0.4307692307692308,0
+fixed eruptions,123,55,68,0.44715447154471544,0
+folliculitis,340,112,228,0.32941176470588235,23
+fordyce spots,91,23,68,0.25274725274725274,0
+granuloma annulare,211,74,137,0.35071090047393366,2
+granuloma pyogenic,77,15,62,0.19480519480519481,4
+hailey hailey disease,172,49,123,0.28488372093023256,0
+halo nevus,81,36,45,0.4444444444444444,0
+hidradenitis,103,37,66,0.3592233009708738,14
+ichthyosis vulgaris,62,26,36,0.41935483870967744,0
+incontinentia pigmenti,102,21,81,0.20588235294117646,0
+juvenile xanthogranuloma,146,15,131,0.10273972602739725,0
+kaposi sarcoma,151,78,73,0.5165562913907285,0
+keloid,175,88,87,0.5028571428571429,21
+keratosis pilaris,87,32,55,0.367816091954023,9
+langerhans cell histiocytosis,56,6,50,0.10714285714285714,0
+lentigo maligna,81,12,69,0.14814814814814814,0
+lichen amyloidosis,76,46,30,0.6052631578947368,0
+lichen planus,536,273,263,0.5093283582089553,57
+lichen simplex,95,48,47,0.5052631578947369,1
+livedo reticularis,59,14,45,0.23728813559322035,0
+lupus erythematosus,401,180,221,0.4488778054862843,0
+lupus subacute,106,22,84,0.20754716981132076,0
+lyme disease,128,16,112,0.125,0
+lymphangioma,92,26,66,0.2826086956521739,0
+malignant melanoma,105,14,91,0.13333333333333333,0
+melanoma,246,72,174,0.2926829268292683,2
+milia,122,29,93,0.23770491803278687,11
+mucinosis,88,24,64,0.2727272727272727,0
+mucous cyst,71,24,47,0.3380281690140845,0
+mycosis fungoides,180,50,130,0.2777777777777778,4
+myiasis,50,17,33,0.34,0
+naevus comedonicus,72,34,38,0.4722222222222222,0
+necrobiosis lipoidica,122,43,79,0.3524590163934426,0
+nematode infection,254,104,150,0.4094488188976378,0
+neurodermatitis,67,11,56,0.16417910447761194,0
+neurofibromatosis,187,123,64,0.6577540106951871,0
+neurotic excoriations,73,21,52,0.2876712328767123,0
+neutrophilic dermatoses,350,97,253,0.27714285714285714,0
+nevocytic nevus,102,18,84,0.17647058823529413,17
+nevus sebaceous of jadassohn,88,12,76,0.13636363636363635,0
+papilomatosis confluentes and reticulate,150,98,52,0.6533333333333333,0
+paronychia,62,12,50,0.1935483870967742,3
+pediculosis lids,113,14,99,0.12389380530973451,0
+perioral dermatitis,62,6,56,0.0967741935483871,1
+photodermatoses,345,74,271,0.2144927536231884,0
+pilar cyst,90,21,69,0.23333333333333334,0
+pilomatricoma,49,2,47,0.04081632653061224,0
+pityriasis lichenoides chronica,81,26,55,0.32098765432098764,8
+pityriasis rosea,201,103,98,0.5124378109452736,9
+pityriasis rubra pilaris,271,215,56,0.7933579335793358,0
+porokeratosis actinic,179,85,94,0.4748603351955307,0
+porokeratosis of mibelli,77,19,58,0.24675324675324675,0
+porphyria,123,41,82,0.3333333333333333,0
+port wine stain,63,12,51,0.19047619047619047,8
+prurigo nodularis,202,124,78,0.6138613861386139,34
+psoriasis,781,294,487,0.3764404609475032,159
+pustular psoriasis,53,14,39,0.2641509433962264,1
+pyogenic granuloma,111,16,95,0.14414414414414414,0
+rhinophyma,91,16,75,0.17582417582417584,0
+rosacea,103,9,94,0.08737864077669903,3
+sarcoidosis,337,93,244,0.27596439169139464,0
+scabies,494,288,206,0.582995951417004,183
+scleroderma,303,87,216,0.2871287128712871,7
+scleromyxedema,106,49,57,0.46226415094339623,0
+seborrheic dermatitis,186,73,113,0.3924731182795699,60
+seborrheic keratosis,75,21,54,0.28,7
+solid cystic basal cell carcinoma,62,3,59,0.04838709677419355,0
+squamous cell carcinoma,541,137,404,0.2532347504621072,5
+stasis edema,61,21,40,0.3442622950819672,0
+stevens johnson syndrome,110,13,97,0.11818181818181818,0
+striae,72,19,53,0.2638888888888889,7
+sun damaged skin,68,14,54,0.20588235294117646,4
+superficial spreading melanoma ssm,116,9,107,0.07758620689655173,0
+syringoma,126,38,88,0.30158730158730157,1
+telangiectases,120,25,95,0.20833333333333334,0
+tick bite,70,10,60,0.14285714285714285,1
+tuberous sclerosis,136,54,82,0.39705882352941174,0
+tungiasis,134,46,88,0.34328358208955223,0
+urticaria,201,61,140,0.3034825870646766,52
+urticaria pigmentosa,112,24,88,0.21428571428571427,0
+vitiligo,760,597,163,0.7855263157894737,601
+xanthomas,49,20,29,0.40816326530612246,0
+xeroderma pigmentosum,76,53,23,0.6973684210526315,0
+acne conglobata,76,44,32,0.5789473684210527,76
+acne keloidalis,3,3,0,1.0,3
+acne scars,20,15,5,0.75,20
+acrochordon,21,15,6,0.7142857142857143,21
+actinic dermatitis,16,11,5,0.6875,16
+alopecia areata,83,39,44,0.46987951807228917,83
+androgenic alopecia,26,18,8,0.6923076923076923,26
+anetoderma,2,2,0,1.0,2
+angioedema,2,2,0,1.0,2
+atopic dermatitis,30,15,15,0.5,30
+balanitis,1,1,0,1.0,1
+bowen's metastasis,0,0,0,0.5,1
+bullous fixed drug eruption,1,1,0,1.0,1
+bullous pemphigoid,3,2,1,0.6666666666666666,3
+burn of skin,14,9,5,0.6428571428571429,14
+candidal balanoposthitis,42,40,2,0.9523809523809523,42
+candidal intertrigo,112,78,34,0.6964285714285714,112
+candidal vulvovaginitis,24,15,9,0.625,24
+cellulitis,1,1,0,1.0,1
+cherry angioma,7,0,7,0.0,7
+chickenpox exanthem,13,10,3,0.7692307692307693,13
+chromoblastomycosis,8,1,7,0.125,8
+chronic bullous disease of childhood,8,8,0,1.0,8
+chronic actinic dermatitis,15,14,1,0.9333333333333333,15
+chronic eczema with secondary infection,1,1,0,1.0,1
+chronic plaque psoriasis,33,29,4,0.8787878787878788,33
+congenital disease,2,2,0,1.0,2
+contact dermatitis,141,113,28,0.8014184397163121,141
+contact dermatitis with secondary infection,2,2,0,1.0,2
+contact purpura,2,2,0,1.0,2
+corn,2,0,2,0.0,2
+crusted eczematous dermatitis,2,2,0,1.0,2
+cutaneous anthrax,1,1,0,1.0,1
+cutaneous amyloidosis,6,5,1,0.8333333333333334,6
+cutaneous larva migrans,1,1,0,1.0,1
+cutaneous sarcoidosis,3,2,1,0.6666666666666666,3
+cyst,1,1,0,1.0,1
+darier's disease,5,5,0,1.0,5
+demodicosis,3,1,2,0.3333333333333333,3
+dermatosis papulosa nigra,17,7,10,0.4117647058823529,17
+diabetic ulcer,9,9,0,1.0,9
+diaper dermatitis,6,2,4,0.3333333333333333,6
+discoid lupus erythematosus,12,6,6,0.5,12
+disseminated eczema,9,7,2,0.7777777777777778,9
+drug rash,3,1,2,0.3333333333333333,3
+dry discoid eczema,3,3,0,1.0,3
+dryness (xerosis),7,6,1,0.8571428571428571,7
+ear eczema,12,10,2,0.8333333333333334,12
+ecchymosis,2,2,0,1.0,2
+ecthyma,4,1,3,0.25,4
+eczemated tinea,1,0,1,0.0,1
+epidermodysplasia verruciformis,2,2,0,1.0,2
+epidermolysis bullosa simplex,12,7,5,0.5833333333333334,12
+erythema annulare centrifugum,3,1,2,0.3333333333333333,3
+erythrasma,1,1,0,1.0,1
+facial hypermelanosis,3,3,0,1.0,3
+fissure foot,9,8,1,0.8888888888888888,9
+fixed drug eruption,14,7,7,0.5,14
+folliculitis decalvans,7,7,0,1.0,7
+foot ulcer,2,2,0,1.0,2
+furuncle,32,23,9,0.71875,32
+geographictongue,1,1,0,1.0,2
+guttate psoriasis,22,10,12,0.45454545454545453,22
+gutted lichen planus,1,1,0,1.0,1
+haemorrhoids,1,1,0,1.0,1
+hansen's disease,11,8,3,0.7272727272727273,11
+hemangioma,12,4,8,0.3333333333333333,12
+herpes labialis,3,1,2,0.3333333333333333,3
+herpes zoster,33,19,14,0.5757575757575758,33
+herpes genitalis,4,3,1,0.75,4
+hyper hydrosis,1,0,1,0.0,1
+hyperpigmentation disorder,1,1,0,1.0,1
+hypertrophic lichen planus,10,6,4,0.6,10
+hypertrophic scar / keloid,12,6,6,0.5,12
+idiopathic guttate hypomelanosis,9,8,1,0.8888888888888888,9
+impetigo,24,17,7,0.7083333333333334,24
+infected eczema,73,63,10,0.863013698630137,73
+infected keratoderma,6,5,1,0.8333333333333334,6
+infected nodule,1,0,1,0.0,1
+infected tinea,5,3,2,0.6,5
+infection of toe web,1,1,0,1.0,1
+inflammatory linear verrucous epidermal nevus,1,1,0,1.0,1
+insect bite reaction,37,23,14,0.6216216216216216,37
+inverse psoriasis,1,1,0,1.0,1
+itchy skin eruption,2,1,1,0.5,2
+keloid milium,5,4,1,0.8,5
+keratoacanthoma,1,1,0,1.0,1
+keratoderma,10,10,0,1.0,10
+keratoderma with secondary infection,1,0,1,0.0,1
+keratolysis exfoliativa,3,0,3,0.0,3
+kerion,1,0,1,0.0,1
+kumkum dermatitis,4,4,0,1.0,4
+kyrle’s disease,1,1,0,1.0,1
+lichen planus pigmentosus,21,13,8,0.6190476190476191,21
+lichen simplex chronicus,29,29,0,1.0,29
+lichen nitidus,14,14,0,1.0,14
+lichen planopilaris,5,5,0,1.0,5
+lichen sclerosus,6,5,1,0.8333333333333334,6
+lichen spinulosus,2,2,0,1.0,2
+lichen striatus,3,2,1,0.6666666666666666,3
+lichenoid eruption,1,1,0,1.0,4
+linear lichen planus,2,2,0,1.0,2
+lipoma,5,4,1,0.8,5
+lupus vulgaris,4,0,4,0.0,4
+maduromycosis,3,3,0,1.0,3
+melasma,80,46,34,0.575,80
+miliaria,1,1,0,1.0,1
+molluscum contagiosum,14,13,1,0.9285714285714286,14
+mongolian spot,1,0,1,0.0,1
+morphea,1,1,0,1.0,1
+mucosal ulcer or cyst,3,3,0,1.0,3
+mucus cyst,1,1,0,1.0,1
+mycetoma,7,6,1,0.8571428571428571,7
+myxoid cyst,1,1,0,1.0,1
+nail dystrophy,2,2,0,1.0,2
+necrotizing fasciitis,2,2,0,1.0,2
+neurofibroma,2,2,0,1.0,2
+nevus depigmentosis,2,1,1,0.5,2
+nevus anemicus,2,0,2,0.0,2
+nevus sebaceous,1,1,0,1.0,1
+no definite diagnosis,37,23,14,0.6216216216216216,37
+nodular scabies,34,33,1,0.9705882352941176,34
+nodular vasculitis,1,1,0,1.0,1
+nutritional dermatitis,1,1,0,1.0,1
+ochronosis,1,1,0,1.0,1
+onychomycosis,44,36,8,0.8181818181818182,44
+ophiasis,2,1,1,0.5,2
+oral candidiasis,5,4,1,0.8,5
+paederus dermatitis,7,6,1,0.8571428571428571,7
+palmar psoriasis,3,2,1,0.6666666666666666,3
+palmoplantar keratoderma,41,38,3,0.926829268292683,41
+pellagra dermatitis,7,7,0,1.0,7
+pemphigus foliaceus,1,1,0,1.0,1
+pemphigus vulgaris,39,19,20,0.48717948717948717,39
+phimosis,4,3,1,0.75,4
+photodermatitis,55,49,6,0.8909090909090909,55
+phrynoderma,5,5,0,1.0,5
+phytophotodermatitis,14,8,6,0.5714285714285714,14
+pigmented purpuric eruption,1,1,0,1.0,1
+pityriasis alba,27,13,14,0.48148148148148145,27
+polymorphous light eruption,33,25,8,0.7575757575757576,33
+post-inflammatory hyperpigmentation,54,34,20,0.6296296296296297,54
+post-inflammatory hypopigmentation,10,9,1,0.9,10
+prurigo,5,5,0,1.0,5
+prurigo simplex,14,9,5,0.6428571428571429,14
+pruritic urticarial papules,48,31,17,0.6458333333333334,48
+pruritic dermatitis,7,5,2,0.7142857142857143,7
+pseudo lymphoma,1,0,1,0.0,1
+pseudoepitheliomatous keratotic & micaceous balanitis,1,1,0,1.0,1
+pseudofolliculitis barbae,1,1,0,1.0,1
+pseudolymphoma,1,0,1,0.0,1
+pseudomonas,2,1,1,0.5,2
+psoriasis vulgaris,8,7,1,0.875,8
+purpuric dermatoses,1,1,0,1.0,1
+pustular scabies,10,6,4,0.6,10
+pyoderma,45,36,9,0.8,45
+pyoderma gangrenosum,2,2,0,1.0,2
+reticulate acropigmentation of dohi,3,3,0,1.0,3
+sle - systemic lupus erythematosus-related syndrome,1,0,1,0.0,1
+scabies infected,32,31,1,0.96875,32
+scar condition,13,9,4,0.6923076923076923,13
+scrotal dermatitis,54,53,1,0.9814814814814815,54
+sebaceous cyst,12,8,4,0.6666666666666666,12
+seborrheic melanosis,3,0,3,0.0,3
+skin ulcer,3,3,0,1.0,3
+staphylococcal scalded skin syndrome,2,2,0,1.0,2
+steatocystoma multiplex,1,1,0,1.0,1
+steroid induced facies,8,5,3,0.625,8
+steroid modified tinea,114,79,35,0.6929824561403509,114
+sunburn,4,2,2,0.5,4
+sweat dermatitis,10,7,3,0.7,10
+syphilis,3,3,0,1.0,3
+textile dermatitis,15,12,3,0.8,15
+tinea,22,12,10,0.5454545454545454,22
+tinea capitis,32,26,6,0.8125,32
+tinea corporis,323,249,74,0.7708978328173375,323
+tinea cruris,545,428,117,0.7853211009174312,545
+tinea faciei,137,87,50,0.635036496350365,137
+tinea infected with secondary bacterial infection,3,3,0,1.0,3
+tinea manuum,17,13,4,0.7647058823529411,17
+tinea versicolor,78,56,22,0.717948717948718,78
+tinea pedis,16,12,4,0.75,16
+topical steroid damaged face,64,28,36,0.4375,64
+traction alopecia,17,15,2,0.8823529411764706,17
+trichoepithelioma,5,4,1,0.8,5
+trophic ulcer,1,0,1,0.0,1
+truncal acne,35,21,14,0.6,35
+ulcer,4,4,0,1.0,4
+urticarial vasculitis,4,2,2,0.5,4
+varicella zoster,5,3,2,0.6,5
+varicose vein,3,3,0,1.0,3
+vasculitis,12,9,3,0.75,12
+verruca vulgaris,12,6,6,0.5,12
+viral exanthem,6,5,1,0.8333333333333334,6
+wart,27,25,2,0.9259259259259259,27
+white piedra,1,1,0,1.0,1
+xanthelasma palpebrarum,1,1,0,1.0,1
+xanthoma,1,1,0,1.0,1
+xerosis,48,36,12,0.75,48
+xerosis vulgaris,7,7,0,1.0,7
+zoon's balanitis,2,2,0,1.0,2

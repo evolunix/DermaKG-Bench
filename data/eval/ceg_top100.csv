@@ -1,0 +1,101 @@
+rank,disease,drug,relation,ceg,mean_disagreement_kl,uncert_disagreement_kl,dominant_cause,severity,majority_post_mean,majority_n_eff,minority_post_mean,minority_n_eff,has_majority_evidence,has_minority_evidence
+1,syphilis,amphotericin b,indication,0.8112,0.6034,0.5521,mixed,moderate,0.688,1.6,0.886,4.4,0,1
+2,syphilis,benzylpenicillin,indication,0.8112,0.6034,0.5521,mixed,moderate,0.688,1.6,0.886,4.4,0,1
+3,syphilis,demeclocycline,indication,0.8112,0.6034,0.5521,mixed,moderate,0.688,1.6,0.886,4.4,0,1
+4,syphilis,doxycycline,indication,0.8112,0.6034,0.5521,mixed,moderate,0.688,1.6,0.886,4.4,0,1
+5,syphilis,erythromycin,indication,0.8112,0.6034,0.5521,mixed,moderate,0.688,1.6,0.886,4.4,0,1
+6,syphilis,fusidic acid,indication,0.8112,0.6034,0.5521,mixed,moderate,0.688,1.6,0.886,4.4,0,1
+7,syphilis,meclocycline,indication,0.8112,0.6034,0.5521,mixed,moderate,0.688,1.6,0.886,4.4,0,1
+8,syphilis,minocycline,indication,0.8112,0.6034,0.5521,mixed,moderate,0.688,1.6,0.886,4.4,0,1
+9,syphilis,oxytetracycline,indication,0.8112,0.6034,0.5521,mixed,moderate,0.688,1.6,0.886,4.4,0,1
+10,syphilis,procaine benzylpenicillin,indication,0.8112,0.6034,0.5521,mixed,moderate,0.688,1.6,0.886,4.4,0,1
+11,syphilis,tetracycline,indication,0.8112,0.6034,0.5521,mixed,moderate,0.688,1.6,0.886,4.4,0,1
+12,angioedema,astemizole,off-label use,0.7060,0.1117,0.3629,precision,moderate,0.688,1.6,0.580,3.8,0,1
+13,angioedema,cetirizine,off-label use,0.7060,0.1117,0.3629,precision,moderate,0.688,1.6,0.580,3.8,0,1
+14,angioedema,cimetidine,off-label use,0.7060,0.1117,0.3629,precision,moderate,0.688,1.6,0.580,3.8,0,1
+15,angioedema,fexofenadine,off-label use,0.7060,0.1117,0.3629,precision,moderate,0.688,1.6,0.580,3.8,0,1
+16,angioedema,levocetirizine,off-label use,0.7060,0.1117,0.3629,precision,moderate,0.688,1.6,0.580,3.8,0,1
+17,angioedema,loratadine,off-label use,0.7060,0.1117,0.3629,precision,moderate,0.688,1.6,0.580,3.8,0,1
+18,angioedema,terfenadine,off-label use,0.7060,0.1117,0.3629,precision,moderate,0.688,1.6,0.580,3.8,0,1
+19,pyoderma gangrenosum,dapsone,off-label use,0.7060,0.1117,0.3629,precision,moderate,0.688,1.6,0.580,3.8,0,1
+20,pyoderma gangrenosum,sulfapyridine,off-label use,0.7060,0.1117,0.3629,precision,moderate,0.688,1.6,0.580,3.8,0,1
+21,cutaneous anthrax,cilastatin,off-label use,0.6169,0.1012,0.3142,precision,moderate,0.688,1.6,0.584,3.6,0,1
+22,cutaneous anthrax,ciprofloxacin,off-label use,0.6169,0.1012,0.3142,precision,moderate,0.688,1.6,0.584,3.6,0,1
+23,cutaneous anthrax,clindamycin,off-label use,0.6169,0.1012,0.3142,precision,moderate,0.688,1.6,0.584,3.6,0,1
+24,cutaneous anthrax,erythromycin,off-label use,0.6169,0.1012,0.3142,precision,moderate,0.688,1.6,0.584,3.6,0,1
+25,cutaneous anthrax,imipenem,off-label use,0.6169,0.1012,0.3142,precision,moderate,0.688,1.6,0.584,3.6,0,1
+26,cutaneous anthrax,norfloxacin,off-label use,0.6169,0.1012,0.3142,precision,moderate,0.688,1.6,0.584,3.6,0,1
+27,cutaneous anthrax,ofloxacin,off-label use,0.6169,0.1012,0.3142,precision,moderate,0.688,1.6,0.584,3.6,0,1
+28,cutaneous anthrax,rifampicin,off-label use,0.6169,0.1012,0.3142,precision,moderate,0.688,1.6,0.584,3.6,0,1
+29,cutaneous anthrax,vancomycin,off-label use,0.6169,0.1012,0.3142,precision,moderate,0.688,1.6,0.584,3.6,0,1
+30,erythrasma,clindamycin,off-label use,0.6169,0.1012,0.3142,precision,moderate,0.688,1.6,0.584,3.6,0,1
+31,erythrasma,erythromycin,off-label use,0.6169,0.1012,0.3142,precision,moderate,0.688,1.6,0.584,3.6,0,1
+32,erythrasma,phenoxymethylpenicillin,off-label use,0.6169,0.1012,0.3142,precision,moderate,0.688,1.6,0.584,3.6,0,1
+33,white piedra,fluconazole,off-label use,0.6169,0.1012,0.3142,precision,moderate,0.688,1.6,0.584,3.6,0,1
+34,white piedra,itraconazole,off-label use,0.6169,0.1012,0.3142,precision,moderate,0.688,1.6,0.584,3.6,0,1
+35,angioedema,alimemazine,indication,0.5823,0.4565,0.3869,mixed,moderate,0.688,1.6,0.868,3.8,0,1
+36,angioedema,antazoline,indication,0.5823,0.4565,0.3869,mixed,moderate,0.688,1.6,0.868,3.8,0,1
+37,angioedema,azatadine,indication,0.5823,0.4565,0.3869,mixed,moderate,0.688,1.6,0.868,3.8,0,1
+38,angioedema,bamipine,indication,0.5823,0.4565,0.3869,mixed,moderate,0.688,1.6,0.868,3.8,0,1
+39,angioedema,betamethasone,indication,0.5823,0.4565,0.3869,mixed,moderate,0.688,1.6,0.868,3.8,0,1
+40,angioedema,bilastine,indication,0.5823,0.4565,0.3869,mixed,moderate,0.688,1.6,0.868,3.8,0,1
+41,angioedema,brompheniramine,indication,0.5823,0.4565,0.3869,mixed,moderate,0.688,1.6,0.868,3.8,0,1
+42,angioedema,carbinoxamine,indication,0.5823,0.4565,0.3869,mixed,moderate,0.688,1.6,0.868,3.8,0,1
+43,angioedema,chlorpheniramine,indication,0.5823,0.4565,0.3869,mixed,moderate,0.688,1.6,0.868,3.8,0,1
+44,angioedema,clemastine,indication,0.5823,0.4565,0.3869,mixed,moderate,0.688,1.6,0.868,3.8,0,1
+45,angioedema,cortisone acetate,indication,0.5823,0.4565,0.3869,mixed,moderate,0.688,1.6,0.868,3.8,0,1
+46,angioedema,cyproheptadine,indication,0.5823,0.4565,0.3869,mixed,moderate,0.688,1.6,0.868,3.8,0,1
+47,angioedema,dexamethasone,indication,0.5823,0.4565,0.3869,mixed,moderate,0.688,1.6,0.868,3.8,0,1
+48,angioedema,dexbrompheniramine,indication,0.5823,0.4565,0.3869,mixed,moderate,0.688,1.6,0.868,3.8,0,1
+49,angioedema,dexchlorpheniramine,indication,0.5823,0.4565,0.3869,mixed,moderate,0.688,1.6,0.868,3.8,0,1
+50,angioedema,diphenylpyraline,indication,0.5823,0.4565,0.3869,mixed,moderate,0.688,1.6,0.868,3.8,0,1
+51,angioedema,doxylamine,indication,0.5823,0.4565,0.3869,mixed,moderate,0.688,1.6,0.868,3.8,0,1
+52,angioedema,emedastine,indication,0.5823,0.4565,0.3869,mixed,moderate,0.688,1.6,0.868,3.8,0,1
+53,angioedema,hydrocortisone,indication,0.5823,0.4565,0.3869,mixed,moderate,0.688,1.6,0.868,3.8,0,1
+54,angioedema,hydrocortisone acetate,indication,0.5823,0.4565,0.3869,mixed,moderate,0.688,1.6,0.868,3.8,0,1
+55,angioedema,hydroxyzine,indication,0.5823,0.4565,0.3869,mixed,moderate,0.688,1.6,0.868,3.8,0,1
+56,angioedema,mepyramine,indication,0.5823,0.4565,0.3869,mixed,moderate,0.688,1.6,0.868,3.8,0,1
+57,angioedema,methapyrilene,indication,0.5823,0.4565,0.3869,mixed,moderate,0.688,1.6,0.868,3.8,0,1
+58,angioedema,methdilazine,indication,0.5823,0.4565,0.3869,mixed,moderate,0.688,1.6,0.868,3.8,0,1
+59,angioedema,methylprednisolone,indication,0.5823,0.4565,0.3869,mixed,moderate,0.688,1.6,0.868,3.8,0,1
+60,angioedema,phenindamine,indication,0.5823,0.4565,0.3869,mixed,moderate,0.688,1.6,0.868,3.8,0,1
+61,angioedema,pheniramine,indication,0.5823,0.4565,0.3869,mixed,moderate,0.688,1.6,0.868,3.8,0,1
+62,angioedema,phenyltoloxamine,indication,0.5823,0.4565,0.3869,mixed,moderate,0.688,1.6,0.868,3.8,0,1
+63,angioedema,prednisolone,indication,0.5823,0.4565,0.3869,mixed,moderate,0.688,1.6,0.868,3.8,0,1
+64,angioedema,prednisone,indication,0.5823,0.4565,0.3869,mixed,moderate,0.688,1.6,0.868,3.8,0,1
+65,angioedema,promazine,indication,0.5823,0.4565,0.3869,mixed,moderate,0.688,1.6,0.868,3.8,0,1
+66,angioedema,promethazine,indication,0.5823,0.4565,0.3869,mixed,moderate,0.688,1.6,0.868,3.8,0,1
+67,angioedema,rupatadine,indication,0.5823,0.4565,0.3869,mixed,moderate,0.688,1.6,0.868,3.8,0,1
+68,angioedema,triamcinolone,indication,0.5823,0.4565,0.3869,mixed,moderate,0.688,1.6,0.868,3.8,0,1
+69,angioedema,tripelennamine,indication,0.5823,0.4565,0.3869,mixed,moderate,0.688,1.6,0.868,3.8,0,1
+70,angioedema,triprolidine,indication,0.5823,0.4565,0.3869,mixed,moderate,0.688,1.6,0.868,3.8,0,1
+71,epidermodysplasia verruciformis,imiquimod,indication,0.5823,0.4565,0.3869,mixed,moderate,0.688,1.6,0.868,3.8,0,1
+72,pyoderma gangrenosum,clofazimine,indication,0.5823,0.4565,0.3869,mixed,moderate,0.688,1.6,0.868,3.8,0,1
+73,cutaneous anthrax,benzylpenicillin,indication,0.5076,0.4059,0.3339,mixed,moderate,0.688,1.6,0.861,3.6,0,1
+74,cutaneous anthrax,doxycycline,indication,0.5076,0.4059,0.3339,mixed,moderate,0.688,1.6,0.861,3.6,0,1
+75,cutaneous anthrax,fusidic acid,indication,0.5076,0.4059,0.3339,mixed,moderate,0.688,1.6,0.861,3.6,0,1
+76,cutaneous larva migrans,thiabendazole,indication,0.5076,0.4059,0.3339,mixed,moderate,0.688,1.6,0.861,3.6,0,1
+77,erythrasma,amphotericin b,indication,0.5076,0.4059,0.3339,mixed,moderate,0.688,1.6,0.861,3.6,0,1
+78,erythrasma,benzylpenicillin,indication,0.5076,0.4059,0.3339,mixed,moderate,0.688,1.6,0.861,3.6,0,1
+79,erythrasma,demeclocycline,indication,0.5076,0.4059,0.3339,mixed,moderate,0.688,1.6,0.861,3.6,0,1
+80,erythrasma,doxycycline,indication,0.5076,0.4059,0.3339,mixed,moderate,0.688,1.6,0.861,3.6,0,1
+81,erythrasma,erythromycin,indication,0.5076,0.4059,0.3339,mixed,moderate,0.688,1.6,0.861,3.6,0,1
+82,erythrasma,fusidic acid,indication,0.5076,0.4059,0.3339,mixed,moderate,0.688,1.6,0.861,3.6,0,1
+83,erythrasma,meclocycline,indication,0.5076,0.4059,0.3339,mixed,moderate,0.688,1.6,0.861,3.6,0,1
+84,erythrasma,minocycline,indication,0.5076,0.4059,0.3339,mixed,moderate,0.688,1.6,0.861,3.6,0,1
+85,erythrasma,oxytetracycline,indication,0.5076,0.4059,0.3339,mixed,moderate,0.688,1.6,0.861,3.6,0,1
+86,erythrasma,tetracycline,indication,0.5076,0.4059,0.3339,mixed,moderate,0.688,1.6,0.861,3.6,0,1
+87,keratoacanthoma,aminolevulinic acid,indication,0.5076,0.4059,0.3339,mixed,moderate,0.688,1.6,0.861,3.6,0,1
+88,keratoacanthoma,diclofenac,indication,0.5076,0.4059,0.3339,mixed,moderate,0.688,1.6,0.861,3.6,0,1
+89,keratoacanthoma,fluorouracil,indication,0.5076,0.4059,0.3339,mixed,moderate,0.688,1.6,0.861,3.6,0,1
+90,keratoacanthoma,imiquimod,indication,0.5076,0.4059,0.3339,mixed,moderate,0.688,1.6,0.861,3.6,0,1
+91,keratoacanthoma,ingenol mebutate,indication,0.5076,0.4059,0.3339,mixed,moderate,0.688,1.6,0.861,3.6,0,1
+92,keratoacanthoma,masoprocol,indication,0.5076,0.4059,0.3339,mixed,moderate,0.688,1.6,0.861,3.6,0,1
+93,white piedra,amphotericin b,indication,0.5076,0.4059,0.3339,mixed,moderate,0.688,1.6,0.861,3.6,0,1
+94,white piedra,isavuconazonium,indication,0.5076,0.4059,0.3339,mixed,moderate,0.688,1.6,0.861,3.6,0,1
+95,white piedra,itraconazole,indication,0.5076,0.4059,0.3339,mixed,moderate,0.688,1.6,0.861,3.6,0,1
+96,white piedra,ketoconazole,indication,0.5076,0.4059,0.3339,mixed,moderate,0.688,1.6,0.861,3.6,0,1
+97,white piedra,posaconazole,indication,0.5076,0.4059,0.3339,mixed,moderate,0.688,1.6,0.861,3.6,0,1
+98,mongolian spot,acitretin,off-label use,0.2742,0.0938,0.1728,mixed,moderate,0.584,3.6,0.688,1.6,1,0
+99,mongolian spot,tretinoin,off-label use,0.2742,0.0938,0.1728,mixed,moderate,0.584,3.6,0.688,1.6,1,0
+100,palmoplantar keratoderma,urea,off-label use,0.2315,0.0196,0.1933,precision,mild,0.569,4.4,0.534,8.9,1,1

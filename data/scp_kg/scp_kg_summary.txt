@@ -1,0 +1,1 @@
+SCP-KG: 518 edges, 6105 evidence records, per-subgroup observed (edge, group) pairs: {'I-III': 421, 'IV-VI': 516}, prior Beta(α0=1.10, β0=0.50).

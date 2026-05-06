@@ -1,0 +1,11 @@
+disease,drug,fst_stratum,co_rank_mean,dermakg_rank_mean,rank_gain
+basal cell carcinoma,vismodegib,I-III,166.0,2.0,164.0
+vitiligo,trioxsalen,IV-VI,164.5,2.0,162.5
+palmoplantar keratoderma,tretinoin,IV-VI,164.0,2.0,162.0
+cutaneous larva migrans,thiabendazole,IV-VI,162.6,1.0,161.6
+keloid,tranilast,IV-VI,164.0,3.0,161.0
+melanoma,vindesine,I-III,165.0,4.0,161.0
+neurofibromatosis,selumetinib,IV-VI,159.6,1.0,158.6
+myiasis,sulfadiazine,I-III,161.5,3.0,158.5
+basal cell carcinoma,sonidegib,I-III,160.5,2.0,158.5
+melanoma,talimogene laherparepvec,I-III,162.0,4.0,158.0

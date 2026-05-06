@@ -1,0 +1,18 @@
+
+DISAGREEMENT TABLE — SUMMARY STATISTICS (for paper §6.2 / Appendix G):
+
+  Total unique (disease, drug) edges across 5 folds: 277
+  DermaKG-Posterior ranks higher: 97 edges (35.0%)
+  Co-occurrence ranks higher:     168 edges (60.6%)
+  Tied:                            12 edges (4.3%)
+
+  Strong disagreements (|rank gain| ≥ 3):
+    DermaKG-Posterior wins: 90
+    Co-occurrence wins:     149
+
+  Mean rank gain (DermaKG-Posterior − Co-occurrence): +30.26
+  Median rank gain:                                    -3.50
+
+For paper Appendix G Table 4: see paper_table4_top10.csv
+For full disagreement edges (clinician adjudication subset):
+                              see paper_table_disagreement.csv

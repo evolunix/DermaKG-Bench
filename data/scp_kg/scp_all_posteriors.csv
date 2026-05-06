@@ -1,0 +1,519 @@
+disease,drug,relation,alpha_iii,beta_iii,post_mean_iii,n_eff_iii,alpha_ivvi,beta_ivvi,post_mean_ivvi,n_eff_ivvi,ceg
+acrodermatitis enteropathica,zinc chloride,off-label use,5.3533,4.7485,0.5299,10.10,4.0493,3.4444,0.5404,7.49,nan
+acrodermatitis enteropathica,zinc gluconate,off-label use,5.3533,4.7485,0.5299,10.10,4.0493,3.4444,0.5404,7.49,nan
+acrodermatitis enteropathica,zinc sulfate,off-label use,5.3533,4.7485,0.5299,10.10,4.0493,3.4444,0.5404,7.49,nan
+alopecia areata,triamcinolone,indication,8.7182,0.5000,0.9458,9.22,8.4826,0.5000,0.9443,8.98,nan
+alopecia areata,anthralin,off-label use,4.9115,4.3067,0.5328,9.22,4.7937,4.1889,0.5337,8.98,nan
+alopecia areata,methoxsalen,off-label use,4.9115,4.3067,0.5328,9.22,4.7937,4.1889,0.5337,8.98,nan
+angioedema,alimemazine,indication,1.1048,0.5000,0.6884,1.60,3.3021,0.5000,0.8685,3.80,nan
+angioedema,antazoline,indication,1.1048,0.5000,0.6884,1.60,3.3021,0.5000,0.8685,3.80,nan
+angioedema,azatadine,indication,1.1048,0.5000,0.6884,1.60,3.3021,0.5000,0.8685,3.80,nan
+angioedema,bamipine,indication,1.1048,0.5000,0.6884,1.60,3.3021,0.5000,0.8685,3.80,nan
+angioedema,betamethasone,indication,1.1048,0.5000,0.6884,1.60,3.3021,0.5000,0.8685,3.80,nan
+angioedema,bilastine,indication,1.1048,0.5000,0.6884,1.60,3.3021,0.5000,0.8685,3.80,nan
+angioedema,brompheniramine,indication,1.1048,0.5000,0.6884,1.60,3.3021,0.5000,0.8685,3.80,nan
+angioedema,carbinoxamine,indication,1.1048,0.5000,0.6884,1.60,3.3021,0.5000,0.8685,3.80,nan
+angioedema,chlorpheniramine,indication,1.1048,0.5000,0.6884,1.60,3.3021,0.5000,0.8685,3.80,nan
+angioedema,clemastine,indication,1.1048,0.5000,0.6884,1.60,3.3021,0.5000,0.8685,3.80,nan
+angioedema,cortisone acetate,indication,1.1048,0.5000,0.6884,1.60,3.3021,0.5000,0.8685,3.80,nan
+angioedema,cyproheptadine,indication,1.1048,0.5000,0.6884,1.60,3.3021,0.5000,0.8685,3.80,nan
+angioedema,dexamethasone,indication,1.1048,0.5000,0.6884,1.60,3.3021,0.5000,0.8685,3.80,nan
+angioedema,dexbrompheniramine,indication,1.1048,0.5000,0.6884,1.60,3.3021,0.5000,0.8685,3.80,nan
+angioedema,dexchlorpheniramine,indication,1.1048,0.5000,0.6884,1.60,3.3021,0.5000,0.8685,3.80,nan
+angioedema,diphenylpyraline,indication,1.1048,0.5000,0.6884,1.60,3.3021,0.5000,0.8685,3.80,nan
+angioedema,doxylamine,indication,1.1048,0.5000,0.6884,1.60,3.3021,0.5000,0.8685,3.80,nan
+angioedema,emedastine,indication,1.1048,0.5000,0.6884,1.60,3.3021,0.5000,0.8685,3.80,nan
+angioedema,hydrocortisone,indication,1.1048,0.5000,0.6884,1.60,3.3021,0.5000,0.8685,3.80,nan
+angioedema,hydrocortisone acetate,indication,1.1048,0.5000,0.6884,1.60,3.3021,0.5000,0.8685,3.80,nan
+angioedema,hydroxyzine,indication,1.1048,0.5000,0.6884,1.60,3.3021,0.5000,0.8685,3.80,nan
+angioedema,mepyramine,indication,1.1048,0.5000,0.6884,1.60,3.3021,0.5000,0.8685,3.80,nan
+angioedema,methapyrilene,indication,1.1048,0.5000,0.6884,1.60,3.3021,0.5000,0.8685,3.80,nan
+angioedema,methdilazine,indication,1.1048,0.5000,0.6884,1.60,3.3021,0.5000,0.8685,3.80,nan
+angioedema,methylprednisolone,indication,1.1048,0.5000,0.6884,1.60,3.3021,0.5000,0.8685,3.80,nan
+angioedema,phenindamine,indication,1.1048,0.5000,0.6884,1.60,3.3021,0.5000,0.8685,3.80,nan
+angioedema,pheniramine,indication,1.1048,0.5000,0.6884,1.60,3.3021,0.5000,0.8685,3.80,nan
+angioedema,phenyltoloxamine,indication,1.1048,0.5000,0.6884,1.60,3.3021,0.5000,0.8685,3.80,nan
+angioedema,prednisolone,indication,1.1048,0.5000,0.6884,1.60,3.3021,0.5000,0.8685,3.80,nan
+angioedema,prednisone,indication,1.1048,0.5000,0.6884,1.60,3.3021,0.5000,0.8685,3.80,nan
+angioedema,promazine,indication,1.1048,0.5000,0.6884,1.60,3.3021,0.5000,0.8685,3.80,nan
+angioedema,promethazine,indication,1.1048,0.5000,0.6884,1.60,3.3021,0.5000,0.8685,3.80,nan
+angioedema,rupatadine,indication,1.1048,0.5000,0.6884,1.60,3.3021,0.5000,0.8685,3.80,nan
+angioedema,triamcinolone,indication,1.1048,0.5000,0.6884,1.60,3.3021,0.5000,0.8685,3.80,nan
+angioedema,tripelennamine,indication,1.1048,0.5000,0.6884,1.60,3.3021,0.5000,0.8685,3.80,nan
+angioedema,triprolidine,indication,1.1048,0.5000,0.6884,1.60,3.3021,0.5000,0.8685,3.80,nan
+angioedema,astemizole,off-label use,1.1048,0.5000,0.6884,1.60,2.2034,1.5986,0.5795,3.80,nan
+angioedema,cetirizine,off-label use,1.1048,0.5000,0.6884,1.60,2.2034,1.5986,0.5795,3.80,nan
+angioedema,cimetidine,off-label use,1.1048,0.5000,0.6884,1.60,2.2034,1.5986,0.5795,3.80,nan
+angioedema,fexofenadine,off-label use,1.1048,0.5000,0.6884,1.60,2.2034,1.5986,0.5795,3.80,nan
+angioedema,levocetirizine,off-label use,1.1048,0.5000,0.6884,1.60,2.2034,1.5986,0.5795,3.80,nan
+angioedema,loratadine,off-label use,1.1048,0.5000,0.6884,1.60,2.2034,1.5986,0.5795,3.80,nan
+angioedema,terfenadine,off-label use,1.1048,0.5000,0.6884,1.60,2.2034,1.5986,0.5795,3.80,nan
+basal cell carcinoma,sonidegib,indication,12.8603,0.5000,0.9626,13.36,10.5947,0.5000,0.9549,11.09,nan
+basal cell carcinoma,vismodegib,indication,12.8603,0.5000,0.9626,13.36,10.5947,0.5000,0.9549,11.09,nan
+bullous pemphigoid,betamethasone,off-label use,2.1048,1.5000,0.5839,3.60,2.2034,1.5986,0.5795,3.80,nan
+bullous pemphigoid,cortisone acetate,off-label use,2.1048,1.5000,0.5839,3.60,2.2034,1.5986,0.5795,3.80,nan
+bullous pemphigoid,dapsone,off-label use,2.1048,1.5000,0.5839,3.60,2.2034,1.5986,0.5795,3.80,nan
+bullous pemphigoid,dexamethasone,off-label use,2.1048,1.5000,0.5839,3.60,2.2034,1.5986,0.5795,3.80,nan
+bullous pemphigoid,methylprednisolone,off-label use,2.1048,1.5000,0.5839,3.60,2.2034,1.5986,0.5795,3.80,nan
+bullous pemphigoid,prednisolone,off-label use,2.1048,1.5000,0.5839,3.60,2.2034,1.5986,0.5795,3.80,nan
+bullous pemphigoid,prednisone,off-label use,2.1048,1.5000,0.5839,3.60,2.2034,1.5986,0.5795,3.80,nan
+bullous pemphigoid,sulfapyridine,off-label use,2.1048,1.5000,0.5839,3.60,2.2034,1.5986,0.5795,3.80,nan
+bullous pemphigoid,triamcinolone,off-label use,2.1048,1.5000,0.5839,3.60,2.2034,1.5986,0.5795,3.80,nan
+contact dermatitis,amcinonide,indication,7.8394,0.5000,0.9400,8.34,10.5772,0.5000,0.9549,11.08,nan
+contact dermatitis,ammonium lactate,indication,7.8394,0.5000,0.9400,8.34,10.5772,0.5000,0.9549,11.08,nan
+contact dermatitis,benzoyl peroxide,indication,7.8394,0.5000,0.9400,8.34,10.5772,0.5000,0.9549,11.08,nan
+contact dermatitis,betamethasone,indication,7.8394,0.5000,0.9400,8.34,10.5772,0.5000,0.9549,11.08,nan
+contact dermatitis,clobetasol propionate,indication,7.8394,0.5000,0.9400,8.34,10.5772,0.5000,0.9549,11.08,nan
+contact dermatitis,cortisone acetate,indication,7.8394,0.5000,0.9400,8.34,10.5772,0.5000,0.9549,11.08,nan
+contact dermatitis,desonide,indication,7.8394,0.5000,0.9400,8.34,10.5772,0.5000,0.9549,11.08,nan
+contact dermatitis,desoximetasone,indication,7.8394,0.5000,0.9400,8.34,10.5772,0.5000,0.9549,11.08,nan
+contact dermatitis,dexamethasone,indication,7.8394,0.5000,0.9400,8.34,10.5772,0.5000,0.9549,11.08,nan
+contact dermatitis,flumethasone,indication,7.8394,0.5000,0.9400,8.34,10.5772,0.5000,0.9549,11.08,nan
+contact dermatitis,fluocinolone acetonide,indication,7.8394,0.5000,0.9400,8.34,10.5772,0.5000,0.9549,11.08,nan
+contact dermatitis,fluocinonide,indication,7.8394,0.5000,0.9400,8.34,10.5772,0.5000,0.9549,11.08,nan
+contact dermatitis,flurandrenolide,indication,7.8394,0.5000,0.9400,8.34,10.5772,0.5000,0.9549,11.08,nan
+contact dermatitis,fluticasone propionate,indication,7.8394,0.5000,0.9400,8.34,10.5772,0.5000,0.9549,11.08,nan
+contact dermatitis,halcinonide,indication,7.8394,0.5000,0.9400,8.34,10.5772,0.5000,0.9549,11.08,nan
+contact dermatitis,hydrocortisone,indication,7.8394,0.5000,0.9400,8.34,10.5772,0.5000,0.9549,11.08,nan
+contact dermatitis,hydrocortisone acetate,indication,7.8394,0.5000,0.9400,8.34,10.5772,0.5000,0.9549,11.08,nan
+contact dermatitis,methylprednisolone,indication,7.8394,0.5000,0.9400,8.34,10.5772,0.5000,0.9549,11.08,nan
+contact dermatitis,mometasone furoate,indication,7.8394,0.5000,0.9400,8.34,10.5772,0.5000,0.9549,11.08,nan
+contact dermatitis,prednicarbate,indication,7.8394,0.5000,0.9400,8.34,10.5772,0.5000,0.9549,11.08,nan
+contact dermatitis,prednisolone,indication,7.8394,0.5000,0.9400,8.34,10.5772,0.5000,0.9549,11.08,nan
+contact dermatitis,prednisone,indication,7.8394,0.5000,0.9400,8.34,10.5772,0.5000,0.9549,11.08,nan
+contact dermatitis,triamcinolone,indication,7.8394,0.5000,0.9400,8.34,10.5772,0.5000,0.9549,11.08,nan
+contact dermatitis,urea,indication,7.8394,0.5000,0.9400,8.34,10.5772,0.5000,0.9549,11.08,nan
+contact dermatitis,diiodohydroxyquinoline,off-label use,4.4721,3.8673,0.5363,8.34,5.8410,5.2362,0.5273,11.08,nan
+cutaneous anthrax,benzylpenicillin,indication,1.1048,0.5000,0.6884,1.60,3.1048,0.5000,0.8613,3.60,nan
+cutaneous anthrax,doxycycline,indication,1.1048,0.5000,0.6884,1.60,3.1048,0.5000,0.8613,3.60,nan
+cutaneous anthrax,fusidic acid,indication,1.1048,0.5000,0.6884,1.60,3.1048,0.5000,0.8613,3.60,nan
+cutaneous anthrax,cilastatin,off-label use,1.1048,0.5000,0.6884,1.60,2.1048,1.5000,0.5839,3.60,nan
+cutaneous anthrax,ciprofloxacin,off-label use,1.1048,0.5000,0.6884,1.60,2.1048,1.5000,0.5839,3.60,nan
+cutaneous anthrax,clindamycin,off-label use,1.1048,0.5000,0.6884,1.60,2.1048,1.5000,0.5839,3.60,nan
+cutaneous anthrax,erythromycin,off-label use,1.1048,0.5000,0.6884,1.60,2.1048,1.5000,0.5839,3.60,nan
+cutaneous anthrax,imipenem,off-label use,1.1048,0.5000,0.6884,1.60,2.1048,1.5000,0.5839,3.60,nan
+cutaneous anthrax,norfloxacin,off-label use,1.1048,0.5000,0.6884,1.60,2.1048,1.5000,0.5839,3.60,nan
+cutaneous anthrax,ofloxacin,off-label use,1.1048,0.5000,0.6884,1.60,2.1048,1.5000,0.5839,3.60,nan
+cutaneous anthrax,rifampicin,off-label use,1.1048,0.5000,0.6884,1.60,2.1048,1.5000,0.5839,3.60,nan
+cutaneous anthrax,vancomycin,off-label use,1.1048,0.5000,0.6884,1.60,2.1048,1.5000,0.5839,3.60,nan
+cutaneous larva migrans,thiabendazole,indication,1.1048,0.5000,0.6884,1.60,3.1048,0.5000,0.8613,3.60,nan
+dermatomyositis,aminobenzoic acid,indication,10.4875,0.5000,0.9545,10.99,8.5802,0.5000,0.9449,9.08,nan
+dermatomyositis,benzoic acid,indication,10.4875,0.5000,0.9545,10.99,8.5802,0.5000,0.9449,9.08,nan
+discoid lupus erythematosus,amcinonide,indication,4.9967,0.5000,0.9090,5.50,4.9967,0.5000,0.9090,5.50,nan
+discoid lupus erythematosus,betamethasone,indication,4.9967,0.5000,0.9090,5.50,4.9967,0.5000,0.9090,5.50,nan
+discoid lupus erythematosus,chloroquine,indication,4.9967,0.5000,0.9090,5.50,4.9967,0.5000,0.9090,5.50,nan
+discoid lupus erythematosus,cortisone acetate,indication,4.9967,0.5000,0.9090,5.50,4.9967,0.5000,0.9090,5.50,nan
+discoid lupus erythematosus,desonide,indication,4.9967,0.5000,0.9090,5.50,4.9967,0.5000,0.9090,5.50,nan
+discoid lupus erythematosus,desoximetasone,indication,4.9967,0.5000,0.9090,5.50,4.9967,0.5000,0.9090,5.50,nan
+discoid lupus erythematosus,dexamethasone,indication,4.9967,0.5000,0.9090,5.50,4.9967,0.5000,0.9090,5.50,nan
+discoid lupus erythematosus,flumethasone,indication,4.9967,0.5000,0.9090,5.50,4.9967,0.5000,0.9090,5.50,nan
+discoid lupus erythematosus,fluocinolone acetonide,indication,4.9967,0.5000,0.9090,5.50,4.9967,0.5000,0.9090,5.50,nan
+discoid lupus erythematosus,fluocinonide,indication,4.9967,0.5000,0.9090,5.50,4.9967,0.5000,0.9090,5.50,nan
+discoid lupus erythematosus,flurandrenolide,indication,4.9967,0.5000,0.9090,5.50,4.9967,0.5000,0.9090,5.50,nan
+discoid lupus erythematosus,fluticasone propionate,indication,4.9967,0.5000,0.9090,5.50,4.9967,0.5000,0.9090,5.50,nan
+discoid lupus erythematosus,halcinonide,indication,4.9967,0.5000,0.9090,5.50,4.9967,0.5000,0.9090,5.50,nan
+discoid lupus erythematosus,hydrocortisone,indication,4.9967,0.5000,0.9090,5.50,4.9967,0.5000,0.9090,5.50,nan
+discoid lupus erythematosus,hydroxychloroquine,indication,4.9967,0.5000,0.9090,5.50,4.9967,0.5000,0.9090,5.50,nan
+discoid lupus erythematosus,methylprednisolone,indication,4.9967,0.5000,0.9090,5.50,4.9967,0.5000,0.9090,5.50,nan
+discoid lupus erythematosus,mometasone furoate,indication,4.9967,0.5000,0.9090,5.50,4.9967,0.5000,0.9090,5.50,nan
+discoid lupus erythematosus,prednicarbate,indication,4.9967,0.5000,0.9090,5.50,4.9967,0.5000,0.9090,5.50,nan
+discoid lupus erythematosus,prednisolone,indication,4.9967,0.5000,0.9090,5.50,4.9967,0.5000,0.9090,5.50,nan
+discoid lupus erythematosus,triamcinolone,indication,4.9967,0.5000,0.9090,5.50,4.9967,0.5000,0.9090,5.50,nan
+discoid lupus erythematosus,quinacrine,off-label use,3.0507,2.4459,0.5550,5.50,3.0507,2.4459,0.5550,5.50,nan
+discoid lupus erythematosus,thalidomide,off-label use,3.0507,2.4459,0.5550,5.50,3.0507,2.4459,0.5550,5.50,nan
+ecthyma,erythromycin,off-label use,2.4911,1.8863,0.5691,4.38,2.1048,1.5000,0.5839,3.60,nan
+ecthyma,mupirocin,off-label use,2.4911,1.8863,0.5691,4.38,2.1048,1.5000,0.5839,3.60,nan
+epidermodysplasia verruciformis,imiquimod,indication,1.1048,0.5000,0.6884,1.60,3.3021,0.5000,0.8685,3.80,nan
+epidermolysis bullosa,mupirocin,off-label use,4.9335,4.3286,0.5327,9.26,4.5388,3.9340,0.5357,8.47,nan
+epidermolysis bullosa simplex,mupirocin,off-label use,2.8966,2.2918,0.5583,5.19,3.1843,2.5794,0.5525,5.76,nan
+erythema multiforme,betamethasone,indication,11.2923,0.5000,0.9576,11.79,9.6582,0.5000,0.9508,10.16,nan
+erythema multiforme,cortisone acetate,indication,11.2923,0.5000,0.9576,11.79,9.6582,0.5000,0.9508,10.16,nan
+erythema multiforme,dexamethasone,indication,11.2923,0.5000,0.9576,11.79,9.6582,0.5000,0.9508,10.16,nan
+erythema multiforme,hydrocortisone,indication,11.2923,0.5000,0.9576,11.79,9.6582,0.5000,0.9508,10.16,nan
+erythema multiforme,hydrocortisone acetate,indication,11.2923,0.5000,0.9576,11.79,9.6582,0.5000,0.9508,10.16,nan
+erythema multiforme,methylprednisolone,indication,11.2923,0.5000,0.9576,11.79,9.6582,0.5000,0.9508,10.16,nan
+erythema multiforme,prednisolone,indication,11.2923,0.5000,0.9576,11.79,9.6582,0.5000,0.9508,10.16,nan
+erythema multiforme,prednisone,indication,11.2923,0.5000,0.9576,11.79,9.6582,0.5000,0.9508,10.16,nan
+erythema multiforme,triamcinolone,indication,11.2923,0.5000,0.9576,11.79,9.6582,0.5000,0.9508,10.16,nan
+erythrasma,amphotericin b,indication,1.1048,0.5000,0.6884,1.60,3.1048,0.5000,0.8613,3.60,nan
+erythrasma,benzylpenicillin,indication,1.1048,0.5000,0.6884,1.60,3.1048,0.5000,0.8613,3.60,nan
+erythrasma,demeclocycline,indication,1.1048,0.5000,0.6884,1.60,3.1048,0.5000,0.8613,3.60,nan
+erythrasma,doxycycline,indication,1.1048,0.5000,0.6884,1.60,3.1048,0.5000,0.8613,3.60,nan
+erythrasma,erythromycin,indication,1.1048,0.5000,0.6884,1.60,3.1048,0.5000,0.8613,3.60,nan
+erythrasma,fusidic acid,indication,1.1048,0.5000,0.6884,1.60,3.1048,0.5000,0.8613,3.60,nan
+erythrasma,meclocycline,indication,1.1048,0.5000,0.6884,1.60,3.1048,0.5000,0.8613,3.60,nan
+erythrasma,minocycline,indication,1.1048,0.5000,0.6884,1.60,3.1048,0.5000,0.8613,3.60,nan
+erythrasma,oxytetracycline,indication,1.1048,0.5000,0.6884,1.60,3.1048,0.5000,0.8613,3.60,nan
+erythrasma,tetracycline,indication,1.1048,0.5000,0.6884,1.60,3.1048,0.5000,0.8613,3.60,nan
+erythrasma,clindamycin,off-label use,1.1048,0.5000,0.6884,1.60,2.1048,1.5000,0.5839,3.60,nan
+erythrasma,erythromycin,off-label use,1.1048,0.5000,0.6884,1.60,2.1048,1.5000,0.5839,3.60,nan
+erythrasma,phenoxymethylpenicillin,off-label use,1.1048,0.5000,0.6884,1.60,2.1048,1.5000,0.5839,3.60,nan
+folliculitis,fusidic acid,indication,11.9723,0.5000,0.9599,12.47,10.5596,0.5000,0.9548,11.06,nan
+folliculitis,mupirocin,off-label use,6.5386,5.9337,0.5242,12.47,5.8322,5.2274,0.5273,11.06,nan
+granuloma annulare,amcinonide,indication,10.9593,0.5000,0.9564,11.46,9.7398,0.5000,0.9512,10.24,nan
+granuloma annulare,ammonium lactate,indication,10.9593,0.5000,0.9564,11.46,9.7398,0.5000,0.9512,10.24,nan
+granuloma annulare,benzoyl peroxide,indication,10.9593,0.5000,0.9564,11.46,9.7398,0.5000,0.9512,10.24,nan
+granuloma annulare,betamethasone,indication,10.9593,0.5000,0.9564,11.46,9.7398,0.5000,0.9512,10.24,nan
+granuloma annulare,cortisone acetate,indication,10.9593,0.5000,0.9564,11.46,9.7398,0.5000,0.9512,10.24,nan
+granuloma annulare,desonide,indication,10.9593,0.5000,0.9564,11.46,9.7398,0.5000,0.9512,10.24,nan
+granuloma annulare,desoximetasone,indication,10.9593,0.5000,0.9564,11.46,9.7398,0.5000,0.9512,10.24,nan
+granuloma annulare,dexamethasone,indication,10.9593,0.5000,0.9564,11.46,9.7398,0.5000,0.9512,10.24,nan
+granuloma annulare,flumethasone,indication,10.9593,0.5000,0.9564,11.46,9.7398,0.5000,0.9512,10.24,nan
+granuloma annulare,fluocinolone acetonide,indication,10.9593,0.5000,0.9564,11.46,9.7398,0.5000,0.9512,10.24,nan
+granuloma annulare,fluocinonide,indication,10.9593,0.5000,0.9564,11.46,9.7398,0.5000,0.9512,10.24,nan
+granuloma annulare,flurandrenolide,indication,10.9593,0.5000,0.9564,11.46,9.7398,0.5000,0.9512,10.24,nan
+granuloma annulare,fluticasone propionate,indication,10.9593,0.5000,0.9564,11.46,9.7398,0.5000,0.9512,10.24,nan
+granuloma annulare,halcinonide,indication,10.9593,0.5000,0.9564,11.46,9.7398,0.5000,0.9512,10.24,nan
+granuloma annulare,hydrocortisone,indication,10.9593,0.5000,0.9564,11.46,9.7398,0.5000,0.9512,10.24,nan
+granuloma annulare,methylprednisolone,indication,10.9593,0.5000,0.9564,11.46,9.7398,0.5000,0.9512,10.24,nan
+granuloma annulare,mometasone furoate,indication,10.9593,0.5000,0.9564,11.46,9.7398,0.5000,0.9512,10.24,nan
+granuloma annulare,prednicarbate,indication,10.9593,0.5000,0.9564,11.46,9.7398,0.5000,0.9512,10.24,nan
+granuloma annulare,prednisolone,indication,10.9593,0.5000,0.9564,11.46,9.7398,0.5000,0.9512,10.24,nan
+granuloma annulare,triamcinolone,indication,10.9593,0.5000,0.9564,11.46,9.7398,0.5000,0.9512,10.24,nan
+granuloma annulare,dapsone,off-label use,6.0321,5.4273,0.5264,11.46,5.4223,4.8175,0.5295,10.24,nan
+hemangioma,propranolol,indication,5.4993,0.5000,0.9167,6.00,4.3237,0.5000,0.8963,4.82,nan
+herpes labialis,acyclovir,indication,3.3021,0.5000,0.8685,3.80,3.1048,0.5000,0.8613,3.60,nan
+herpes labialis,docosanol,indication,3.3021,0.5000,0.8685,3.80,3.1048,0.5000,0.8613,3.60,nan
+herpes labialis,penciclovir,indication,3.3021,0.5000,0.8685,3.80,3.1048,0.5000,0.8613,3.60,nan
+herpes zoster,acyclovir,indication,6.5209,0.5000,0.9288,7.02,7.0963,0.5000,0.9342,7.60,nan
+herpes zoster,amenamevir,indication,6.5209,0.5000,0.9288,7.02,7.0963,0.5000,0.9342,7.60,nan
+herpes zoster,famciclovir,indication,6.5209,0.5000,0.9288,7.02,7.0963,0.5000,0.9342,7.60,nan
+hidradenitis,adalimumab,indication,9.5142,0.5000,0.9501,10.01,8.3800,0.5000,0.9437,8.88,nan
+impetigo,cefuroxime,indication,5.2637,0.5000,0.9133,5.76,6.8856,0.5000,0.9323,7.39,nan
+impetigo,mupirocin,indication,5.2637,0.5000,0.9133,5.76,6.8856,0.5000,0.9323,7.39,nan
+impetigo,retapamulin,indication,5.2637,0.5000,0.9133,5.76,6.8856,0.5000,0.9323,7.39,nan
+keloid,dexamethasone,indication,10.0595,0.5000,0.9526,10.56,10.0821,0.5000,0.9528,10.58,nan
+keloid,tranilast,indication,10.0595,0.5000,0.9526,10.56,10.0821,0.5000,0.9528,10.58,nan
+keloid,triamcinolone,indication,10.0595,0.5000,0.9526,10.56,10.0821,0.5000,0.9528,10.58,nan
+keratoacanthoma,aminolevulinic acid,indication,1.1048,0.5000,0.6884,1.60,3.1048,0.5000,0.8613,3.60,nan
+keratoacanthoma,diclofenac,indication,1.1048,0.5000,0.6884,1.60,3.1048,0.5000,0.8613,3.60,nan
+keratoacanthoma,fluorouracil,indication,1.1048,0.5000,0.6884,1.60,3.1048,0.5000,0.8613,3.60,nan
+keratoacanthoma,imiquimod,indication,1.1048,0.5000,0.6884,1.60,3.1048,0.5000,0.8613,3.60,nan
+keratoacanthoma,ingenol mebutate,indication,1.1048,0.5000,0.6884,1.60,3.1048,0.5000,0.8613,3.60,nan
+keratoacanthoma,masoprocol,indication,1.1048,0.5000,0.6884,1.60,3.1048,0.5000,0.8613,3.60,nan
+langerhans cell histiocytosis,betamethasone,indication,8.9685,0.5000,0.9472,9.47,4.9967,0.5000,0.9090,5.50,nan
+langerhans cell histiocytosis,bleomycin,indication,8.9685,0.5000,0.9472,9.47,4.9967,0.5000,0.9090,5.50,nan
+langerhans cell histiocytosis,carmustine,indication,8.9685,0.5000,0.9472,9.47,4.9967,0.5000,0.9090,5.50,nan
+langerhans cell histiocytosis,cortisone acetate,indication,8.9685,0.5000,0.9472,9.47,4.9967,0.5000,0.9090,5.50,nan
+langerhans cell histiocytosis,dexamethasone,indication,8.9685,0.5000,0.9472,9.47,4.9967,0.5000,0.9090,5.50,nan
+langerhans cell histiocytosis,doxorubicin,indication,8.9685,0.5000,0.9472,9.47,4.9967,0.5000,0.9090,5.50,nan
+langerhans cell histiocytosis,hydrocortisone,indication,8.9685,0.5000,0.9472,9.47,4.9967,0.5000,0.9090,5.50,nan
+langerhans cell histiocytosis,hydrocortisone acetate,indication,8.9685,0.5000,0.9472,9.47,4.9967,0.5000,0.9090,5.50,nan
+langerhans cell histiocytosis,mechlorethamine,indication,8.9685,0.5000,0.9472,9.47,4.9967,0.5000,0.9090,5.50,nan
+langerhans cell histiocytosis,methotrexate,indication,8.9685,0.5000,0.9472,9.47,4.9967,0.5000,0.9090,5.50,nan
+langerhans cell histiocytosis,methylprednisolone,indication,8.9685,0.5000,0.9472,9.47,4.9967,0.5000,0.9090,5.50,nan
+langerhans cell histiocytosis,prednisolone,indication,8.9685,0.5000,0.9472,9.47,4.9967,0.5000,0.9090,5.50,nan
+langerhans cell histiocytosis,prednisone,indication,8.9685,0.5000,0.9472,9.47,4.9967,0.5000,0.9090,5.50,nan
+langerhans cell histiocytosis,rituximab,indication,8.9685,0.5000,0.9472,9.47,4.9967,0.5000,0.9090,5.50,nan
+langerhans cell histiocytosis,thiotepa,indication,8.9685,0.5000,0.9472,9.47,4.9967,0.5000,0.9090,5.50,nan
+langerhans cell histiocytosis,triamcinolone,indication,8.9685,0.5000,0.9472,9.47,4.9967,0.5000,0.9090,5.50,nan
+langerhans cell histiocytosis,uracil mustard,indication,8.9685,0.5000,0.9472,9.47,4.9967,0.5000,0.9090,5.50,nan
+langerhans cell histiocytosis,vinblastine,indication,8.9685,0.5000,0.9472,9.47,4.9967,0.5000,0.9090,5.50,nan
+langerhans cell histiocytosis,vincristine,indication,8.9685,0.5000,0.9472,9.47,4.9967,0.5000,0.9090,5.50,nan
+langerhans cell histiocytosis,cladribine,off-label use,5.0367,4.4318,0.5319,9.47,3.0507,2.4459,0.5550,5.50,nan
+lichen planus,triamcinolone,indication,12.2567,0.5000,0.9608,12.76,12.3311,0.5000,0.9610,12.83,nan
+lichen planus,acitretin,off-label use,6.6808,6.0759,0.5237,12.76,6.7180,6.1131,0.5236,12.83,nan
+lichen planus,etretinate,off-label use,6.6808,6.0759,0.5237,12.76,6.7180,6.1131,0.5236,12.83,nan
+lichen planus,methoxsalen,off-label use,6.6808,6.0759,0.5237,12.76,6.7180,6.1131,0.5236,12.83,nan
+lupus erythematosus,amcinonide,indication,11.9102,0.5000,0.9597,12.41,11.5018,0.5000,0.9583,12.00,nan
+lupus erythematosus,betamethasone,indication,11.9102,0.5000,0.9597,12.41,11.5018,0.5000,0.9583,12.00,nan
+lupus erythematosus,chloroquine,indication,11.9102,0.5000,0.9597,12.41,11.5018,0.5000,0.9583,12.00,nan
+lupus erythematosus,cortisone acetate,indication,11.9102,0.5000,0.9597,12.41,11.5018,0.5000,0.9583,12.00,nan
+lupus erythematosus,desonide,indication,11.9102,0.5000,0.9597,12.41,11.5018,0.5000,0.9583,12.00,nan
+lupus erythematosus,desoximetasone,indication,11.9102,0.5000,0.9597,12.41,11.5018,0.5000,0.9583,12.00,nan
+lupus erythematosus,dexamethasone,indication,11.9102,0.5000,0.9597,12.41,11.5018,0.5000,0.9583,12.00,nan
+lupus erythematosus,flumethasone,indication,11.9102,0.5000,0.9597,12.41,11.5018,0.5000,0.9583,12.00,nan
+lupus erythematosus,fluocinolone acetonide,indication,11.9102,0.5000,0.9597,12.41,11.5018,0.5000,0.9583,12.00,nan
+lupus erythematosus,fluocinonide,indication,11.9102,0.5000,0.9597,12.41,11.5018,0.5000,0.9583,12.00,nan
+lupus erythematosus,flurandrenolide,indication,11.9102,0.5000,0.9597,12.41,11.5018,0.5000,0.9583,12.00,nan
+lupus erythematosus,fluticasone propionate,indication,11.9102,0.5000,0.9597,12.41,11.5018,0.5000,0.9583,12.00,nan
+lupus erythematosus,halcinonide,indication,11.9102,0.5000,0.9597,12.41,11.5018,0.5000,0.9583,12.00,nan
+lupus erythematosus,hydrocortisone,indication,11.9102,0.5000,0.9597,12.41,11.5018,0.5000,0.9583,12.00,nan
+lupus erythematosus,hydroxychloroquine,indication,11.9102,0.5000,0.9597,12.41,11.5018,0.5000,0.9583,12.00,nan
+lupus erythematosus,methylprednisolone,indication,11.9102,0.5000,0.9597,12.41,11.5018,0.5000,0.9583,12.00,nan
+lupus erythematosus,mometasone furoate,indication,11.9102,0.5000,0.9597,12.41,11.5018,0.5000,0.9583,12.00,nan
+lupus erythematosus,prednicarbate,indication,11.9102,0.5000,0.9597,12.41,11.5018,0.5000,0.9583,12.00,nan
+lupus erythematosus,prednisolone,indication,11.9102,0.5000,0.9597,12.41,11.5018,0.5000,0.9583,12.00,nan
+lupus erythematosus,triamcinolone,indication,11.9102,0.5000,0.9597,12.41,11.5018,0.5000,0.9583,12.00,nan
+lupus erythematosus,quinacrine,off-label use,6.5075,5.9027,0.5244,12.41,6.3033,5.6985,0.5252,12.00,nan
+lupus erythematosus,thalidomide,off-label use,6.5075,5.9027,0.5244,12.41,6.3033,5.6985,0.5252,12.00,nan
+lyme disease,cefuroxime,indication,10.5596,0.5000,0.9548,11.06,6.7713,0.5000,0.9312,7.27,nan
+lyme disease,amoxicillin,off-label use,5.8322,5.2274,0.5273,11.06,3.9381,3.3332,0.5416,7.27,nan
+lyme disease,benzylpenicillin,off-label use,5.8322,5.2274,0.5273,11.06,3.9381,3.3332,0.5416,7.27,nan
+lyme disease,cefotaxime,off-label use,5.8322,5.2274,0.5273,11.06,3.9381,3.3332,0.5416,7.27,nan
+lyme disease,ceftriaxone,off-label use,5.8322,5.2274,0.5273,11.06,3.9381,3.3332,0.5416,7.27,nan
+lyme disease,clarithromycin,off-label use,5.8322,5.2274,0.5273,11.06,3.9381,3.3332,0.5416,7.27,nan
+lyme disease,doxycycline,off-label use,5.8322,5.2274,0.5273,11.06,3.9381,3.3332,0.5416,7.27,nan
+lyme disease,erythromycin,off-label use,5.8322,5.2274,0.5273,11.06,3.9381,3.3332,0.5416,7.27,nan
+lyme disease,fusidic acid,off-label use,5.8322,5.2274,0.5273,11.06,3.9381,3.3332,0.5416,7.27,nan
+lyme disease,phenoxymethylpenicillin,off-label use,5.8322,5.2274,0.5273,11.06,3.9381,3.3332,0.5416,7.27,nan
+lymphangioma,propranolol,indication,9.5142,0.5000,0.9501,10.01,7.6965,0.5000,0.9390,8.20,nan
+melanoma,hydroxyurea,indication,11.4344,0.5000,0.9581,11.93,9.6858,0.5000,0.9509,10.19,nan
+melanoma,interferon alfa-2b,indication,11.4344,0.5000,0.9581,11.93,9.6858,0.5000,0.9509,10.19,nan
+melanoma,talimogene laherparepvec,indication,11.4344,0.5000,0.9581,11.93,9.6858,0.5000,0.9509,10.19,nan
+melanoma,vindesine,indication,11.4344,0.5000,0.9581,11.93,9.6858,0.5000,0.9509,10.19,nan
+mongolian spot,acitretin,off-label use,2.1048,1.5000,0.5839,3.60,1.1048,0.5000,0.6884,1.60,nan
+mongolian spot,tretinoin,off-label use,2.1048,1.5000,0.5839,3.60,1.1048,0.5000,0.6884,1.60,nan
+mycetoma,posaconazole,indication,3.1048,0.5000,0.8613,3.60,4.9967,0.5000,0.9090,5.50,nan
+mycetoma,dapsone,off-label use,2.1048,1.5000,0.5839,3.60,3.0507,2.4459,0.5550,5.50,nan
+myiasis,pyrimethamine,indication,8.1576,0.5000,0.9422,8.66,6.8856,0.5000,0.9323,7.39,nan
+myiasis,sulfadiazine,indication,8.1576,0.5000,0.9422,8.66,6.8856,0.5000,0.9323,7.39,nan
+myiasis,sulfamethoxazole,indication,8.1576,0.5000,0.9422,8.66,6.8856,0.5000,0.9323,7.39,nan
+myiasis,atovaquone,off-label use,4.6312,4.0264,0.5349,8.66,3.9952,3.3904,0.5409,7.39,nan
+myiasis,clindamycin,off-label use,4.6312,4.0264,0.5349,8.66,3.9952,3.3904,0.5409,7.39,nan
+myiasis,dapsone,off-label use,4.6312,4.0264,0.5349,8.66,3.9952,3.3904,0.5409,7.39,nan
+necrobiosis lipoidica,triamcinolone,indication,9.8689,0.5000,0.9518,10.37,8.6732,0.5000,0.9455,9.17,nan
+neurodermatitis,amcinonide,indication,9.1909,0.5000,0.9484,9.69,6.0747,0.5000,0.9240,6.57,nan
+neurodermatitis,betamethasone,indication,9.1909,0.5000,0.9484,9.69,6.0747,0.5000,0.9240,6.57,nan
+neurodermatitis,cortisone acetate,indication,9.1909,0.5000,0.9484,9.69,6.0747,0.5000,0.9240,6.57,nan
+neurodermatitis,desonide,indication,9.1909,0.5000,0.9484,9.69,6.0747,0.5000,0.9240,6.57,nan
+neurodermatitis,desoximetasone,indication,9.1909,0.5000,0.9484,9.69,6.0747,0.5000,0.9240,6.57,nan
+neurodermatitis,dexamethasone,indication,9.1909,0.5000,0.9484,9.69,6.0747,0.5000,0.9240,6.57,nan
+neurodermatitis,doxepin,indication,9.1909,0.5000,0.9484,9.69,6.0747,0.5000,0.9240,6.57,nan
+neurodermatitis,flumethasone,indication,9.1909,0.5000,0.9484,9.69,6.0747,0.5000,0.9240,6.57,nan
+neurodermatitis,fluocinolone acetonide,indication,9.1909,0.5000,0.9484,9.69,6.0747,0.5000,0.9240,6.57,nan
+neurodermatitis,fluocinonide,indication,9.1909,0.5000,0.9484,9.69,6.0747,0.5000,0.9240,6.57,nan
+neurodermatitis,flurandrenolide,indication,9.1909,0.5000,0.9484,9.69,6.0747,0.5000,0.9240,6.57,nan
+neurodermatitis,fluticasone propionate,indication,9.1909,0.5000,0.9484,9.69,6.0747,0.5000,0.9240,6.57,nan
+neurodermatitis,halcinonide,indication,9.1909,0.5000,0.9484,9.69,6.0747,0.5000,0.9240,6.57,nan
+neurodermatitis,hydrocortisone,indication,9.1909,0.5000,0.9484,9.69,6.0747,0.5000,0.9240,6.57,nan
+neurodermatitis,methylprednisolone,indication,9.1909,0.5000,0.9484,9.69,6.0747,0.5000,0.9240,6.57,nan
+neurodermatitis,mometasone furoate,indication,9.1909,0.5000,0.9484,9.69,6.0747,0.5000,0.9240,6.57,nan
+neurodermatitis,prednicarbate,indication,9.1909,0.5000,0.9484,9.69,6.0747,0.5000,0.9240,6.57,nan
+neurodermatitis,prednisolone,indication,9.1909,0.5000,0.9484,9.69,6.0747,0.5000,0.9240,6.57,nan
+neurodermatitis,triamcinolone,indication,9.1909,0.5000,0.9484,9.69,6.0747,0.5000,0.9240,6.57,nan
+neurodermatitis,diiodohydroxyquinoline,off-label use,5.1479,4.5431,0.5312,9.69,3.5897,2.9849,0.5460,6.57,nan
+neurodermatitis,hydrocortisone acetate,off-label use,5.1479,4.5431,0.5312,9.69,3.5897,2.9849,0.5460,6.57,nan
+neurofibromatosis,selumetinib,indication,9.4536,0.5000,0.9498,9.95,10.7454,0.5000,0.9555,11.25,nan
+oral candidiasis,amphotericin b,indication,3.1048,0.5000,0.8613,3.60,4.3237,0.5000,0.8963,4.82,nan
+oral candidiasis,clotrimazole,indication,3.1048,0.5000,0.8613,3.60,4.3237,0.5000,0.8963,4.82,nan
+oral candidiasis,fluconazole,indication,3.1048,0.5000,0.8613,3.60,4.3237,0.5000,0.8963,4.82,nan
+oral candidiasis,hachimycin,indication,3.1048,0.5000,0.8613,3.60,4.3237,0.5000,0.8963,4.82,nan
+oral candidiasis,ketoconazole,indication,3.1048,0.5000,0.8613,3.60,4.3237,0.5000,0.8963,4.82,nan
+oral candidiasis,nystatin,indication,3.1048,0.5000,0.8613,3.60,4.3237,0.5000,0.8963,4.82,nan
+oral candidiasis,posaconazole,indication,3.1048,0.5000,0.8613,3.60,4.3237,0.5000,0.8963,4.82,nan
+palmoplantar keratoderma,salicylic acid,indication,3.8774,0.5000,0.8858,4.38,8.4320,0.5000,0.9440,8.93,nan
+palmoplantar keratoderma,tretinoin,indication,3.8774,0.5000,0.8858,4.38,8.4320,0.5000,0.9440,8.93,nan
+palmoplantar keratoderma,urea,off-label use,2.4911,1.8863,0.5691,4.38,4.7684,4.1636,0.5339,8.93,nan
+psoriasis,allantoin,indication,13.4855,0.5000,0.9642,13.99,12.4788,0.5000,0.9615,12.98,nan
+psoriasis,ammonia,indication,13.4855,0.5000,0.9642,13.99,12.4788,0.5000,0.9615,12.98,nan
+psoriasis,betamethasone,indication,13.4855,0.5000,0.9642,13.99,12.4788,0.5000,0.9615,12.98,nan
+psoriasis,cortisone acetate,indication,13.4855,0.5000,0.9642,13.99,12.4788,0.5000,0.9615,12.98,nan
+psoriasis,dexamethasone,indication,13.4855,0.5000,0.9642,13.99,12.4788,0.5000,0.9615,12.98,nan
+psoriasis,etretinate,indication,13.4855,0.5000,0.9642,13.99,12.4788,0.5000,0.9615,12.98,nan
+psoriasis,fumaric acid,indication,13.4855,0.5000,0.9642,13.99,12.4788,0.5000,0.9615,12.98,nan
+psoriasis,hydrocortisone,indication,13.4855,0.5000,0.9642,13.99,12.4788,0.5000,0.9615,12.98,nan
+psoriasis,hydrocortisone acetate,indication,13.4855,0.5000,0.9642,13.99,12.4788,0.5000,0.9615,12.98,nan
+psoriasis,methotrexate,indication,13.4855,0.5000,0.9642,13.99,12.4788,0.5000,0.9615,12.98,nan
+psoriasis,methylprednisolone,indication,13.4855,0.5000,0.9642,13.99,12.4788,0.5000,0.9615,12.98,nan
+psoriasis,prednisolone,indication,13.4855,0.5000,0.9642,13.99,12.4788,0.5000,0.9615,12.98,nan
+psoriasis,prednisone,indication,13.4855,0.5000,0.9642,13.99,12.4788,0.5000,0.9615,12.98,nan
+psoriasis,risankizumab,indication,13.4855,0.5000,0.9642,13.99,12.4788,0.5000,0.9615,12.98,nan
+psoriasis,tazarotene,indication,13.4855,0.5000,0.9642,13.99,12.4788,0.5000,0.9615,12.98,nan
+psoriasis,triamcinolone,indication,13.4855,0.5000,0.9642,13.99,12.4788,0.5000,0.9615,12.98,nan
+psoriasis,ustekinumab,indication,13.4855,0.5000,0.9642,13.99,12.4788,0.5000,0.9615,12.98,nan
+psoriasis,anthralin,off-label use,7.2952,6.6903,0.5216,13.99,6.7918,6.1870,0.5233,12.98,nan
+psoriasis,calcipotriol,off-label use,7.2952,6.6903,0.5216,13.99,6.7918,6.1870,0.5233,12.98,nan
+psoriasis,triethylenetetramine,off-label use,7.2952,6.6903,0.5216,13.99,6.7918,6.1870,0.5233,12.98,nan
+pustular psoriasis,maxacalcitol,indication,8.4826,0.5000,0.9443,8.98,6.5209,0.5000,0.9288,7.02,nan
+pyoderma gangrenosum,clofazimine,indication,1.1048,0.5000,0.6884,1.60,3.3021,0.5000,0.8685,3.80,nan
+pyoderma gangrenosum,dapsone,off-label use,1.1048,0.5000,0.6884,1.60,2.2034,1.5986,0.5795,3.80,nan
+pyoderma gangrenosum,sulfapyridine,off-label use,1.1048,0.5000,0.6884,1.60,2.2034,1.5986,0.5795,3.80,nan
+rosacea,azelaic acid,indication,10.2126,0.5000,0.9533,10.71,5.7100,0.5000,0.9195,6.21,nan
+rosacea,brimonidine,indication,10.2126,0.5000,0.9533,10.71,5.7100,0.5000,0.9195,6.21,nan
+rosacea,cortisone acetate,indication,10.2126,0.5000,0.9533,10.71,5.7100,0.5000,0.9195,6.21,nan
+rosacea,dexamethasone,indication,10.2126,0.5000,0.9533,10.71,5.7100,0.5000,0.9195,6.21,nan
+rosacea,fluorometholone,indication,10.2126,0.5000,0.9533,10.71,5.7100,0.5000,0.9195,6.21,nan
+rosacea,fusidic acid,indication,10.2126,0.5000,0.9533,10.71,5.7100,0.5000,0.9195,6.21,nan
+rosacea,hydrocortisone,indication,10.2126,0.5000,0.9533,10.71,5.7100,0.5000,0.9195,6.21,nan
+rosacea,loteprednol etabonate,indication,10.2126,0.5000,0.9533,10.71,5.7100,0.5000,0.9195,6.21,nan
+rosacea,medrysone,indication,10.2126,0.5000,0.9533,10.71,5.7100,0.5000,0.9195,6.21,nan
+rosacea,metronidazole,indication,10.2126,0.5000,0.9533,10.71,5.7100,0.5000,0.9195,6.21,nan
+rosacea,prednisolone,indication,10.2126,0.5000,0.9533,10.71,5.7100,0.5000,0.9195,6.21,nan
+rosacea,tobramycin,indication,10.2126,0.5000,0.9533,10.71,5.7100,0.5000,0.9195,6.21,nan
+rosacea,amphotericin b,off-label use,5.6587,5.0539,0.5282,10.71,3.4074,2.8026,0.5487,6.21,nan
+rosacea,chlortetracycline,off-label use,5.6587,5.0539,0.5282,10.71,3.4074,2.8026,0.5487,6.21,nan
+rosacea,clindamycin,off-label use,5.6587,5.0539,0.5282,10.71,3.4074,2.8026,0.5487,6.21,nan
+rosacea,demeclocycline,off-label use,5.6587,5.0539,0.5282,10.71,3.4074,2.8026,0.5487,6.21,nan
+rosacea,doxycycline,off-label use,5.6587,5.0539,0.5282,10.71,3.4074,2.8026,0.5487,6.21,nan
+rosacea,fusidic acid,off-label use,5.6587,5.0539,0.5282,10.71,3.4074,2.8026,0.5487,6.21,nan
+rosacea,meclocycline,off-label use,5.6587,5.0539,0.5282,10.71,3.4074,2.8026,0.5487,6.21,nan
+rosacea,minocycline,off-label use,5.6587,5.0539,0.5282,10.71,3.4074,2.8026,0.5487,6.21,nan
+rosacea,oxytetracycline,off-label use,5.6587,5.0539,0.5282,10.71,3.4074,2.8026,0.5487,6.21,nan
+rosacea,sulfacetamide,off-label use,5.6587,5.0539,0.5282,10.71,3.4074,2.8026,0.5487,6.21,nan
+rosacea,tetracycline,off-label use,5.6587,5.0539,0.5282,10.71,3.4074,2.8026,0.5487,6.21,nan
+rosacea,urea,off-label use,5.6587,5.0539,0.5282,10.71,3.4074,2.8026,0.5487,6.21,nan
+sarcoidosis,betamethasone,indication,12.1074,0.5000,0.9603,12.61,10.1914,0.5000,0.9532,10.69,nan
+sarcoidosis,cortisone acetate,indication,12.1074,0.5000,0.9603,12.61,10.1914,0.5000,0.9532,10.69,nan
+sarcoidosis,dexamethasone,indication,12.1074,0.5000,0.9603,12.61,10.1914,0.5000,0.9532,10.69,nan
+sarcoidosis,hydrocortisone,indication,12.1074,0.5000,0.9603,12.61,10.1914,0.5000,0.9532,10.69,nan
+sarcoidosis,hydrocortisone acetate,indication,12.1074,0.5000,0.9603,12.61,10.1914,0.5000,0.9532,10.69,nan
+sarcoidosis,methylprednisolone,indication,12.1074,0.5000,0.9603,12.61,10.1914,0.5000,0.9532,10.69,nan
+sarcoidosis,prednisolone,indication,12.1074,0.5000,0.9603,12.61,10.1914,0.5000,0.9532,10.69,nan
+sarcoidosis,prednisone,indication,12.1074,0.5000,0.9603,12.61,10.1914,0.5000,0.9532,10.69,nan
+sarcoidosis,triamcinolone,indication,12.1074,0.5000,0.9603,12.61,10.1914,0.5000,0.9532,10.69,nan
+scabies,crotamiton,indication,11.7703,0.5000,0.9593,12.27,12.4377,0.5000,0.9614,12.94,nan
+scabies,lidocaine,indication,11.7703,0.5000,0.9593,12.27,12.4377,0.5000,0.9614,12.94,nan
+scabies,lindane,indication,11.7703,0.5000,0.9593,12.27,12.4377,0.5000,0.9614,12.94,nan
+scabies,permethrin,indication,11.7703,0.5000,0.9593,12.27,12.4377,0.5000,0.9614,12.94,nan
+scabies,phenothrin,indication,11.7703,0.5000,0.9593,12.27,12.4377,0.5000,0.9614,12.94,nan
+seborrheic dermatitis,allantoin,indication,10.5772,0.5000,0.9549,11.08,9.7130,0.5000,0.9510,10.21,nan
+seborrheic dermatitis,amcinonide,indication,10.5772,0.5000,0.9549,11.08,9.7130,0.5000,0.9510,10.21,nan
+seborrheic dermatitis,ammonia,indication,10.5772,0.5000,0.9549,11.08,9.7130,0.5000,0.9510,10.21,nan
+seborrheic dermatitis,ammonium lactate,indication,10.5772,0.5000,0.9549,11.08,9.7130,0.5000,0.9510,10.21,nan
+seborrheic dermatitis,benzoyl peroxide,indication,10.5772,0.5000,0.9549,11.08,9.7130,0.5000,0.9510,10.21,nan
+seborrheic dermatitis,betamethasone,indication,10.5772,0.5000,0.9549,11.08,9.7130,0.5000,0.9510,10.21,nan
+seborrheic dermatitis,chloroxine,indication,10.5772,0.5000,0.9549,11.08,9.7130,0.5000,0.9510,10.21,nan
+seborrheic dermatitis,ciclopirox,indication,10.5772,0.5000,0.9549,11.08,9.7130,0.5000,0.9510,10.21,nan
+seborrheic dermatitis,climbazole,indication,10.5772,0.5000,0.9549,11.08,9.7130,0.5000,0.9510,10.21,nan
+seborrheic dermatitis,clobetasol propionate,indication,10.5772,0.5000,0.9549,11.08,9.7130,0.5000,0.9510,10.21,nan
+seborrheic dermatitis,cortisone acetate,indication,10.5772,0.5000,0.9549,11.08,9.7130,0.5000,0.9510,10.21,nan
+seborrheic dermatitis,desonide,indication,10.5772,0.5000,0.9549,11.08,9.7130,0.5000,0.9510,10.21,nan
+seborrheic dermatitis,desoximetasone,indication,10.5772,0.5000,0.9549,11.08,9.7130,0.5000,0.9510,10.21,nan
+seborrheic dermatitis,dexamethasone,indication,10.5772,0.5000,0.9549,11.08,9.7130,0.5000,0.9510,10.21,nan
+seborrheic dermatitis,flumethasone,indication,10.5772,0.5000,0.9549,11.08,9.7130,0.5000,0.9510,10.21,nan
+seborrheic dermatitis,fluocinolone acetonide,indication,10.5772,0.5000,0.9549,11.08,9.7130,0.5000,0.9510,10.21,nan
+seborrheic dermatitis,fluocinonide,indication,10.5772,0.5000,0.9549,11.08,9.7130,0.5000,0.9510,10.21,nan
+seborrheic dermatitis,flurandrenolide,indication,10.5772,0.5000,0.9549,11.08,9.7130,0.5000,0.9510,10.21,nan
+seborrheic dermatitis,fluticasone propionate,indication,10.5772,0.5000,0.9549,11.08,9.7130,0.5000,0.9510,10.21,nan
+seborrheic dermatitis,fusidic acid,indication,10.5772,0.5000,0.9549,11.08,9.7130,0.5000,0.9510,10.21,nan
+seborrheic dermatitis,halcinonide,indication,10.5772,0.5000,0.9549,11.08,9.7130,0.5000,0.9510,10.21,nan
+seborrheic dermatitis,hydrocortisone,indication,10.5772,0.5000,0.9549,11.08,9.7130,0.5000,0.9510,10.21,nan
+seborrheic dermatitis,ketoconazole,indication,10.5772,0.5000,0.9549,11.08,9.7130,0.5000,0.9510,10.21,nan
+seborrheic dermatitis,methylprednisolone,indication,10.5772,0.5000,0.9549,11.08,9.7130,0.5000,0.9510,10.21,nan
+seborrheic dermatitis,mometasone furoate,indication,10.5772,0.5000,0.9549,11.08,9.7130,0.5000,0.9510,10.21,nan
+seborrheic dermatitis,prednicarbate,indication,10.5772,0.5000,0.9549,11.08,9.7130,0.5000,0.9510,10.21,nan
+seborrheic dermatitis,prednisolone,indication,10.5772,0.5000,0.9549,11.08,9.7130,0.5000,0.9510,10.21,nan
+seborrheic dermatitis,racementhol,indication,10.5772,0.5000,0.9549,11.08,9.7130,0.5000,0.9510,10.21,nan
+seborrheic dermatitis,salicylic acid,indication,10.5772,0.5000,0.9549,11.08,9.7130,0.5000,0.9510,10.21,nan
+seborrheic dermatitis,selenium sulfide,indication,10.5772,0.5000,0.9549,11.08,9.7130,0.5000,0.9510,10.21,nan
+seborrheic dermatitis,sulfacetamide,indication,10.5772,0.5000,0.9549,11.08,9.7130,0.5000,0.9510,10.21,nan
+seborrheic dermatitis,triamcinolone,indication,10.5772,0.5000,0.9549,11.08,9.7130,0.5000,0.9510,10.21,nan
+seborrheic dermatitis,urea,indication,10.5772,0.5000,0.9549,11.08,9.7130,0.5000,0.9510,10.21,nan
+seborrheic dermatitis,cortisone acetate,off-label use,5.8410,5.2362,0.5273,11.08,5.4089,4.8041,0.5296,10.21,nan
+seborrheic dermatitis,hydrocortisone,off-label use,5.8410,5.2362,0.5273,11.08,5.4089,4.8041,0.5296,10.21,nan
+seborrheic dermatitis,mupirocin,off-label use,5.8410,5.2362,0.5273,11.08,5.4089,4.8041,0.5296,10.21,nan
+seborrheic keratosis,allantoin,indication,9.1195,0.5000,0.9480,9.62,7.2869,0.5000,0.9358,7.79,nan
+seborrheic keratosis,amcinonide,indication,9.1195,0.5000,0.9480,9.62,7.2869,0.5000,0.9358,7.79,nan
+seborrheic keratosis,aminolevulinic acid,indication,9.1195,0.5000,0.9480,9.62,7.2869,0.5000,0.9358,7.79,nan
+seborrheic keratosis,ammonia,indication,9.1195,0.5000,0.9480,9.62,7.2869,0.5000,0.9358,7.79,nan
+seborrheic keratosis,ammonium lactate,indication,9.1195,0.5000,0.9480,9.62,7.2869,0.5000,0.9358,7.79,nan
+seborrheic keratosis,benzoyl peroxide,indication,9.1195,0.5000,0.9480,9.62,7.2869,0.5000,0.9358,7.79,nan
+seborrheic keratosis,betamethasone,indication,9.1195,0.5000,0.9480,9.62,7.2869,0.5000,0.9358,7.79,nan
+seborrheic keratosis,chloroxine,indication,9.1195,0.5000,0.9480,9.62,7.2869,0.5000,0.9358,7.79,nan
+seborrheic keratosis,ciclopirox,indication,9.1195,0.5000,0.9480,9.62,7.2869,0.5000,0.9358,7.79,nan
+seborrheic keratosis,climbazole,indication,9.1195,0.5000,0.9480,9.62,7.2869,0.5000,0.9358,7.79,nan
+seborrheic keratosis,clobetasol propionate,indication,9.1195,0.5000,0.9480,9.62,7.2869,0.5000,0.9358,7.79,nan
+seborrheic keratosis,cortisone acetate,indication,9.1195,0.5000,0.9480,9.62,7.2869,0.5000,0.9358,7.79,nan
+seborrheic keratosis,desonide,indication,9.1195,0.5000,0.9480,9.62,7.2869,0.5000,0.9358,7.79,nan
+seborrheic keratosis,desoximetasone,indication,9.1195,0.5000,0.9480,9.62,7.2869,0.5000,0.9358,7.79,nan
+seborrheic keratosis,dexamethasone,indication,9.1195,0.5000,0.9480,9.62,7.2869,0.5000,0.9358,7.79,nan
+seborrheic keratosis,dexpanthenol,indication,9.1195,0.5000,0.9480,9.62,7.2869,0.5000,0.9358,7.79,nan
+seborrheic keratosis,diclofenac,indication,9.1195,0.5000,0.9480,9.62,7.2869,0.5000,0.9358,7.79,nan
+seborrheic keratosis,flumethasone,indication,9.1195,0.5000,0.9480,9.62,7.2869,0.5000,0.9358,7.79,nan
+seborrheic keratosis,fluocinolone acetonide,indication,9.1195,0.5000,0.9480,9.62,7.2869,0.5000,0.9358,7.79,nan
+seborrheic keratosis,fluocinonide,indication,9.1195,0.5000,0.9480,9.62,7.2869,0.5000,0.9358,7.79,nan
+seborrheic keratosis,fluorouracil,indication,9.1195,0.5000,0.9480,9.62,7.2869,0.5000,0.9358,7.79,nan
+seborrheic keratosis,flurandrenolide,indication,9.1195,0.5000,0.9480,9.62,7.2869,0.5000,0.9358,7.79,nan
+seborrheic keratosis,fluticasone propionate,indication,9.1195,0.5000,0.9480,9.62,7.2869,0.5000,0.9358,7.79,nan
+seborrheic keratosis,halcinonide,indication,9.1195,0.5000,0.9480,9.62,7.2869,0.5000,0.9358,7.79,nan
+seborrheic keratosis,hydrocortisone,indication,9.1195,0.5000,0.9480,9.62,7.2869,0.5000,0.9358,7.79,nan
+seborrheic keratosis,imiquimod,indication,9.1195,0.5000,0.9480,9.62,7.2869,0.5000,0.9358,7.79,nan
+seborrheic keratosis,ingenol mebutate,indication,9.1195,0.5000,0.9480,9.62,7.2869,0.5000,0.9358,7.79,nan
+seborrheic keratosis,ketoconazole,indication,9.1195,0.5000,0.9480,9.62,7.2869,0.5000,0.9358,7.79,nan
+seborrheic keratosis,masoprocol,indication,9.1195,0.5000,0.9480,9.62,7.2869,0.5000,0.9358,7.79,nan
+seborrheic keratosis,methylprednisolone,indication,9.1195,0.5000,0.9480,9.62,7.2869,0.5000,0.9358,7.79,nan
+seborrheic keratosis,mometasone furoate,indication,9.1195,0.5000,0.9480,9.62,7.2869,0.5000,0.9358,7.79,nan
+seborrheic keratosis,prednicarbate,indication,9.1195,0.5000,0.9480,9.62,7.2869,0.5000,0.9358,7.79,nan
+seborrheic keratosis,prednisolone,indication,9.1195,0.5000,0.9480,9.62,7.2869,0.5000,0.9358,7.79,nan
+seborrheic keratosis,prednisone,indication,9.1195,0.5000,0.9480,9.62,7.2869,0.5000,0.9358,7.79,nan
+seborrheic keratosis,racementhol,indication,9.1195,0.5000,0.9480,9.62,7.2869,0.5000,0.9358,7.79,nan
+seborrheic keratosis,salicylic acid,indication,9.1195,0.5000,0.9480,9.62,7.2869,0.5000,0.9358,7.79,nan
+seborrheic keratosis,selenium sulfide,indication,9.1195,0.5000,0.9480,9.62,7.2869,0.5000,0.9358,7.79,nan
+seborrheic keratosis,sulfacetamide,indication,9.1195,0.5000,0.9480,9.62,7.2869,0.5000,0.9358,7.79,nan
+seborrheic keratosis,triamcinolone,indication,9.1195,0.5000,0.9480,9.62,7.2869,0.5000,0.9358,7.79,nan
+seborrheic keratosis,urea,indication,9.1195,0.5000,0.9480,9.62,7.2869,0.5000,0.9358,7.79,nan
+squamous cell carcinoma,bleomycin,indication,13.1126,0.5000,0.9633,13.61,10.9593,0.5000,0.9564,11.46,nan
+squamous cell carcinoma,cemiplimab,indication,13.1126,0.5000,0.9633,13.61,10.9593,0.5000,0.9564,11.46,nan
+squamous cell carcinoma,cetuximab,indication,13.1126,0.5000,0.9633,13.61,10.9593,0.5000,0.9564,11.46,nan
+squamous cell carcinoma,temoporfin,indication,13.1126,0.5000,0.9633,13.61,10.9593,0.5000,0.9564,11.46,nan
+syphilis,amphotericin b,indication,1.1048,0.5000,0.6884,1.60,3.8774,0.5000,0.8858,4.38,nan
+syphilis,benzylpenicillin,indication,1.1048,0.5000,0.6884,1.60,3.8774,0.5000,0.8858,4.38,nan
+syphilis,demeclocycline,indication,1.1048,0.5000,0.6884,1.60,3.8774,0.5000,0.8858,4.38,nan
+syphilis,doxycycline,indication,1.1048,0.5000,0.6884,1.60,3.8774,0.5000,0.8858,4.38,nan
+syphilis,erythromycin,indication,1.1048,0.5000,0.6884,1.60,3.8774,0.5000,0.8858,4.38,nan
+syphilis,fusidic acid,indication,1.1048,0.5000,0.6884,1.60,3.8774,0.5000,0.8858,4.38,nan
+syphilis,meclocycline,indication,1.1048,0.5000,0.6884,1.60,3.8774,0.5000,0.8858,4.38,nan
+syphilis,minocycline,indication,1.1048,0.5000,0.6884,1.60,3.8774,0.5000,0.8858,4.38,nan
+syphilis,oxytetracycline,indication,1.1048,0.5000,0.6884,1.60,3.8774,0.5000,0.8858,4.38,nan
+syphilis,procaine benzylpenicillin,indication,1.1048,0.5000,0.6884,1.60,3.8774,0.5000,0.8858,4.38,nan
+syphilis,tetracycline,indication,1.1048,0.5000,0.6884,1.60,3.8774,0.5000,0.8858,4.38,nan
+tinea corporis,benzocaine,indication,9.7398,0.5000,0.9512,10.24,12.1478,0.5000,0.9605,12.65,nan
+tinea corporis,betamethasone,indication,9.7398,0.5000,0.9512,10.24,12.1478,0.5000,0.9605,12.65,nan
+tinea corporis,butenafine,indication,9.7398,0.5000,0.9512,10.24,12.1478,0.5000,0.9605,12.65,nan
+tinea corporis,ciclopirox,indication,9.7398,0.5000,0.9512,10.24,12.1478,0.5000,0.9605,12.65,nan
+tinea corporis,clioquinol,indication,9.7398,0.5000,0.9512,10.24,12.1478,0.5000,0.9605,12.65,nan
+tinea corporis,clotrimazole,indication,9.7398,0.5000,0.9512,10.24,12.1478,0.5000,0.9605,12.65,nan
+tinea corporis,cortisone acetate,indication,9.7398,0.5000,0.9512,10.24,12.1478,0.5000,0.9605,12.65,nan
+tinea corporis,econazole,indication,9.7398,0.5000,0.9512,10.24,12.1478,0.5000,0.9605,12.65,nan
+tinea corporis,griseofulvin,indication,9.7398,0.5000,0.9512,10.24,12.1478,0.5000,0.9605,12.65,nan
+tinea corporis,haloprogin,indication,9.7398,0.5000,0.9512,10.24,12.1478,0.5000,0.9605,12.65,nan
+tinea corporis,hydrocortisone,indication,9.7398,0.5000,0.9512,10.24,12.1478,0.5000,0.9605,12.65,nan
+tinea corporis,ketoconazole,indication,9.7398,0.5000,0.9512,10.24,12.1478,0.5000,0.9605,12.65,nan
+tinea corporis,luliconazole,indication,9.7398,0.5000,0.9512,10.24,12.1478,0.5000,0.9605,12.65,nan
+tinea corporis,miconazole,indication,9.7398,0.5000,0.9512,10.24,12.1478,0.5000,0.9605,12.65,nan
+tinea corporis,naftifine,indication,9.7398,0.5000,0.9512,10.24,12.1478,0.5000,0.9605,12.65,nan
+tinea corporis,oxiconazole,indication,9.7398,0.5000,0.9512,10.24,12.1478,0.5000,0.9605,12.65,nan
+tinea corporis,pramocaine,indication,9.7398,0.5000,0.9512,10.24,12.1478,0.5000,0.9605,12.65,nan
+tinea corporis,salicylic acid,indication,9.7398,0.5000,0.9512,10.24,12.1478,0.5000,0.9605,12.65,nan
+tinea corporis,sulconazole,indication,9.7398,0.5000,0.9512,10.24,12.1478,0.5000,0.9605,12.65,nan
+tinea corporis,terbinafine,indication,9.7398,0.5000,0.9512,10.24,12.1478,0.5000,0.9605,12.65,nan
+tinea corporis,tolnaftate,indication,9.7398,0.5000,0.9512,10.24,12.1478,0.5000,0.9605,12.65,nan
+tinea corporis,undecylenic acid,indication,9.7398,0.5000,0.9512,10.24,12.1478,0.5000,0.9605,12.65,nan
+tinea corporis,zinc oxide,indication,9.7398,0.5000,0.9512,10.24,12.1478,0.5000,0.9605,12.65,nan
+tinea corporis,fluconazole,off-label use,5.4223,4.8175,0.5295,10.24,6.6263,6.0215,0.5239,12.65,nan
+tinea manuum,tolnaftate,indication,4.3237,0.5000,0.8963,4.82,6.3830,0.5000,0.9274,6.88,nan
+tinea manuum,fluconazole,off-label use,2.7143,2.1094,0.5627,4.82,3.7439,3.1391,0.5439,6.88,nan
+tinea pedis,benzocaine,indication,4.3237,0.5000,0.8963,4.82,6.2347,0.5000,0.9258,6.73,nan
+tinea pedis,betamethasone,indication,4.3237,0.5000,0.8963,4.82,6.2347,0.5000,0.9258,6.73,nan
+tinea pedis,butenafine,indication,4.3237,0.5000,0.8963,4.82,6.2347,0.5000,0.9258,6.73,nan
+tinea pedis,ciclopirox,indication,4.3237,0.5000,0.8963,4.82,6.2347,0.5000,0.9258,6.73,nan
+tinea pedis,clioquinol,indication,4.3237,0.5000,0.8963,4.82,6.2347,0.5000,0.9258,6.73,nan
+tinea pedis,clotrimazole,indication,4.3237,0.5000,0.8963,4.82,6.2347,0.5000,0.9258,6.73,nan
+tinea pedis,cortisone acetate,indication,4.3237,0.5000,0.8963,4.82,6.2347,0.5000,0.9258,6.73,nan
+tinea pedis,econazole,indication,4.3237,0.5000,0.8963,4.82,6.2347,0.5000,0.9258,6.73,nan
+tinea pedis,griseofulvin,indication,4.3237,0.5000,0.8963,4.82,6.2347,0.5000,0.9258,6.73,nan
+tinea pedis,haloprogin,indication,4.3237,0.5000,0.8963,4.82,6.2347,0.5000,0.9258,6.73,nan
+tinea pedis,hydrocortisone,indication,4.3237,0.5000,0.8963,4.82,6.2347,0.5000,0.9258,6.73,nan
+tinea pedis,ketoconazole,indication,4.3237,0.5000,0.8963,4.82,6.2347,0.5000,0.9258,6.73,nan
+tinea pedis,luliconazole,indication,4.3237,0.5000,0.8963,4.82,6.2347,0.5000,0.9258,6.73,nan
+tinea pedis,miconazole,indication,4.3237,0.5000,0.8963,4.82,6.2347,0.5000,0.9258,6.73,nan
+tinea pedis,naftifine,indication,4.3237,0.5000,0.8963,4.82,6.2347,0.5000,0.9258,6.73,nan
+tinea pedis,oxiconazole,indication,4.3237,0.5000,0.8963,4.82,6.2347,0.5000,0.9258,6.73,nan
+tinea pedis,pramocaine,indication,4.3237,0.5000,0.8963,4.82,6.2347,0.5000,0.9258,6.73,nan
+tinea pedis,salicylic acid,indication,4.3237,0.5000,0.8963,4.82,6.2347,0.5000,0.9258,6.73,nan
+tinea pedis,sertaconazole,indication,4.3237,0.5000,0.8963,4.82,6.2347,0.5000,0.9258,6.73,nan
+tinea pedis,sulconazole,indication,4.3237,0.5000,0.8963,4.82,6.2347,0.5000,0.9258,6.73,nan
+tinea pedis,terbinafine,indication,4.3237,0.5000,0.8963,4.82,6.2347,0.5000,0.9258,6.73,nan
+tinea pedis,tolnaftate,indication,4.3237,0.5000,0.8963,4.82,6.2347,0.5000,0.9258,6.73,nan
+tinea pedis,undecylenic acid,indication,4.3237,0.5000,0.8963,4.82,6.2347,0.5000,0.9258,6.73,nan
+tinea pedis,zinc oxide,indication,4.3237,0.5000,0.8963,4.82,6.2347,0.5000,0.9258,6.73,nan
+tinea pedis,fluconazole,off-label use,2.7143,2.1094,0.5627,4.82,3.6698,3.0649,0.5449,6.73,nan
+tuberous sclerosis,everolimus,indication,9.9425,0.5000,0.9521,10.44,9.1195,0.5000,0.9480,9.62,nan
+vasculitis,betamethasone,off-label use,2.4911,1.8863,0.5691,4.38,3.4074,2.8026,0.5487,6.21,nan
+vasculitis,cortisone acetate,off-label use,2.4911,1.8863,0.5691,4.38,3.4074,2.8026,0.5487,6.21,nan
+vasculitis,dexamethasone,off-label use,2.4911,1.8863,0.5691,4.38,3.4074,2.8026,0.5487,6.21,nan
+vasculitis,methotrexate,off-label use,2.4911,1.8863,0.5691,4.38,3.4074,2.8026,0.5487,6.21,nan
+vasculitis,methylprednisolone,off-label use,2.4911,1.8863,0.5691,4.38,3.4074,2.8026,0.5487,6.21,nan
+vasculitis,prednisolone,off-label use,2.4911,1.8863,0.5691,4.38,3.4074,2.8026,0.5487,6.21,nan
+vasculitis,prednisone,off-label use,2.4911,1.8863,0.5691,4.38,3.4074,2.8026,0.5487,6.21,nan
+vasculitis,triamcinolone,off-label use,2.4911,1.8863,0.5691,4.38,3.4074,2.8026,0.5487,6.21,nan
+vitiligo,methoxsalen,indication,11.3046,0.5000,0.9576,11.80,13.8920,0.5000,0.9653,14.39,nan
+vitiligo,trioxsalen,indication,11.3046,0.5000,0.9576,11.80,13.8920,0.5000,0.9653,14.39,nan
+white piedra,amphotericin b,indication,1.1048,0.5000,0.6884,1.60,3.1048,0.5000,0.8613,3.60,nan
+white piedra,isavuconazonium,indication,1.1048,0.5000,0.6884,1.60,3.1048,0.5000,0.8613,3.60,nan
+white piedra,itraconazole,indication,1.1048,0.5000,0.6884,1.60,3.1048,0.5000,0.8613,3.60,nan
+white piedra,ketoconazole,indication,1.1048,0.5000,0.6884,1.60,3.1048,0.5000,0.8613,3.60,nan
+white piedra,posaconazole,indication,1.1048,0.5000,0.6884,1.60,3.1048,0.5000,0.8613,3.60,nan
+white piedra,fluconazole,off-label use,1.1048,0.5000,0.6884,1.60,2.1048,1.5000,0.5839,3.60,nan
+white piedra,itraconazole,off-label use,1.1048,0.5000,0.6884,1.60,2.1048,1.5000,0.5839,3.60,nan

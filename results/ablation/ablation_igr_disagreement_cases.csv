@@ -1,0 +1,16 @@
+disease,drug,type,cost,BED-IGR,CEG/cost,rank_BED,rank_H1,|Δrank|
+alopecia areata,desonide,C,2.04,1.3419,0.0,1.0,1.0,0.0
+alopecia areata,hydrocortisone acetate,C,2.04,1.3419,0.0,1.0,1.0,0.0
+alopecia areata,fluticasone propionate,C,2.04,1.3419,0.0,1.0,1.0,0.0
+alopecia areata,mometasone furoate,C,2.04,1.3419,0.0,1.0,1.0,0.0
+alopecia areata,tazarotene,C,2.04,1.3419,0.0,1.0,1.0,0.0
+alopecia areata,calcipotriol,C,2.04,1.3419,0.0,1.0,1.0,0.0
+alopecia areata,acitretin,C,2.04,1.3419,0.0,1.0,1.0,0.0
+alopecia areata,trioxsalen,C,2.04,1.3419,0.0,1.0,1.0,0.0
+contact dermatitis,sulconazole,C,1.0,1.3419,0.0,1.0,1.0,0.0
+contact dermatitis,dexbrompheniramine,C,1.0,1.3419,0.0,1.0,1.0,0.0
+contact dermatitis,ingenol mebutate,C,1.0,1.3419,0.0,1.0,1.0,0.0
+contact dermatitis,fluorometholone,C,1.0,1.3419,0.0,1.0,1.0,0.0
+contact dermatitis,vindesine,C,1.0,1.3419,0.0,1.0,1.0,0.0
+contact dermatitis,sulconazole,C,1.0,1.3419,0.0,1.0,1.0,0.0
+contact dermatitis,dexbrompheniramine,C,1.0,1.3419,0.0,1.0,1.0,0.0

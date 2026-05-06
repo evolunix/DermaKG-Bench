@@ -1,0 +1,97 @@
+disease,drug,type,reason,expected_information_gain,cost
+rosacea,amphotericin b,A,atc_blocked_J02AA_for_acneiform,0.8758,5.26
+lyme disease,erythromycin,A,atc_blocked_D10_for_infectious_skin,0.8132,3.85
+langerhans cell histiocytosis,betamethasone,A,atc_blocked_D07_for_neoplastic_skin,0.7752,6.25
+langerhans cell histiocytosis,cortisone acetate,A,atc_not_allowlisted_for_neoplastic_skin,0.7752,6.25
+langerhans cell histiocytosis,dexamethasone,A,atc_blocked_D07_for_neoplastic_skin,0.7752,6.25
+langerhans cell histiocytosis,hydrocortisone,A,atc_blocked_D07_for_neoplastic_skin,0.7752,6.25
+langerhans cell histiocytosis,hydrocortisone acetate,A,atc_blocked_D07_for_neoplastic_skin,0.7752,6.25
+langerhans cell histiocytosis,methylprednisolone,A,atc_not_allowlisted_for_neoplastic_skin,0.7752,6.25
+langerhans cell histiocytosis,prednisolone,A,atc_not_allowlisted_for_neoplastic_skin,0.7752,6.25
+langerhans cell histiocytosis,prednisone,A,atc_not_allowlisted_for_neoplastic_skin,0.7752,6.25
+langerhans cell histiocytosis,triamcinolone,A,atc_blocked_D07_for_neoplastic_skin,0.7752,6.25
+rosacea,cortisone acetate,A,atc_blocked_H02_for_acneiform,0.7273,5.26
+rosacea,dexamethasone,A,atc_blocked_D07_for_acneiform,0.7273,5.26
+rosacea,hydrocortisone,A,atc_blocked_D07_for_acneiform,0.7273,5.26
+rosacea,prednisolone,A,atc_blocked_H02_for_acneiform,0.7273,5.26
+contact dermatitis,azelaic acid,C,atc_not_allowlisted_for_inflammatory_skin,1.3419,1.00
+contact dermatitis,erythromycin,C,atc_not_allowlisted_for_inflammatory_skin,1.3419,1.00
+contact dermatitis,tretinoin,C,atc_not_allowlisted_for_inflammatory_skin,1.3419,1.00
+contact dermatitis,clindamycin,C,atc_not_allowlisted_for_inflammatory_skin,1.3419,1.00
+dermatomyositis,clioquinol,C,atc_not_allowlisted_for_autoimmune_skin,1.3419,1.96
+hidradenitis,methotrexate,C,atc_not_allowlisted_for_acneiform,1.3419,2.13
+hidradenitis,risankizumab,C,atc_not_allowlisted_for_acneiform,1.3419,2.13
+hidradenitis,ustekinumab,C,atc_not_allowlisted_for_acneiform,1.3419,2.13
+langerhans cell histiocytosis,fluticasone propionate,C,atc_blocked_D07_for_neoplastic_skin,1.3419,6.25
+langerhans cell histiocytosis,fluocinolone acetonide,C,atc_blocked_D07_for_neoplastic_skin,1.3419,6.25
+langerhans cell histiocytosis,mometasone furoate,C,atc_blocked_D07_for_neoplastic_skin,1.3419,6.25
+lyme disease,azelaic acid,C,atc_blocked_D10_for_infectious_skin,1.3419,3.85
+lyme disease,tretinoin,C,atc_blocked_D10_for_infectious_skin,1.3419,3.85
+lyme disease,benzoyl peroxide,C,atc_blocked_D10_for_infectious_skin,1.3419,3.85
+lyme disease,clindamycin,C,atc_blocked_D10_for_infectious_skin,1.3419,3.85
+rosacea,methylprednisolone,C,atc_blocked_H02_for_acneiform,1.3419,5.26
+rosacea,prednisone,C,atc_blocked_H02_for_acneiform,1.3419,5.26
+rosacea,hydrocortisone acetate,C,atc_blocked_D07_for_acneiform,1.3419,5.26
+rosacea,fluticasone propionate,C,atc_blocked_D07_for_acneiform,1.3419,5.26
+rosacea,fluocinolone acetonide,C,atc_blocked_D07_for_acneiform,1.3419,5.26
+rosacea,mometasone furoate,C,atc_blocked_D07_for_acneiform,1.3419,5.26
+rosacea,penciclovir,C,atc_not_allowlisted_for_acneiform,1.3419,5.26
+rosacea,imiquimod,C,atc_not_allowlisted_for_acneiform,1.3419,5.26
+rosacea,fluconazole,C,atc_not_allowlisted_for_acneiform,1.3419,5.26
+rosacea,itraconazole,C,atc_not_allowlisted_for_acneiform,1.3419,5.26
+scabies,benzocaine,C,atc_blocked_N01_for_infectious_skin,1.3419,1.00
+scabies,pramocaine,C,atc_blocked_N01_for_infectious_skin,1.3419,1.00
+seborrheic dermatitis,azelaic acid,C,atc_not_allowlisted_for_inflammatory_skin,1.3419,1.20
+seborrheic dermatitis,erythromycin,C,atc_not_allowlisted_for_inflammatory_skin,1.3419,1.20
+seborrheic dermatitis,tretinoin,C,atc_not_allowlisted_for_inflammatory_skin,1.3419,1.20
+seborrheic dermatitis,clindamycin,C,atc_not_allowlisted_for_inflammatory_skin,1.3419,1.20
+seborrheic dermatitis,luliconazole,C,atc_not_allowlisted_for_inflammatory_skin,1.3419,1.20
+seborrheic dermatitis,naftifine,C,atc_not_allowlisted_for_inflammatory_skin,1.3419,1.20
+seborrheic dermatitis,mupirocin,C,atc_not_allowlisted_for_inflammatory_skin,1.3419,1.20
+seborrheic dermatitis,fusidic acid,C,atc_not_allowlisted_for_inflammatory_skin,1.3419,1.20
+seborrheic keratosis,azelaic acid,C,atc_blocked_D10_for_neoplastic_skin,1.3419,3.23
+seborrheic keratosis,erythromycin,C,atc_blocked_D10_for_neoplastic_skin,1.3419,3.23
+seborrheic keratosis,tretinoin,C,atc_blocked_D10_for_neoplastic_skin,1.3419,3.23
+seborrheic keratosis,clindamycin,C,atc_blocked_D10_for_neoplastic_skin,1.3419,3.23
+seborrheic keratosis,hydrocortisone acetate,C,atc_blocked_D07_for_neoplastic_skin,1.3419,3.23
+seborrheic keratosis,luliconazole,C,atc_not_allowlisted_for_neoplastic_skin,1.3419,3.23
+seborrheic keratosis,naftifine,C,atc_not_allowlisted_for_neoplastic_skin,1.3419,3.23
+seborrheic keratosis,metronidazole,C,atc_not_allowlisted_for_neoplastic_skin,1.3419,3.23
+tinea corporis,lidocaine,C,atc_blocked_N01_for_infectious_skin,1.3419,1.00
+tinea corporis,hydrocortisone acetate,C,atc_blocked_D07_for_infectious_skin,1.3419,1.00
+tinea corporis,dexamethasone,C,atc_blocked_D07_for_infectious_skin,1.3419,1.00
+tinea corporis,fluticasone propionate,C,atc_blocked_D07_for_infectious_skin,1.3419,1.00
+tinea corporis,fluocinolone acetonide,C,atc_blocked_D07_for_infectious_skin,1.3419,1.00
+tinea corporis,mometasone furoate,C,atc_blocked_D07_for_infectious_skin,1.3419,1.00
+tinea corporis,benzoic acid,C,atc_not_allowlisted_for_infectious_skin,1.3419,1.00
+tinea corporis,methylprednisolone,C,atc_blocked_H02AB_for_infectious_skin,1.3419,1.00
+tinea corporis,prednisone,C,atc_blocked_H02AB_for_infectious_skin,1.3419,1.00
+tinea corporis,prednisolone,C,atc_blocked_H02AB_for_infectious_skin,1.3419,1.00
+langerhans cell histiocytosis,hydrocortisone acetate,C,atc_blocked_D07_for_neoplastic_skin,0.7752,6.25
+langerhans cell histiocytosis,dexamethasone,C,atc_blocked_D07_for_neoplastic_skin,0.7752,6.25
+langerhans cell histiocytosis,methylprednisolone,C,atc_not_allowlisted_for_neoplastic_skin,0.7752,6.25
+langerhans cell histiocytosis,prednisone,C,atc_not_allowlisted_for_neoplastic_skin,0.7752,6.25
+langerhans cell histiocytosis,prednisolone,C,atc_not_allowlisted_for_neoplastic_skin,0.7752,6.25
+langerhans cell histiocytosis,cortisone acetate,C,atc_not_allowlisted_for_neoplastic_skin,0.7752,6.25
+rosacea,prednisolone,C,atc_blocked_H02_for_acneiform,0.7273,5.26
+rosacea,dexamethasone,C,atc_blocked_D07_for_acneiform,0.7273,5.26
+rosacea,cortisone acetate,C,atc_blocked_H02_for_acneiform,0.7273,5.26
+seborrheic keratosis,dexamethasone,C,atc_blocked_D07_for_neoplastic_skin,0.6430,3.23
+seborrheic keratosis,fluticasone propionate,C,atc_blocked_D07_for_neoplastic_skin,0.6430,3.23
+seborrheic keratosis,fluocinolone acetonide,C,atc_blocked_D07_for_neoplastic_skin,0.6430,3.23
+seborrheic keratosis,mometasone furoate,C,atc_blocked_D07_for_neoplastic_skin,0.6430,3.23
+seborrheic keratosis,ketoconazole,C,atc_not_allowlisted_for_neoplastic_skin,0.6430,3.23
+seborrheic keratosis,salicylic acid,C,atc_not_allowlisted_for_neoplastic_skin,0.6430,3.23
+seborrheic keratosis,methylprednisolone,C,atc_not_allowlisted_for_neoplastic_skin,0.6430,3.23
+seborrheic keratosis,prednisone,C,atc_not_allowlisted_for_neoplastic_skin,0.6430,3.23
+seborrheic keratosis,prednisolone,C,atc_not_allowlisted_for_neoplastic_skin,0.6430,3.23
+seborrheic keratosis,ciclopirox,C,atc_not_allowlisted_for_neoplastic_skin,0.6430,3.23
+seborrheic keratosis,cortisone acetate,C,atc_not_allowlisted_for_neoplastic_skin,0.6430,3.23
+seborrheic dermatitis,ketoconazole,C,atc_not_allowlisted_for_inflammatory_skin,0.5497,1.20
+seborrheic dermatitis,salicylic acid,C,atc_not_allowlisted_for_inflammatory_skin,0.5497,1.20
+seborrheic dermatitis,ciclopirox,C,atc_not_allowlisted_for_inflammatory_skin,0.5497,1.20
+tinea corporis,pramocaine,C,atc_blocked_N01_for_infectious_skin,0.4823,1.00
+tinea corporis,benzocaine,C,atc_blocked_N01_for_infectious_skin,0.4823,1.00
+hemangioma,zinc chloride,B,atc_not_allowlisted_for_neoplastic_skin,1.3419,7.14
+hemangioma,zinc gluconate,B,atc_not_allowlisted_for_neoplastic_skin,1.3419,7.14
+hemangioma,zinc sulfate,B,atc_not_allowlisted_for_neoplastic_skin,1.3419,7.14

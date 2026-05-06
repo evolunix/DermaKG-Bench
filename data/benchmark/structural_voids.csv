@@ -1,0 +1,56 @@
+rank,dimension,majority_persistence,minority_persistence,void_score,n_nodes,representative_nodes
+1,1,0.8980,0.0000,0.8980,4,amcinonide;methylprednisolone;neurodermatitis;seborrheic keratosis
+2,1,0.8980,0.0000,0.8980,4,amcinonide;neurodermatitis;prednisolone;seborrheic keratosis
+3,1,0.4849,0.0000,0.4849,8,amphotericin b;clindamycin;dapsone;erythrasma;mycetoma;myiasis;oral candidiasis;posaconazole
+4,0,0.3116,0.0000,0.3116,3,benzylpenicillin;cutaneous anthrax;doxycycline
+5,0,0.3116,0.1142,0.1973,1,doxycycline
+6,0,0.3116,0.1142,0.1973,1,erythromycin
+7,0,0.3116,0.1142,0.1973,1,demeclocycline
+8,0,0.3116,0.1142,0.1973,1,meclocycline
+9,0,0.3116,0.1142,0.1973,1,minocycline
+10,0,0.3116,0.1142,0.1973,1,oxytetracycline
+11,0,0.3116,0.1142,0.1973,1,tetracycline
+12,0,0.3116,0.1142,0.1973,1,syphilis
+13,0,0.3116,0.1142,0.1973,1,procaine benzylpenicillin
+14,0,0.3116,0.1315,0.1801,1,angioedema
+15,0,0.3116,0.1315,0.1801,1,antazoline
+16,0,0.3116,0.1315,0.1801,1,azatadine
+17,0,0.3116,0.1315,0.1801,1,bamipine
+18,0,0.3116,0.1315,0.1801,5,alimemazine;angioedema;antazoline;azatadine;bamipine
+19,0,0.3116,0.1315,0.1801,1,bilastine
+20,0,0.3116,0.1315,0.1801,1,brompheniramine
+21,0,0.3116,0.1315,0.1801,1,carbinoxamine
+22,0,0.3116,0.1315,0.1801,1,chlorpheniramine
+23,0,0.3116,0.1315,0.1801,1,clemastine
+24,0,0.3116,0.1315,0.1801,1,cyproheptadine
+25,0,0.3116,0.1315,0.1801,1,dexbrompheniramine
+26,0,0.3116,0.1315,0.1801,1,dexchlorpheniramine
+27,0,0.3116,0.1315,0.1801,1,diphenylpyraline
+28,0,0.3116,0.1315,0.1801,1,doxylamine
+29,0,0.3116,0.1315,0.1801,1,emedastine
+30,0,0.3116,0.1315,0.1801,1,hydroxyzine
+31,0,0.3116,0.1315,0.1801,1,mepyramine
+32,0,0.3116,0.1315,0.1801,1,methapyrilene
+33,0,0.3116,0.1315,0.1801,1,methdilazine
+34,0,0.3116,0.1315,0.1801,1,phenindamine
+35,0,0.3116,0.1315,0.1801,1,pheniramine
+36,0,0.3116,0.1315,0.1801,1,phenyltoloxamine
+37,0,0.3116,0.1315,0.1801,1,promazine
+38,0,0.3116,0.1315,0.1801,1,promethazine
+39,0,0.3116,0.1315,0.1801,1,rupatadine
+40,0,0.3116,0.1315,0.1801,1,tripelennamine
+41,0,0.3116,0.1315,0.1801,1,triprolidine
+42,0,0.3116,0.1315,0.1801,1,epidermodysplasia verruciformis
+43,0,0.3116,0.1387,0.1729,1,cutaneous anthrax
+44,0,0.3116,0.1387,0.1729,1,erythrasma
+45,0,0.3116,0.1387,0.1729,1,keratoacanthoma
+46,0,0.3116,0.1387,0.1729,1,white piedra
+47,0,0.3116,0.1387,0.1729,1,isavuconazonium
+48,0,0.3116,0.1387,0.1729,1,itraconazole
+49,0,0.4161,0.3116,0.1045,1,mongolian spot
+50,0,0.4161,0.3116,0.1045,2,acitretin;mongolian spot
+51,1,0.6384,0.5339,0.1045,4,clindamycin;cutaneous anthrax;erythrasma;fusidic acid
+52,0,0.0600,0.0000,0.0600,1,contact dermatitis
+53,0,0.1142,0.0560,0.0582,1,palmoplantar keratoderma
+54,0,0.1142,0.0560,0.0582,1,tretinoin
+55,1,0.9103,0.8590,0.0513,4,prednisolone;prednisone;psoriasis;sarcoidosis

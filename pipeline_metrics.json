@@ -1,0 +1,24 @@
+{
+  "n_evidence_records": 6105,
+  "n_edges": 518,
+  "eb_prior_alpha0": 1.1048371394756131,
+  "eb_prior_beta0": 0.5,
+  "global_disparity": {
+    "mean_ceg": 0.13273532283268707,
+    "median_ceg": 0.013779660243590758,
+    "max_ceg": 0.8112014547958923,
+    "frac_severe": 0.0,
+    "n_edges": 518
+  },
+  "n_disease_gaps": 56,
+  "n_severe_disease_gaps": 0,
+  "n_candidates": 464,
+  "n_candidates_type_a": 54,
+  "n_candidates_type_b": 15,
+  "n_candidates_type_c": 395,
+  "n_pareto_frontier": 4,
+  "n_quick_wins": 9,
+  "n_structural_voids": 55,
+  "wall_time_seconds": 12.034830570220947,
+  "target_subgroup": "IV-VI"
+}

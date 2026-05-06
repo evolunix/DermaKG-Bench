@@ -1,0 +1,5 @@
+rank,disease,drug,type,expected_information_gain,cost,equity_gain,extrapolation_confidence
+1,contact dermatitis,fumaric acid,C,1.3419,1.00,0.5368,0.400
+2,lyme disease,amoxicillin,A,0.8132,3.85,0.8132,1.000
+3,rosacea,chlortetracycline,A,0.8758,5.26,0.8758,1.000
+4,langerhans cell histiocytosis,cladribine,A,0.9250,6.25,0.9250,1.000

@@ -1,0 +1,6 @@
+heuristic,top5,top10,top20,top50
+H1: CEG / cost,1.00,1.00,1.00,0.92
+H2: CEG only,1.00,1.00,1.00,0.92
+H3: equity / cost,0.00,0.11,0.33,0.14
+H4: Var / cost,0.00,0.11,0.33,0.11
+H5: ndef / cost,0.00,0.00,0.00,0.02

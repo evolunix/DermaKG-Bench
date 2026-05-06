@@ -1,0 +1,10 @@
+rank,disease,drug,type,expected_information_gain,cost,equity_gain,post_mean_majority,post_mean_minority
+1,lyme disease,amoxicillin,A,0.8132,3.85,0.8132,0.527,0.542
+2,lyme disease,benzylpenicillin,A,0.8132,3.85,0.8132,0.527,0.542
+3,lyme disease,cefotaxime,A,0.8132,3.85,0.8132,0.527,0.542
+4,lyme disease,ceftriaxone,A,0.8132,3.85,0.8132,0.527,0.542
+5,lyme disease,clarithromycin,A,0.8132,3.85,0.8132,0.527,0.542
+6,lyme disease,doxycycline,A,0.8132,3.85,0.8132,0.527,0.542
+7,lyme disease,fusidic acid,A,0.8132,3.85,0.8132,0.527,0.542
+8,lyme disease,phenoxymethylpenicillin,A,0.8132,3.85,0.8132,0.527,0.542
+9,lyme disease,cefuroxime,A,0.6679,3.85,0.6679,0.955,0.931
