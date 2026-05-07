@@ -21,6 +21,16 @@ from __future__ import annotations
 # -----------------------------------------------------------------------------
 
 # Optional manual overrides — None = let DataLoader auto-discover/download.
+#
+# NOTE FOR REVIEWERS RUNNING OUTSIDE KAGGLE:
+# This path is a Kaggle-environment convenience path and will not exist on
+# other systems. The loader will fall back automatically through:
+#   1. kagglehub download
+#   2. A manually placed Skin_Metadata.csv at:
+#      /kaggle/working/dermakg_data/dermacon/Skin_Metadata.csv
+#      (download from Harvard Dataverse DOI: 10.7910/DVN/W7OUZM —
+#       see https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/W7OUZM)
+#   3. Graceful degradation: skin stats will use Fitzpatrick17k only.
 _DERMACON_OVERRIDE_PATH = (
     "/kaggle/input/datasets/avishekrauniyar/"
     "dermacon-in-dataset-release-v1-0/METADATA/Skin_Metadata.csv"
@@ -171,6 +181,27 @@ class DataLoader:
                 return self._parse_dermacon(c)
         except Exception as e:
             logger.warning("DermaCon kagglehub fallback failed: %s", e)
+
+        # Fallback: download canonical release from Harvard Dataverse
+        try:
+            if _HAS_REQUESTS:
+                out_dir = self.data_dir / "dermacon"
+                out_dir.mkdir(parents=True, exist_ok=True)
+                # Harvard Dataverse DOI: 10.7910/DVN/W7OUZM
+                # Reviewers should manually download Skin_Metadata.csv from
+                # https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/W7OUZM
+                # and place it at out_dir/Skin_Metadata.csv
+                manual_path = out_dir / "Skin_Metadata.csv"
+                if manual_path.exists():
+                    logger.info("DermaCon: using manually downloaded %s", manual_path)
+                    return self._parse_dermacon(manual_path)
+                logger.warning(
+                    "DermaCon-IN: Kaggle path missing. Please download "
+                    "Skin_Metadata.csv from Harvard Dataverse "
+                    "(DOI 10.7910/DVN/W7OUZM) and place at %s", manual_path)
+        except Exception as e:
+            logger.warning("DermaCon Harvard Dataverse fallback failed: %s", e)
+
         logger.warning(
             "DermaCon-IN unavailable; skin stats will use Fitzpatrick17k only.")
         return pd.DataFrame()

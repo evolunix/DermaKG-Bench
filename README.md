@@ -185,7 +185,10 @@ Alternatively, open `code/Kaggle_reproduction.ipynb` on Kaggle or locally for a 
 |---------|-------------|--------|
 | **PrimeKG** | Relational backbone (8.1M edges, 90K entities) | [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IXA7BM) |
 | **Fitzpatrick17k** | 16,577 dermoscopic images with FST I–VI labels | [GitHub](https://github.com/mattgroh/fitzpatrick17k) |
-| **DermaCon-IN** | 5,450 records, Indian cohort, FST III–VI predominance, Monk Skin Tone annotations | [DermaCon](https://derma-con.github.io/) |
+| **DermaCon-IN** | 5,450 records, Indian cohort, FST III–VI predominance, Monk Skin Tone annotations | [DermaCon]( https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/W7OUZM) |
+
+For DermaCon-IN *Manual download required.* After accepting the Harvard Dataverse terms,
+   place Skin_Metadata.csv at <repo>/data/dermacon/Skin_Metadata.csv.
 
 ### Evaluated Methods (12)
 
